@@ -1,0 +1,12 @@
+{
+  "name": "audiolibro",
+  "version": "1.0.0",
+  "description": "Repository for digital book audio players for instruments examples. Using trackswitch.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
