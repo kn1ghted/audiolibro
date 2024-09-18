@@ -10,7 +10,7 @@
   "author": "Edwin Calderon",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.21.0",
     "trackswitch": "^0.1.0"
-  },
-  "devDependencies": {}
+  }
 }

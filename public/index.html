@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi Track Audio Player</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/trackswitch.css" />
+    <style media="screen">
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<!-- <div class="player">
+    <img style="margin: 20px auto;" src="data/cover.png">
+    <img data-style="margin: auto;" class="seekable" data-seek-margin-left="4" data-seek-margin-right="4" src="data/mix.png">
+    <ts-track title="Violins" data-img="data/violins.png">
+        <ts-source src="data/violins.mp3"></ts-source>
+    </ts-track>
+    <ts-track title="Synths" data-img="data/synth.png">
+        <ts-source src="data/synth.mp3"></ts-source>
+    </ts-track>
+    <ts-track title="Bass" data-img="data/bass.png">
+        <ts-source src="data/bass.mp3"></ts-source>
+    </ts-track>
+    <ts-track title="Drums" data-img="data/drums.png">
+        <ts-source src="data/drums.mp3"></ts-source>
+    </ts-track>
+</div> -->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">AudioLibro</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chapter 01</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search"/>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="main container align-self-center">
+        <div class="content">
+            <h1>Título</h1>
+            <h2>Subtítulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ducimus cupiditate earum velit natus, dolores quae porro odit aperiam, pariatur culpa obcaecati et repellendus autem eius, consectetur omnis minus adipisci!</p>
+        </div>
+        <div class="col-10">
+            <h3>Ejemplo de reproductor de audio con pistas wav:</h3>
+            <div class="player">
+                <img style="margin: 20px auto;" src="https://placehold.co/1600x300.png?text=HEADER+IMAGE">
+                <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="https://placehold.co/1800x200/png?text=stem+image">
+                <p style="text-align: center;">Example with padded and centered text.</p>
+                <ts-track title="Campana Mano Abierta 7/8" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                </ts-track>
+                <ts-track title="Sheqere 1 golpe" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Chequere un golpe_Clave abierta 78.wav" type="audio/wav"></ts-source>
+                </ts-track>
+                <ts-track title="Clave abierta" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Clave_Clave abierta 78.wav" type="audio/wav"></ts-source>
+                </ts-track>
+                <ts-track title="Conga" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Conga_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                </ts-track>
+                <ts-track title="Chequere Clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Shekere_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                </ts-track>
+                <ts-track title="Tumba variación" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Tumba variacion_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                </ts-track>
+                <ts-track title="Tumba clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                    <ts-source src="data/Instrumentos/Tumba_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                </ts-track>
+            </div>
+        </div>
+    </section>
+
+    <section class="container align-self-center">
+        <footer>
+            Werner, Nils, et al. **"trackswitch.js: A Versatile Web-Based Audio Player for Presenting Scientifc Results."** 3rd web audio conference, London, UK. 2017.
+        </footer>
+    </section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+<script src="/js/trackswitch.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        var settings = {
+            repeat: true,
+            solor: true,
+            globalsolo: true,
+            radiosolo: false,
+            spacebar: true,
+            tabview: false
+        };
+        jQuery(".player").trackSwitch(settings); // All other players are default
+    });
+</script>
+</body>
+</html>
