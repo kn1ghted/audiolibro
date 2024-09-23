@@ -4,7 +4,8 @@
   "description": "Repository for digital book audio players for instruments examples. Using trackswitch.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "Edwin Calderon",
@@ -12,5 +13,8 @@
   "dependencies": {
     "express": "^4.21.0",
     "trackswitch": "^0.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
