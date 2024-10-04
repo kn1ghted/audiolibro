@@ -131,3 +131,6 @@ dist
 
 # MACos
 .DS_Store
+
+# Ignore audio data files
+/public/data/*
