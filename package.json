@@ -2,7 +2,8 @@
   "name": "audiolibro",
   "version": "1.0.0",
   "description": "Repository for digital book audio players for instruments examples. Using trackswitch.js",
-  "main": "index.js",
+  "main": "index.html",
+  "homepage": "https://kn1ghted.github.io/audiolibro/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d public",
