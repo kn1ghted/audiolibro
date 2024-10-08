@@ -48,13 +48,12 @@
             <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
             <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
             <div class="player m-0">
-                <img style="margin: 20px auto;" src="https://placehold.co/1600x300.png?text=HEADER+IMAGE">
-                <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="https://placehold.co/1800x200/png?text=stem+image">
-                <p style="text-align: center;">Texto adicional descriptivo</p>
-                <ts-track title="Campana Mano Abierta 7/8" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090; color:#fff;">
-                    <ts-source src="data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="data/img/index/mix.png">
+                <p style="text-align: center;">Pistas de audio con controles individuales</p>
+                <ts-track title="Campana Mano Abierta 7/8" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/campana_de_mano.png" style="background-color: #156090; color:#fff;">
+                    <ts-source src="/data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
                 </ts-track>
-                <ts-track title="Sheqere 1 golpe" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                <ts-track title="Sheqere 1 golpe" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/shekere_1_golpe.png" style="background-color: #156090;">
                     <ts-source src="data/Instrumentos/Chequere un golpe_Clave abierta 78.wav" type="audio/wav"></ts-source>
                 </ts-track>
                 <ts-track title="Clave abierta" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
@@ -95,9 +94,7 @@
     jQuery(document).ready(function() {
         var settings = {
             repeat: true,
-            solo: true,
-            globalsolo: true,
-            radiosolo: true,
+            radiosolo: false,
             spacebar: true,
             tabview: false
         };
