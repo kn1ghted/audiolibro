@@ -3,20 +3,22 @@
   "name": "audiolibro",
   "version": "1.0.0",
   "description": "Repository for digital book audio players for instruments examples. Using trackswitch.js",
-  "main": "index.html",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d public",
-    "run": "npm start server.js"
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "Edwin Calderon",
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.0",
+    "lodash": "^4.17.21",
     "trackswitch": "^0.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
   }
 }
