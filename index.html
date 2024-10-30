@@ -29,7 +29,7 @@
                     Kalö̀te de monte
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dd_ritmos-5">
-                  <li><a class="dropdown-item" href="/audiolibro/pages/example-01.html">Quintas</a></li>
+                  <li><a class="dropdown-item" href="pages/example-01.html">Quintas</a></li>
                   <li><a class="dropdown-item" href="/audiolibro/pages/example-02.html">Quinto</a></li>
                   <li><a class="dropdown-item" href="/audiolibro/pages/example-02.html">Quintí</a></li>
                   <li><a class="dropdown-item" href="/audiolibro/pages/example-02.html">Quinté</a></li>
@@ -51,6 +51,9 @@
               </li>
             </ul>
           </div>
+          <form class="container-fluid justify-content-start">
+            <a class="btn btn-outline-success me-2" type="button" href="/audiolibro/data/kalote-convite.PDF">Descargar PDF</a>
+          </form>
         </div>
     </nav>
     
@@ -60,39 +63,93 @@
             <h2>Creación de Ritmos bailables latinoamericanos en métricas irregulares (5 y 7)</h2>
             <p>La idea de la creación de este documento surge por un interés de explorar las posibilidades rítmicas dentro de la música popular latinoamericana, creando nuevos ritmos en métricas irregulares (compás de amalgama) a partir de ritmos bailables latinoamericanos, dejando de lado las métricas binarias y ternarias.</p>
         </div>
-        <div class="col-10">
-            <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
-            <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
-            <div class="player m-0">
-                <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="data/img/index/mix.png">
-                <p style="text-align: center;">Pistas de audio con controles individuales</p>
-                <ts-track title="Campana Mano Abierta 7/8" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/campana_de_mano.png" style="background-color: #156090; color:#fff;">
-                    <ts-source src="data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                </ts-track>
-                <ts-track title="Sheqere 1 golpe" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/shekere_1_golpe.png" style="background-color: #156090;">
-                    <ts-source src="data/Instrumentos/Chequere un golpe_Clave abierta 78.wav" type="audio/wav"></ts-source>
-                </ts-track>
-                <ts-track title="Clave abierta" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                    <ts-source src="data/Instrumentos/Clave_Clave abierta 78.wav" type="audio/wav"></ts-source>
-                </ts-track>
-                <ts-track title="Conga" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                    <ts-source src="data/Instrumentos/Conga_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                </ts-track>
-                <ts-track title="Chequere Clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                    <ts-source src="data/Instrumentos/Shekere_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                </ts-track>
-                <ts-track title="Tumba variación" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                    <ts-source src="data/Instrumentos/Tumba variacion_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                </ts-track>
-                <ts-track title="Tumba clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                    <ts-source src="data/Instrumentos/Tumba_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                </ts-track>
+
+        <div class="container">
+            <div class="row align-items-start gx-5">
+              <div class="col bg-primary bg-gradient text-light p-5 me-1">
+                <h2>Kalö̀te de monte</h2>
+                <h3>Ritmos compuestos en métricas de 5</h3>
+                <p>Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.</p>
+              </div>
+              <div class="col bg-secondary bg-gradient text-light p-5 ms-1">
+                <h2>Convite de Diriá</h2>
+                <h3>Ritmos compuestos en métricas de 7</h3>
+                <p>Para la creación de los ritmos en 7, al igual que en los ritmos en 5, fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 4 claves compuestas, cada una con una duración de dos compases en 7/8.</p>
+              </div>
             </div>
         </div>
+
+        <div class="container mt-2">
+            <div class="row align-items-start gx-5">
+                <div class="col bg-light text-light p-5">
+                    <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="data/img/index/lectura-circular.png" class="d-block w-100" alt="lectura-circular">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Lectura Circular</h5>
+                              <p>Imágenes para todos los ejemplos</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="data/img/index/lectura-circular.png" class="d-block w-100" alt="lectura-circular">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Lectura Circular</h5>
+                              <p>Imágenes para todos los ejemplos</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col p-5 m-1">
+                    <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
+                    <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
+                    <div class="player m-0">
+                        <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="data/img/index/mix.png">
+                        <p style="text-align: center;">Pistas de audio con controles individuales</p>
+                        <ts-track title="Campana Mano Abierta 7/8" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/campana_de_mano.png" style="background-color: #156090; color:#fff;">
+                            <ts-source src="data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                        <ts-track title="Sheqere 1 golpe" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/shekere_1_golpe.png" style="background-color: #156090;">
+                            <ts-source src="data/Instrumentos/Chequere un golpe_Clave abierta 78.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                        <ts-track title="Clave abierta" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                            <ts-source src="data/Instrumentos/Clave_Clave abierta 78.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                        <ts-track title="Conga" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                            <ts-source src="data/Instrumentos/Conga_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                        <ts-track title="Chequere Clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                            <ts-source src="data/Instrumentos/Shekere_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                        <ts-track title="Tumba variación" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                            <ts-source src="data/Instrumentos/Tumba variacion_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                        <ts-track title="Tumba clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                            <ts-source src="data/Instrumentos/Tumba_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                        </ts-track>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
     </section>
 
-    <section class="container align-self-center ">
-        <footer>
+    <section class="container-fluid align-self-center p-0">
+        <footer class="bg-light p-4">
             <h2 class="mb-4">Referencia reproductor de audio: </h2>
             <ul class="list-group">
                 <li class="list-group-item">
