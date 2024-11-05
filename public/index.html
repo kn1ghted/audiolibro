@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/trackswitch.css" />
     <style media="screen">
         body {
@@ -52,14 +53,14 @@
             </ul>
           </div>
           <form class="container-fluid justify-content-start">
-            <a class="btn btn-outline-success me-2" type="button" href="/audiolibro/data/pdfs/kalote-convite.pdf">Descargar PDF</a>
+            <a class="btn btn-outline-success me-2" type="button" href="/audiolibro/data/pdfs/kalote-convite.pdf">Descargar PDF <i class="bi bi-file-earmark-arrow-down"></i></a>
           </form>
         </div>
     </nav>
     
     <section class="main container align-self-center my-5">
         <div class="content">
-            <h1>Audiolibro</h1>
+            <h1 class="fw-bold">Audiolibro</h1>
             <h2>Creación de Ritmos bailables latinoamericanos en métricas irregulares (5 y 7)</h2>
             <p>La idea de la creación de este documento surge por un interés de explorar las posibilidades rítmicas dentro de la música popular latinoamericana, creando nuevos ritmos en métricas irregulares (compás de amalgama) a partir de ritmos bailables latinoamericanos, dejando de lado las métricas binarias y ternarias.</p>
         </div>
@@ -81,7 +82,7 @@
 
         <div class="container mt-2">
             <div class="row align-items-start gx-5">
-                <div class="col bg-light text-light p-5">
+                <div class="col-xs-1 col-md-6 col-lg-6 bg-light text-light p-2">
                     <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -113,34 +114,37 @@
                         </button>
                       </div>
                 </div>
-                <div class="col p-5 m-1">
-                    <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
-                    <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
-                    <div class="player m-0">
-                        <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="data/img/index/mix.png">
-                        <p style="text-align: center;">Pistas de audio con controles individuales</p>
-                        <ts-track title="Campana Mano Abierta 7/8" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/campana_de_mano.png" style="background-color: #156090; color:#fff;">
-                            <ts-source src="data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                        </ts-track>
-                        <ts-track title="Sheqere 1 golpe" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/shekere_1_golpe.png" style="background-color: #156090;">
-                            <ts-source src="data/Instrumentos/Chequere un golpe_Clave abierta 78.wav" type="audio/wav"></ts-source>
-                        </ts-track>
-                        <ts-track title="Clave abierta" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                            <ts-source src="data/Instrumentos/Clave_Clave abierta 78.wav" type="audio/wav"></ts-source>
-                        </ts-track>
-                        <ts-track title="Conga" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                            <ts-source src="data/Instrumentos/Conga_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                        </ts-track>
-                        <ts-track title="Chequere Clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                            <ts-source src="data/Instrumentos/Shekere_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                        </ts-track>
-                        <ts-track title="Tumba variación" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                            <ts-source src="data/Instrumentos/Tumba variacion_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                        </ts-track>
-                        <ts-track title="Tumba clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
-                            <ts-source src="data/Instrumentos/Tumba_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
-                        </ts-track>
+                <div class="col-xs-1 col-md-6 col-lg-6 p-2">
+                    <div class="container p-3">
+                        <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
+                        <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
+                        <div class="player">
+                            <img data-style="margin: auto;" class="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src="data/img/index/mix.png">
+                            <p style="text-align: center;">Pistas de audio con controles individuales</p>
+                            <ts-track title="Campana Mano Abierta 7/8" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/campana_de_mano.png" style="background-color: #156090; color:#fff;">
+                                <ts-source src="data/Instrumentos/Campana de mano_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                            <ts-track title="Sheqere 1 golpe" data-seek-margin-left="4" data-seek-margin-right="4" data-img="/data/img/index/shekere_1_golpe.png" style="background-color: #156090;">
+                                <ts-source src="data/Instrumentos/Chequere un golpe_Clave abierta 78.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                            <ts-track title="Clave abierta" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                                <ts-source src="data/Instrumentos/Clave_Clave abierta 78.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                            <ts-track title="Conga" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                                <ts-source src="data/Instrumentos/Conga_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                            <ts-track title="Chequere Clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                                <ts-source src="data/Instrumentos/Shekere_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                            <ts-track title="Tumba variación" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                                <ts-source src="data/Instrumentos/Tumba variacion_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                            <ts-track title="Tumba clave" data-img="https://placehold.co/1800x200.png?text=stem+image" style="background-color: #156090;">
+                                <ts-source src="data/Instrumentos/Tumba_Clave abierta 7_8.wav" type="audio/wav"></ts-source>
+                            </ts-track>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
             
