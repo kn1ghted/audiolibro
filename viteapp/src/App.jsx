@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/img/react.svg'
 import slide01 from './assets/img/lectura-circular.png'
-import mix from './assets/img/mix.png'
-import mixAudio from './assets/audio/mix.wav'
-import campana from './assets/img/campana_de_mano.png'
 import viteLogo from '/vite.svg'
 import './assets/css/App.css'
 
@@ -15,6 +12,7 @@ import './assets/js/ts-settings.js'
 // Components
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
+import TSPlayer from './components/TS-player.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -102,13 +100,14 @@ function App() {
                       <div className="container p-3">
                           <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
                           <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
-                          <div className="player">
-                              <img className="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src={mix} alt="seekable"/>
+                          {/* <div className="player">
+                              <img className="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src= {mix} alt="seekable"/>
                               <p>Pistas de audio con controles individuales</p>
                               <ts-track title="Audio Mix" data-seek-margin-left="4" data-seek-margin-right="4" data-img={campana}>
                                   <ts-source src={mixAudio} type="audio/wav"></ts-source>
                               </ts-track>
-                          </div>
+                          </div> */}
+                          <TSPlayer/>
                       </div>
                       
                   </div>
@@ -116,9 +115,6 @@ function App() {
               
           </div>
       </section>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossOrigin="anonymous"></script>
-      <script src="/src/assets/js/trackswitch.js"></script>
-      <script src="/src/assets/js/ts-settings.js"></script>
       <Footer />
     </>
   )

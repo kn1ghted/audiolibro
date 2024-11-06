@@ -5,12 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [
     react(),
-    trackswitch({
-      input: [
-        'assets/js/trackswitch.js',
-        'assets/js/trackswitch.min.js',
-      ],
-      refresh: true,
-    }),
   ],
 })
