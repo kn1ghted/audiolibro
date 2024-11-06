@@ -1,0 +1,10 @@
+// Estructura de páginas
+
+titulo
+descripcion
+layout
+    single
+    sidebar
+children
+player
+audioFiles
