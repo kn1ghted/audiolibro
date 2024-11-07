@@ -18,7 +18,7 @@ const pages = [
           content: "audio",
           sources: [
             {
-              src:"../../assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+              src:"src/assets/audio/mix.wav",
               type: "audio/wav",
             },
           ],
@@ -45,9 +45,17 @@ const pages = [
             content: "audio",
             sources: [
                 {
-                src:"./assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+                  src:"src/assets/audio/mix.wav",
                 type: "audio/wav",
                 },
+                {
+                  src:"src/assets/audio/mix.wav",
+                  type: "audio/wav",
+                  },
+                  {
+                    src:"src/assets/audio/mix.wav",
+                    type: "audio/wav",
+                    },
             ],
             },
         ],

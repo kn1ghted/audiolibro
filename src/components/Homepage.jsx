@@ -1,16 +1,15 @@
 import slide01 from '../assets/img/lectura-circular.png'
 import TSPlayer from '../components/TS-player.jsx'
+import mixAudio from '../assets/audio/mix.wav'
 
 const Homepage = () => {
 
     const sources = [
         {
-            src: "../assets/audio/mix.wav", // ocupa ../ para salir de la carpeta components
+            src: '/src/assets/audio/mix.wav', // ocupa ../ para salir de la carpeta components
             type: "audio/wav",
         }
     ];
-
-    console.log(sources);
 
   return (
     <section className="main container align-self-center my-5">
@@ -74,7 +73,7 @@ const Homepage = () => {
                       <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
                       <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
                       
-                      <TSPlayer sources={sources}/>
+                      {/* <TSPlayer sources={sources}/> */}
 
                   </div>
                   

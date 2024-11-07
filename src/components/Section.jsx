@@ -22,7 +22,7 @@ export const Section = ({ section }) => {
 
         case "audio": {
             
-            return <TSPlayer sources={section.sources} />;
+            return <TSPlayer data={section.sources} />;
         }
         default:
             return null;

@@ -5,8 +5,6 @@ import navigation from '../data/navigation';
 // PDF document
 import pdf from '../assets/docs/kalote-convite.pdf'
 
-console.log(navigation)
-
 export const Navbar = ({ navigation }) => {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
