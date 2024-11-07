@@ -1,15 +1,6 @@
-import { useState } from 'react'
-
 // assets and main app styles
-import reactLogo from './assets/img/react.svg'
 import slide01 from './assets/img/lectura-circular.png'
-import viteLogo from '/vite.svg'
 import './assets/css/App.css'
-
-// global jquery
-import 'jquery';
-window.jQuery = window.$ = $
-
 // Components
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';

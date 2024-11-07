@@ -1,14 +1,14 @@
-import React from 'react';
-
-// Import jquery and trackswitch
-// import 'jquery';
 import 'trackswitch';
+import "trackswitch/dist/js/trackswitch.min.js";
+import "trackswitch/dist/css/trackswitch.min.css";
 import '../assets/js/ts-settings.js'
 
 // Import assets
 import mix from '../assets/img/mix.png'
 import mixAudio from '../assets/audio/mix.wav'
 import campana from '../assets/img/campana_de_mano.png'
+
+window.downwardRamp = window.downwardRamp || {};
 
 const TSPlayer = () => {
   return (
@@ -20,7 +20,6 @@ const TSPlayer = () => {
             <ts-source src={mixAudio} type="audio/wav"></ts-source>
         </ts-track>
       </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossOrigin="anonymous"></script>
     </>
   );
 };
