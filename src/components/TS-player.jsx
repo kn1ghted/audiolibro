@@ -1,9 +1,11 @@
+import React from 'react';
+
 // Import jquery and trackswitch
-//import trackswitch from 'trackswitch';
-import $ from 'jquery';
+// import 'jquery';
+import 'trackswitch';
+import '../assets/js/ts-settings.js'
 
 // Import assets
-import React from 'react';
 import mix from '../assets/img/mix.png'
 import mixAudio from '../assets/audio/mix.wav'
 import campana from '../assets/img/campana_de_mano.png'

@@ -1,13 +1,14 @@
 import { useState } from 'react'
+
+// assets and main app styles
 import reactLogo from './assets/img/react.svg'
 import slide01 from './assets/img/lectura-circular.png'
 import viteLogo from '/vite.svg'
 import './assets/css/App.css'
 
-// Trackswitch scripts
-//import './assets/js/trackswitch.js'
-//import './assets/js/trackswitch.min.js'
-import './assets/js/ts-settings.js'
+// global jquery
+import 'jquery';
+window.jQuery = window.$ = $
 
 // Components
 import Navbar from './components/Navbar.jsx';
@@ -15,31 +16,11 @@ import Footer from './components/Footer.jsx';
 import TSPlayer from './components/TS-player.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <Navbar />
-      {/* <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} classNameName="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} classNameName="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div classNameName="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p classNameName="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
+      
       <section className="main container align-self-center my-5">
         <div className="content">
               <h1 className="fw-bold">Audiolibro</h1>
@@ -100,14 +81,9 @@ function App() {
                       <div className="container p-3">
                           <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
                           <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
-                          {/* <div className="player">
-                              <img className="seekable" data-seek-margin-left="1" data-seek-margin-right="1" src= {mix} alt="seekable"/>
-                              <p>Pistas de audio con controles individuales</p>
-                              <ts-track title="Audio Mix" data-seek-margin-left="4" data-seek-margin-right="4" data-img={campana}>
-                                  <ts-source src={mixAudio} type="audio/wav"></ts-source>
-                              </ts-track>
-                          </div> */}
+                          
                           <TSPlayer/>
+
                       </div>
                       
                   </div>
@@ -115,7 +91,9 @@ function App() {
               
           </div>
       </section>
+
       <Footer />
+
     </>
   )
 }

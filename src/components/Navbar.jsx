@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// PDF document
+import pdf from '../assets/docs/kalote-convite.pdf'
+
 const Navbar = () => {
     return (
       <>
@@ -37,7 +40,7 @@ const Navbar = () => {
                 </ul>
               </div>
               <form className="container-fluid justify-content-start">
-                <a className="btn btn-outline-success me-2" type="button" href="/audiolibro/data/pdfs/kalote-convite.pdf">Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i></a>
+                <a className="btn btn-outline-success me-2" type="button" href={pdf} target='_blank'>Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i></a>
               </form>
             </div>
         </nav>

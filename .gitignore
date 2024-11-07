@@ -132,7 +132,3 @@ dist
 
 # MACos
 .DS_Store
-
-# Ignore audio data files
-/public/data/Grabaciones en 5
-/public/data/Grabaciones en 7
