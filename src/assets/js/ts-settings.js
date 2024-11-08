@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function() {
     var settings = {
         repeat: true,
         solo: false,
