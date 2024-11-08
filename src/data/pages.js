@@ -1,17 +1,43 @@
 const pages = [
-  {
-    slug: "quinto",
-    title: "Qinto",
+  { slug: "quinta-completa",
+    title: "Quinta",
     content: {
       sections: [
         {
           type: "header",
-          content: "Subtitulo",
+          content: "Quinta Clave Completa",
         },
         {
           type: "text",
           content:
-            "La idea de la creación de este documento surge por un interés de explorar las posibilidades rítmicas dentro de la música popular latinoamericana, creando nuevos ritmos en métricas irregulares (compás de amalgama) a partir de ritmos bailables latinoamericanos, dejando de lado las métricas binarias y ternarias.",
+            "Se creó este ritmo en torno a la Clave Completa, la cual es una clave compuesta que se construyó a partir de la combinación de la clave de Son cubano 3:2 y la clave de Guaguancó. Ejemplo con click a tempo de 118 bpm.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          sources: [
+            {
+              src:"src/assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+              type: "audio/wav",
+            },
+            {
+              src:"src/assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
+              type: "audio/wav",
+            },
+            {
+              src:"src/assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
+              type: "audio/wav",
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Quinta Clave Completa - rápida",
+        },
+        {
+          type: "text",
+          content:
+            "Variante con click a tempo 225 bpm.",
         },
         {
           type: "audio",
@@ -26,9 +52,79 @@ const pages = [
       ],
     },
   },
-  {
-    slug: "primero",
-    title: "Primero",
+  { slug: "quinta-abierta",
+    title: "Quinta",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Quinta Clave Abierta",
+        },
+        {
+          type: "text",
+          content:
+            "Se creó este ritmo en torno a la clave abierta, la cual es una clave compuesta, que se construyó a partir de la clave de Guaguancó, a la que se le agregó un silencio de negra entre el tercer y cuarto tiempo en cada compás, dando como resultado doscompases de cinco tiempos.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          sources: [
+            {
+              src:"src/assets/audio/mix.wav",
+              type: "audio/wav",
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Quinta Clave Completa - rápida",
+        },
+        {
+          type: "text",
+          content:
+            "Variante con click a 225 bpm.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          sources: [
+            {
+              src:"src/assets/audio/mix.wav",
+              type: "audio/wav",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  { slug: "quinto-5-4",
+    title: "Quinto",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Variación 5 de 4",
+        },
+        {
+          type: "text",
+          content:
+            "Se subdividió el patrón del Requinto (Tambor Chico) en cinco grupos de cuatro corcheas cada uno , donde se acentúa la segunda corchea (golpe abierto con la mano que no tiene baqueta), respetando el patrón del Tambor Chico original que consta de cuatro grupos de cuatro corcheas cada uno.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          sources: [
+            {
+              src:"src/assets/audio/mix.wav",
+              type: "audio/wav",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  { slug: "completa-7",
+    title: "Clave Completa en 7",
     content: {
         sections: [
             {
