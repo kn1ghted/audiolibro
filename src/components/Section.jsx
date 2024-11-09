@@ -1,15 +1,7 @@
-import TSPlayer from "./TS-player";
+import AudioPlayer from "./waveform.jsx";
+import PropTypes from 'prop-types';
 
 export const Section = ({ section }) => {
-    // Helper function to check if content is audio content
-    const isAudioContent = (content) => {
-        return (
-            typeof content === "object" &&
-            content !== null &&
-            "sourceFolder" in content &&
-            "tracks" in content
-        );
-    };
 
     switch (section.type) {
         case "header":
@@ -22,9 +14,10 @@ export const Section = ({ section }) => {
 
         case "audio": {
             
-            return <TSPlayer data={section.sources} />;
+            return <AudioPlayer data={section.sources} />;
         }
         default:
             return null;
-    }
+};
+
 };

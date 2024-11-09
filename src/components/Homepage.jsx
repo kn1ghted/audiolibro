@@ -1,6 +1,6 @@
 import slide01 from '../assets/img/lectura-circular.png'
-import TSPlayer from '../components/TS-player.jsx'
-import mixAudio from '../assets/audio/mix.wav'
+// import TSPlayer from '../components/TS-player.jsx'
+// import mixAudio from '../assets/audio/mix.wav'
 
 const Homepage = () => {
 

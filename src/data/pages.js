@@ -1,5 +1,6 @@
 const pages = [
-  { slug: "quinta-completa",
+  {
+    slug: "quinta-completa",
     title: "Quinta",
     content: {
       sections: [
@@ -15,17 +16,21 @@ const pages = [
         {
           type: "audio",
           content: "audio",
+          idPayer: "quinta-completa",
           sources: [
             {
-              src:"src/assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+              src: "src/assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+              name: "Click",
               type: "audio/wav",
             },
             {
-              src:"src/assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
+              src: "src/assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
+              name: "Clave",
               type: "audio/wav",
             },
             {
-              src:"src/assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
+              src: "src/assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
+              name: "Cata",
               type: "audio/wav",
             },
           ],
@@ -36,23 +41,13 @@ const pages = [
         },
         {
           type: "text",
-          content:
-            "Variante con click a tempo 225 bpm.",
-        },
-        {
-          type: "audio",
-          content: "audio",
-          sources: [
-            {
-              src:"src/assets/audio/mix.wav",
-              type: "audio/wav",
-            },
-          ],
+          content: "Variante con click a tempo 225 bpm.",
         },
       ],
     },
   },
-  { slug: "quinta-abierta",
+  {
+    slug: "quinta-abierta",
     title: "Quinta",
     content: {
       sections: [
@@ -68,9 +63,10 @@ const pages = [
         {
           type: "audio",
           content: "audio",
+          idPayer: "quinta-abierta",
           sources: [
             {
-              src:"src/assets/audio/mix.wav",
+              src: "src/assets/audio/mix.wav",
               type: "audio/wav",
             },
           ],
@@ -81,15 +77,16 @@ const pages = [
         },
         {
           type: "text",
-          content:
-            "Variante con click a 225 bpm.",
+          content: "Variante con click a 225 bpm.",
         },
         {
           type: "audio",
           content: "audio",
+          idPayer: "quinta-abierta-rapida",
           sources: [
             {
-              src:"src/assets/audio/mix.wav",
+              src: "src/assets/audio/mix.wav",
+              name:"Mix",
               type: "audio/wav",
             },
           ],
@@ -97,7 +94,8 @@ const pages = [
       ],
     },
   },
-  { slug: "quinto-5-4",
+  {
+    slug: "quinto-5-4",
     title: "Quinto",
     content: {
       sections: [
@@ -113,9 +111,11 @@ const pages = [
         {
           type: "audio",
           content: "audio",
+          idPayer: "quinto-5-4",
           sources: [
             {
-              src:"src/assets/audio/mix.wav",
+              src: "src/assets/audio/mix.wav",
+              name:"Mix",
               type: "audio/wav",
             },
           ],
@@ -123,40 +123,45 @@ const pages = [
       ],
     },
   },
-  { slug: "completa-7",
+  {
+    slug: "completa-7",
     title: "Clave Completa en 7",
     content: {
-        sections: [
+      sections: [
+        {
+          type: "header",
+          content: "Subtitulo",
+        },
+        {
+          type: "text",
+          content:
+            "Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPayer: "completa-7",
+          sources: [
             {
-            type: "header",
-            content: "Subtitulo",
+              src: "src/assets/audio/mix.wav",
+              name:"Mix",
+              type: "audio/wav",
             },
             {
-            type: "text",
-            content:
-                "Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.",
+              src: "src/assets/audio/mix.wav",
+              name:"Mix",
+              type: "audio/wav",
             },
             {
-            type: "audio",
-            content: "audio",
-            sources: [
-                {
-                  src:"src/assets/audio/mix.wav",
-                type: "audio/wav",
-                },
-                {
-                  src:"src/assets/audio/mix.wav",
-                  type: "audio/wav",
-                  },
-                  {
-                    src:"src/assets/audio/mix.wav",
-                    type: "audio/wav",
-                    },
-            ],
+              src: "src/assets/audio/mix.wav",
+              name:"Mix",
+              type: "audio/wav",
             },
-        ],
+          ],
+        },
+      ],
     },
-  }
+  },
 ];
 
 export default pages;
