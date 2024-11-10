@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
+  base: "/audiolibro/",
   plugins: [react()],
   resolve: {
     alias: {
@@ -16,7 +17,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['jquery', 'trackswitch']
+          styles: ['src/styles.css'],
+          vendor: ['react', 'react-dom']
         }
       }
     }
