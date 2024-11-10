@@ -1,0 +1,77 @@
+:root {
+    /* --wp-controls-border-color: #000;
+    --wp-controls-background-color: #fff;
+    --wp-mute-solo-color: #343a40;
+    --wp-mute-solo-hover-color: #fff;
+    --wp-mute-solo-focus-color: rgba(52, 58, 64, 0.5);
+    --wp-btn-danger-background-hover-color: #c82333;
+    --wp-btn-danger-border-hover-color: #bd2130;
+    --wp-btn-danger-background-color: #dc3545;
+    --wp-btn-danger-border-color: #dc3545;
+    --wp-btn-danger-focus-color: rgba(225, 83, 97, 0.5);
+    --wp-btn-danger-color: #fff;
+    --wp-btn-info-background-hover-color: #138496;
+    --wp-btn-info-border-hover-color: #117a8b;
+    --wp-btn-info-background-color: #17a2b8;
+    --wp-btn-info-border-color: #17a2b8;
+    --wp-btn-info-focus-color: rgba(58, 176, 195, 0.5);
+    --wp-btn-info-color: #fff;
+    --wp-fade-background-color: #000000fc;
+    --wp-channel-color: #000000;
+    --wp-channel-progress-color: #8BC34A;
+    --wp-cursor-color: red;
+    --wp-selection-background-color: rgb(202 42 42);
+    --wp-selection-point-color: red;
+    --wp-tracks-container-background-color: #f8f9fa;
+    --wp-range-slider-label-color: black;
+    --wp-range-slider-color: goldenrod;
+    --wp-range-slider-focus-color: black;
+    --wp-range-slider-background-color: #ddd;
+    --wp-range-slider-background-focus-color: #bbb;
+    --wp-annotation-box-border-color: grey;
+    --wp-annotation-current-background-color: #ebf4f6;
+    --wp-annotation-icon-hover-color: orange; */
+    }
+
+.playlist{
+    margin: 5px 0px;
+    background-color: #f8f9fa;
+    border:1px solid #dee2e6;
+}
+.playlist-time-scale{
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+    border-radius: 0;
+}
+.playlist-tracks{
+    background-color: #f8f9fa;
+    border-left: 1px solid #dee2e6;
+    border-radius: 0;
+}
+.playlist-tracks .channel-wrapper {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.btn-group>.btn-solo.active {
+    background-color: #198754;
+    color: white;
+}
+.btn-group>.btn-solo.active:hover {
+    background-color: #198754;
+}
+.btn-group>.btn-mute.active {
+    color: white;
+    background-color: #198754;
+    border-color: #198754;
+}
+.playlist .controls{
+    border:0px;
+    border-radius: 0;
+}
+.playlist .channel-wrapper:nth-child(2n) .controls{
+    background-color: #b3b3b3;
+}
+.playlist .channel-wrapper:nth-child(2n) .controls .btn-group>.btn-solo.active {
+    background-color: #198754;
+    color: white;
+}
