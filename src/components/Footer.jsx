@@ -13,7 +13,7 @@ const Footer = () => {
             Navegación Vertical
           </div>
           <div className="col">
-            <h3 className="text-center mb-4">Contacto: </h3>
+            <h3 className="text-center mb-4">Contacto:</h3>
             <div className="row justify-content-center align-items-center g-2">
               <div className="col" align="center">
                 <a className="link-light me-2" type="button" href="#" target='_blank'><i className="bi bi-whatsapp h2"></i></a>
