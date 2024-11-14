@@ -16,20 +16,13 @@ const Footer = () => {
             <h3 className="text-center mb-4">Contacto:</h3>
             <div className="row justify-content-center align-items-center g-2">
               <div className="col" align="center">
-                <a className="link-light me-2" type="button" href="#" target='_blank'><i className="bi bi-whatsapp h2"></i></a>
+                <a className="icon-link link-light icon-link-hover link-opacity-10-hover me-2" type="button" href="#" target='_blank'><i className="bi bi-whatsapp h2"></i></a>
               </div>
               <div className="col" align="center">
-                <a className="link-light me-2" type="button" href="#" target='_blank'><i className="bi bi-envelope-at h2"></i></a>
+                <a className="icon-link link-light icon-link-hover link-opacity-10-hover me-2" type="button" href="#" target='_blank'><i className="bi bi-envelope-at h2"></i></a>
               </div>
+              <p className="text-center mb-4">Copyright {new Date().getFullYear()} <i class="bi bi-c-circle"></i></p>
             </div>
-            
-            <ul className="list-group">
-                <li className="list-group-item text-small">
-                  <small>
-                    <strong>Waveform Playlist - Stem Tracks</strong> <em>&quot;Multitrack scheduling allows to layer audio for simultaneous playback. Mute, solo, or set different volume levels for each audio track that makes up the composition. Control the master volume of the mix.&quot;</em>. Licensed under the MIT License.
-                  </small>
-                </li>
-            </ul>
           </div>
         </div>
       </div>
