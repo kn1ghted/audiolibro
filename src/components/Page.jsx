@@ -5,8 +5,6 @@ import { Section } from "./Section";
 export const Page = ({ pages }) => {
   const { pageId } = useParams();
 
-  console.log(pageId);
-
   const page = pages.find((p) => p.slug === pageId);
 
   if (!page) {

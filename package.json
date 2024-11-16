@@ -16,10 +16,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "events": "^3.3.0",
+    "file-saver": "^2.0.5",
     "jquery": "^3.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "trackswitch": "^0.1.0"
+    "trackswitch": "^0.1.0",
+    "waveform-playlist": "^4.3.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

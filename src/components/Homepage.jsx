@@ -1,6 +1,5 @@
 import slide01 from '../assets/img/lectura-circular.png'
-import TSPlayer from '../components/TS-player.jsx'
-import mixAudio from '../assets/audio/mix.wav'
+import waveform_player from '../assets/img/waveform-player.png'
 
 const Homepage = () => {
 
@@ -72,9 +71,14 @@ const Homepage = () => {
                   <div className="container p-3">
                       <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
                       <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
-                      
-                      {/* <TSPlayer sources={sources}/> */}
-
+                      <img className="img-fluid" src={waveform_player} alt="player"></img>
+                      <ul className="list-group">
+                          <li className="list-group-item text-small">
+                            <small>
+                              <strong><a href="https://naomiaro.github.io/waveform-playlist/" target='_blank'>Waveform Playlist - Stem Tracks</a></strong> <em>&quot;Multitrack scheduling allows to layer audio for simultaneous playback. Mute, solo, or set different volume levels for each audio track that makes up the composition. Control the master volume of the mix.&quot;</em>. Licensed under the MIT License.
+                            </small>
+                          </li>
+                      </ul>
                   </div>
                   
               </div>

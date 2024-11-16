@@ -17,7 +17,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['jquery', 'trackswitch']
+          styles: ['src/styles.css'],
+          vendor: ['react', 'react-dom']
         }
       }
     }
