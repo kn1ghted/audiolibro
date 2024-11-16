@@ -17,7 +17,6 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          styles: ['src/styles.css'],
           vendor: ['react', 'react-dom']
         }
       }
