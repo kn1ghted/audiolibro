@@ -1,5 +1,9 @@
 // Assets
 import logo from '../assets/img/audiolibro_logo-500.png'
+import navigation from '../data/navigation';
+
+// Vertical NAvigation
+import { VerticalNav } from './VerticalNav';
 
 const Footer = () => {
   return (
@@ -7,10 +11,10 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-center align-items-center g-2">
           <div className="col">
-            <img src={logo} className="img-fluid rounded-top" alt=""/>
+            <img src={logo} className="img-fluid rounded-top footer-logo" alt="footer-logo"/>
           </div>
-          <div className="col" align="center">
-            Navegación Vertical
+          <div className="col">
+            <VerticalNav footerNavigation={navigation}/>
           </div>
           <div className="col">
             <h3 className="text-center mb-4">Contacto: </h3>
@@ -22,14 +26,9 @@ const Footer = () => {
                 <a className="link-light me-2" type="button" href="#" target='_blank'><i className="bi bi-envelope-at h2"></i></a>
               </div>
             </div>
-            
-            <ul className="list-group">
-                <li className="list-group-item text-small">
-                  <small>
-                    <strong>Waveform Playlist - Stem Tracks</strong> <em>"Multitrack scheduling allows to layer audio for simultaneous playback. Mute, solo, or set different volume levels for each audio track that makes up the composition. Control the master volume of the mix."</em>. Licensed under the MIT License.
-                  </small>
-                </li>
-            </ul>
+            <div className="row justify-content-center p-4">
+              <p className='text-center'>Copyright <i class="bi bi-c-circle"></i> {new Date().getFullYear()}</p>
+            </div>
           </div>
         </div>
       </div>
