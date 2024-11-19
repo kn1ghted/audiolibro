@@ -53,6 +53,23 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.footer-menu li > a{
+  color:#fff;
+}
+.footer-menu-columns{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.footer-menu-column .header-menu{
+  color:#fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.submenu li > a:hover{
+  color:#000;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
