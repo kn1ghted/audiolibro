@@ -16,6 +16,28 @@ const pages = [
         {
           type: "audio",
           content: "audio",
+          slides: [
+            {
+              id: "quintaCompleta",
+              images: [
+                {
+                  image: "src/assets/img/lectura-circular.png",
+                  title: "Lectura Circular",
+                  description: "Imágenes para todos los ejemplos",
+                },
+                {
+                  image: "src/assets/img/lectura-circular.png",
+                  title: "Lectura Circular",
+                  description: "Imágenes para todos los ejemplos",
+                },
+                {
+                  image: "src/assets/img/lectura-circular.png",
+                  title: "Lectura Circular",
+                  description: "Imágenes para todos los ejemplos",
+                },
+              ]
+            }
+          ],
           playlists: [
             {
               id: "quinta-completa",
@@ -73,6 +95,31 @@ const pages = [
           type: "audio",
           content: "audio",
           idPlayer: "quinta-completa-rapida",
+          slides: [
+            {
+              id: "quinta-completa-rapida-images",
+              images: [
+                {
+                  image: "src/assets/img/lectura-circular.png",
+                  alt: "Lectura Circular",
+                  title: "Lectura Circular",
+                  description: "Imágenes para todos los ejemplos",
+                },
+                {
+                  image: "src/assets/img/lectura-circular.png",
+                  alt: "Lectura Circular 2",
+                  title: "Lectura Circular",
+                  description: "Imágenes para todos los ejemplos",
+                },
+                {
+                  image: "src/assets/img/lectura-circular.png",
+                  alt: "Lectura Circular 3",
+                  title: "Lectura Circular",
+                  description: "Imágenes para todos los ejemplos",
+                },
+              ]
+            }
+          ],
           playlists: [
             {
               id: "quinta-completa-rapida",

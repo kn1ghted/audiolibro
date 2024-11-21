@@ -18,7 +18,7 @@ export const Section = ({ section }) => {
 
     case "audio": {
       return (
-        <AudioPlayer key={location.pathname} playlists={section.playlists} />
+        <AudioPlayer key={location.pathname} playlists={section.playlists} slides={section.slides} />
       );
     }
     default:
@@ -31,5 +31,6 @@ Section.propTypes = {
     type: PropTypes.string.isRequired,
     content: PropTypes.string,
     playlists: PropTypes.array,
+    slides: PropTypes.array,
   }).isRequired,
 };

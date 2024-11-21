@@ -1,5 +1,6 @@
 import slide01 from '../assets/img/lectura-circular.png'
 import waveform_player from '../assets/img/waveform-player.png'
+import Carousel from './Carousel'
 
 const Homepage = () => {
 
@@ -7,6 +8,26 @@ const Homepage = () => {
         {
             src: '/src/assets/audio/mix.wav', // ocupa ../ para salir de la carpeta components
             type: "audio/wav",
+        }
+    ];
+
+    const slides = [
+        {
+            id:"home",
+            images: [
+                {
+                    image: slide01,
+                    alt: "Lectura Circular",
+                    title: "Lectura Circular",
+                    description: "Imágenes para todos los ejemplos",
+                },
+                {
+                    image: slide01,
+                    alt: "Lectura Circular",
+                    title: "Lectura Circular",
+                    description: "Imágenes para todos los ejemplos",
+                },
+            ]
         }
     ];
 
@@ -36,36 +57,7 @@ const Homepage = () => {
       <div className="container mt-2">
           <div className="row align-items-start gx-5">
               <div className="col-xs-1 col-md-6 col-lg-6 bg-light text-light p-2">
-                  <div id="slideshow" className="carousel slide" data-bs-ride="carousel">
-                      <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      </div>
-                      <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="10000">
-                          <img src={slide01} className="d-block w-100" alt="lectura-circular" />
-                          <div className="carousel-caption d-none d-md-block">
-                            <h5>Lectura Circular</h5>
-                            <p>Imágenes para todos los ejemplos</p>
-                          </div>
-                        </div>
-                        <div className="carousel-item active" data-bs-interval="10000">
-                          <img src={slide01} className="d-block w-100" alt="lectura-circular" />
-                          <div className="carousel-caption d-none d-md-block">
-                            <h5>Lectura Circular</h5>
-                            <p>Imágenes para todos los ejemplos</p>
-                          </div>
-                        </div>
-                      </div>
-                      <button className="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                      </button>
-                      <button className="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                      </button>
-                    </div>
+                  <Carousel slides={slides} interval={5000} />
               </div>
               <div className="col-xs-1 col-md-6 col-lg-6 p-2">
                   <div className="container p-3">

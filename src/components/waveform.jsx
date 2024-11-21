@@ -2,18 +2,20 @@ import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import WaveformPlaylist from "waveform-playlist";
 import "../assets/css/waveform-playlist.css";
+import Carousel from "./carousel";
 
-const AudioPlayer = ({ playlists }) => {
+const AudioPlayer = ({ playlists = [], 
+  slides = []  }) => {
   const playlistRefs = useRef([]);
   const eeRefs = useRef([]); // Store event emitters
 
-
   useEffect(() => {
-
     // if playlists are playing, stop them and mount new ones
-    playlistRefs.current.forEach((playlist) => {
-      console.log("test", playlist);
-    });
+    // playlistRefs.current.forEach((playlist) => {
+    //   //console.log("test", playlist);
+    // });
+
+    console.log(slides);
 
     playlists.forEach((playlist, index) => {
       if (!playlistRefs.current[index]) {
@@ -55,22 +57,22 @@ const AudioPlayer = ({ playlists }) => {
 
           playBtn?.addEventListener("click", function () {
             ee.emit("play");
-            playBtn.classList.add('active');
+            playBtn.classList.add("active");
           });
 
           pauseBtn?.addEventListener("click", function () {
             ee.emit("pause");
-            playBtn.classList.remove('active');
+            playBtn.classList.remove("active");
           });
 
           stopBtn?.addEventListener("click", function () {
             ee.emit("stop");
-            playBtn.classList.remove('active');
+            playBtn.classList.remove("active");
           });
 
           loopBtn?.addEventListener("click", function () {
             isLooping = !isLooping;
-            loopBtn.classList.toggle('active');
+            loopBtn.classList.toggle("active");
           });
 
           ee.on("finished", function () {
@@ -82,7 +84,6 @@ const AudioPlayer = ({ playlists }) => {
               }, 50);
             }
           });
-
         });
       }
     });
@@ -97,48 +98,58 @@ const AudioPlayer = ({ playlists }) => {
   }, [playlists]);
 
   return (
-    <div>
-      {playlists.map((playlist) => (
-        <div key={playlist.id}>
-          <div className="playlist-top-bar mb-4">
-          <div className="playlist-toolbar">
-              <button
-                type="button"
-                id={`btn-pause-${playlist.id}`}
-                className="btn-pause btn btn-outline-warning"
-                title="Pause"
-              >
-                <i className="fas fa-circle-pause" aria-hidden="true"></i>
-              </button>
-              <button
-                type="button"
-                id={`btn-play-${playlist.id}`}
-                className="btn-play btn btn-outline-success"
-                title="Play"
-              >
-                <i className="fas fa-circle-play" aria-hidden="true"></i>
-              </button>
-              <button
-                type="button"
-                id={`btn-stop-${playlist.id}`}
-                className="btn-stop btn btn-outline-danger"
-                title="Stop"
-              >
-                <i className="fa-regular fa-circle-stop" aria-hidden="true"></i>
-              </button>
-              <button
-                type="button"
-                id={`btn-loop-${playlist.id}`}
-                className="btn-loop btn-stop btn btn btn-outline-secondary active"
-                title="Toggle Loop"
-              >
-                <i className="fa-solid fa-repeat" aria-hidden="true"></i>
-              </button>
+    <div className="container">
+      <div className="row">
+        <div className="col-sm">
+          {playlists.map((playlist) => (
+            <div key={playlist.id}>
+              <div className="playlist-top-bar mb-4">
+                <div className="playlist-toolbar">
+                  <button
+                    type="button"
+                    id={`btn-pause-${playlist.id}`}
+                    className="btn-pause btn btn-outline-warning"
+                    title="Pause"
+                  >
+                    <i className="fas fa-circle-pause" aria-hidden="true"></i>
+                  </button>
+                  <button
+                    type="button"
+                    id={`btn-play-${playlist.id}`}
+                    className="btn-play btn btn-outline-success"
+                    title="Play"
+                  >
+                    <i className="fas fa-circle-play" aria-hidden="true"></i>
+                  </button>
+                  <button
+                    type="button"
+                    id={`btn-stop-${playlist.id}`}
+                    className="btn-stop btn btn-outline-danger"
+                    title="Stop"
+                  >
+                    <i
+                      className="fa-regular fa-circle-stop"
+                      aria-hidden="true"
+                    ></i>
+                  </button>
+                  <button
+                    type="button"
+                    id={`btn-loop-${playlist.id}`}
+                    className="btn-loop btn-stop btn btn btn-outline-secondary active"
+                    title="Toggle Loop"
+                  >
+                    <i className="fa-solid fa-repeat" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+              <div id={playlist.id} className="rounded h-[60px]" />
             </div>
-          </div>
-          <div id={playlist.id} className="rounded h-[60px]" />
+          ))}
         </div>
-      ))}
+        <div className="col">
+          <Carousel slides={slides} />
+        </div>
+      </div>
     </div>
   );
 };
@@ -148,6 +159,18 @@ AudioPlayer.propTypes = {
     PropTypes.shape({
       data: PropTypes.array.isRequired,
       id: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  slides: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      images: PropTypes.arrayOf(
+        PropTypes.shape({
+          image: PropTypes.string.isRequired,
+          title: PropTypes.string.isRequired,
+          description: PropTypes.string.isRequired,
+        })
+      ).isRequired,
     })
   ).isRequired,
 };
