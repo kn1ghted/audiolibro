@@ -6,6 +6,11 @@ const navigation = [
     children: [
       // PATH debe ser igual al slug de la página en pages.js
       {
+        id: "20",
+        label: "Claves compuestas en 5/4",
+        path: "/claves-5", 
+      },
+      {
         id: "21",
         label: "Quinta Clave Completa",
         path: "/quinta-completa", 
@@ -48,6 +53,11 @@ const navigation = [
     // se usa para crear dropdowns
     path: "#", 
     children: [
+      {
+        id: "30",
+        label: "Claves compuestas en 7/8",
+        path: "/claves-7", 
+      },
       {
         id: "31",
         label: "Clave completa en 7",
