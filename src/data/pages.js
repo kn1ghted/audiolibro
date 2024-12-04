@@ -103,7 +103,7 @@ const pages = [
               id: "quinta-completa-rapida-images",
               images: [
                 {
-                  image: "src/assets/img/5/01-quinta_completa-circular.png",
+                  image: "./src/assets/img/5/01-quinta_completa-circular.png",
                   alt: "Lectura Circular",
                   title: "Lectura Circular",
                   description: "Quinta Clave Completa - rápida",
@@ -116,11 +116,11 @@ const pages = [
               id: "quinta-completa-rapida",
               data: [
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.wav",
+                  src: "./src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.wav",
                   name: "Click",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
+                  src: "./src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
                   name: "Clave",
                 },
                 {
