@@ -39,7 +39,7 @@ const pages = [
               id: "quintaCompleta",
               images: [
                 {
-                  image: "src/assets/img/5/01-quinta_completa-circular.png",
+                  image: "./assets/img/5/01-quinta_completa-circular.png",
                   title: "Lectura Circular",
                   description: "Clave de Quinta Completa",
                 }
@@ -51,35 +51,35 @@ const pages = [
               id: "quinta-completa",
               data: [
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
                   name: "Click",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
                   name: "Clave",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
                   name: "Cata",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/03-chequere.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/03-chequere.wav",
                   name: "Chequere",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/04-quinto.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/04-quinto.wav",
                   name: "Quinto",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/05-conga.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/05-conga.wav",
                   name: "Conga",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
                   name: "Variacion Conga",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
                   name: "Tumbadora",
                 }
               ],
@@ -103,7 +103,7 @@ const pages = [
               id: "quinta-completa-rapida-images",
               images: [
                 {
-                  image: "./src/assets/img/5/01-quinta_completa-circular.png",
+                  image: "./assets/img/5/01-quinta_completa-circular.png",
                   alt: "Lectura Circular",
                   title: "Lectura Circular",
                   description: "Quinta Clave Completa - rápida",
@@ -116,39 +116,39 @@ const pages = [
               id: "quinta-completa-rapida",
               data: [
                 {
-                  src: "./src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.wav",
                   name: "Click",
                 },
                 {
-                  src: "./src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
                   name: "Clave",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata.wav",
                   name: "Cata",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/03-chequere.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/03-chequere.wav",
                   name: "Chequere",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-quinto.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-quinto.wav",
                   name: "Quinto",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/06-conga.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/06-conga.wav",
                   name: "Conga",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-conga_variacion.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-conga_variacion.wav",
                   name: "Variación Conga",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/08-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/08-tumbadora.wav",
                   name: "Tumbadora",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/Conga 2 Quinta Clave abierta rapida.wav",
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/Conga 2 Quinta Clave abierta rapida.wav",
                   name: "Conga 2",
                 }
               ],
@@ -180,7 +180,7 @@ const pages = [
               id: "quintaAbierta",
               images: [
                 {
-                  image: "src/assets/img/5/02-quinta_abierta-circular.png",
+                  image: "./assets/img/5/02-quinta_abierta-circular.png",
                   title: "Lectura Circular",
                   description: "Clave de Quinta Abierta",
                 }
@@ -192,43 +192,43 @@ const pages = [
               id: "qca-1",
               data: [
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/00-click_200bpm.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/00-click_200bpm.wav",
                   name: "Click",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/01-clave.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/01-clave.wav",
                   name: "Clave",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/02-cata.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/02-cata.wav",
                   name: "Cata",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/03-chequere.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/03-chequere.wav",
                   name: "Chequere",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/04-quinto.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/04-quinto.wav",
                   name: "Quinto",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/05-conga.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/05-conga.wav",
                   name: "Conga",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/06-conga_variacion.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/06-conga_variacion.wav",
                   name: "Conga Variación",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/07-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/07-tumbadora.wav",
                   name: "Tumbadora",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/08-campana.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/08-campana.wav",
                   name: "Campana",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/09-campana_variacion.wav",
+                  src: "./assets/audio/kalote-5/03-quinta_clave_abierta/09-campana_variacion.wav",
                   name: "Campana Variación",
                 }
               ],
@@ -251,7 +251,7 @@ const pages = [
               id: "quintaAbiertaRapida",
               images: [
                 {
-                  image: "src/assets/img/5/02-quinta_abierta-circular.png",
+                  image: "./assets/img/5/02-quinta_abierta-circular.png",
                   title: "Lectura Circular",
                   description: "Clave de Quinta Abierta rápida",
                 }
@@ -263,43 +263,43 @@ const pages = [
               id: "qca-2",
               data: [
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/00-click_213bpm.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/00-click_213bpm.wav",
                   name: "Click",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/01-clave.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/01-clave.wav",
                   name: "Clave",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/02-cata.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/02-cata.wav",
                   name: "Cata",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/03-chequere.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/03-chequere.wav",
                   name: "Chequere",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/04-quinto.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/04-quinto.wav",
                   name: "Quinto",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/05-conga.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/05-conga.wav",
                   name: "Conga",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/06-conga_variacion.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/06-conga_variacion.wav",
                   name: "Conga Variación",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/07-tumba.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/07-tumba.wav",
                   name: "Tumbadora",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/08-campana.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/08-campana.wav",
                   name: "Campana",
                 },
                 {
-                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/09-campana_variacion.wav",
+                  src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/09-campana_variacion.wav",
                   name: "Campana Variación",
                 }
               ],

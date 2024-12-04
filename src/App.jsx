@@ -9,7 +9,7 @@ import Homepage from './components/Homepage.jsx';
 
 const App = () => {
   return (
-    <Router basename="/audiolibro">
+    <Router basename="/audiolibro/">
       <div className="flex min-h-screen">
         <Navbar navigation={navigation} />
         <main className="flex-grow bg-white">
