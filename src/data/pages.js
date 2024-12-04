@@ -1,5 +1,22 @@
 const pages = [
   {
+    slug: "claves-5",
+    title: "Claves compuestas en 5/4",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Claves compuestas en 5",
+        },
+        {
+          type: "text",
+          content:
+            "Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.",
+        }
+      ],
+    },
+  },
+  {
     slug: "quinta-completa",
     title: "Quinta",
     content: {
@@ -16,25 +33,16 @@ const pages = [
         {
           type: "audio",
           content: "audio",
+          idPlayer: "quinta-completa",
           slides: [
             {
               id: "quintaCompleta",
               images: [
                 {
-                  image: "src/assets/img/lectura-circular.png",
+                  image: "src/assets/img/5/01-quinta_completa-circular.png",
                   title: "Lectura Circular",
-                  description: "Imágenes para todos los ejemplos",
-                },
-                {
-                  image: "src/assets/img/lectura-circular.png",
-                  title: "Lectura Circular",
-                  description: "Imágenes para todos los ejemplos",
-                },
-                {
-                  image: "src/assets/img/lectura-circular.png",
-                  title: "Lectura Circular",
-                  description: "Imágenes para todos los ejemplos",
-                },
+                  description: "Clave de Quinta Completa",
+                }
               ]
             }
           ],
@@ -43,41 +51,36 @@ const pages = [
               id: "quinta-completa",
               data: [
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/01-clave.wav",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
+                  name: "Click",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
                   name: "Clave",
-                  loop: true,
                 },
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/02-cata.wav",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
                   name: "Cata",
-                  loop: true,
                 },
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/03-chequere.wav",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/03-chequere.wav",
                   name: "Chequere",
-                  loop: true,
                 },
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/04-quinto.wav",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/04-quinto.wav",
                   name: "Quinto",
-                  loop: true,
                 },
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/05-conga.wav",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/05-conga.wav",
                   name: "Conga",
-                  loop: true,
                 },
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/06-tumba.wav",
-                  name: "Tumba",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
+                  name: "Variacion Conga",
                 },
                 {
-                  src: "src/assets/audio/convite-7/01-clave-completa/07-campana.wav",
-                  name: "Campana",
-                },
-                {
-                  src: "src/assets/audio/convite-7/01-clave-completa/08-campana_mano.wav",
-                  name: "Campana a mano",
+                  src: "src/assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
+                  name: "Tumbadora",
                 }
               ],
             },
@@ -100,22 +103,10 @@ const pages = [
               id: "quinta-completa-rapida-images",
               images: [
                 {
-                  image: "src/assets/img/lectura-circular.png",
+                  image: "src/assets/img/5/01-quinta_completa-circular.png",
                   alt: "Lectura Circular",
                   title: "Lectura Circular",
-                  description: "Imágenes para todos los ejemplos",
-                },
-                {
-                  image: "src/assets/img/lectura-circular.png",
-                  alt: "Lectura Circular 2",
-                  title: "Lectura Circular",
-                  description: "Imágenes para todos los ejemplos",
-                },
-                {
-                  image: "src/assets/img/lectura-circular.png",
-                  alt: "Lectura Circular 3",
-                  title: "Lectura Circular",
-                  description: "Imágenes para todos los ejemplos",
+                  description: "Quinta Clave Completa - rápida",
                 },
               ]
             }
@@ -125,32 +116,40 @@ const pages = [
               id: "quinta-completa-rapida",
               data: [
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/01-clave.wav",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.wav",
+                  name: "Click",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
                   name: "Clave",
                 },
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/02-cata.wav",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata.wav",
                   name: "Cata",
                 },
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/03-chequere.wav",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/03-chequere.wav",
                   name: "Chequere",
                 },
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/04-conga.wav",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-quinto.wav",
+                  name: "Quinto",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/06-conga.wav",
                   name: "Conga",
                 },
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/05-tumba.wav",
-                  name: "Tumba",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-conga_variacion.wav",
+                  name: "Variación Conga",
                 },
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/06-campana.wav",
-                  name: "Campana",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/08-tumbadora.wav",
+                  name: "Tumbadora",
                 },
                 {
-                  src: "src/assets/audio/convite-7/02-clave-completa_rapida/07-campana_mano.wav",
-                  name: "Campana a mano",
+                  src: "src/assets/audio/kalote-5/02-quinta_clave_completa-rapida/Conga 2 Quinta Clave abierta rapida.wav",
+                  name: "Conga 2",
                 }
               ],
             },
@@ -176,37 +175,61 @@ const pages = [
         {
           type: "audio",
           content: "audio",
+          slides: [
+            {
+              id: "quintaAbierta",
+              images: [
+                {
+                  image: "src/assets/img/5/02-quinta_abierta-circular.png",
+                  title: "Lectura Circular",
+                  description: "Clave de Quinta Abierta",
+                }
+              ]
+            }
+          ],
           playlists: [
             {
               id: "qca-1",
               data: [
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/01-clave.wav",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/00-click_200bpm.wav",
+                  name: "Click",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/01-clave.wav",
                   name: "Clave",
                 },
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/02-chequere.wav",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/02-cata.wav",
+                  name: "Cata",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/03-chequere.wav",
                   name: "Chequere",
                 },
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/03-chequere_golpe.wav",
-                  name: "Chequere golpe",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/04-quinto.wav",
+                  name: "Quinto",
                 },
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/04-conga.wav",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/05-conga.wav",
                   name: "Conga",
                 },
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/05-tumba.wav",
-                  name: "Tumba",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/06-conga_variacion.wav",
+                  name: "Conga Variación",
                 },
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.wav",
-                  name: "Tumba variación",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/07-tumbadora.wav",
+                  name: "Tumbadora",
                 },
                 {
-                  src: "src/assets/audio/convite-7/03-clave-abierta/07-campana_mano.wav",
-                  name: "Campana a mano",
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/08-campana.wav",
+                  name: "Campana",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/03-quinta_clave_abierta/09-campana_variacion.wav",
+                  name: "Campana Variación",
                 }
               ],
             },
@@ -219,6 +242,69 @@ const pages = [
         {
           type: "text",
           content: "Variante con click a 225 bpm.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          slides: [
+            {
+              id: "quintaAbiertaRapida",
+              images: [
+                {
+                  image: "src/assets/img/5/02-quinta_abierta-circular.png",
+                  title: "Lectura Circular",
+                  description: "Clave de Quinta Abierta rápida",
+                }
+              ]
+            }
+          ],
+          playlists: [
+            {
+              id: "qca-2",
+              data: [
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/00-click_213bpm.wav",
+                  name: "Click",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/01-clave.wav",
+                  name: "Clave",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/02-cata.wav",
+                  name: "Cata",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/03-chequere.wav",
+                  name: "Chequere",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/04-quinto.wav",
+                  name: "Quinto",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/05-conga.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/06-conga_variacion.wav",
+                  name: "Conga Variación",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/07-tumba.wav",
+                  name: "Tumbadora",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/08-campana.wav",
+                  name: "Campana",
+                },
+                {
+                  src: "src/assets/audio/kalote-5/04-quinta_clave_abierta-rapida/09-campana_variacion.wav",
+                  name: "Campana Variación",
+                }
+              ],
+            },
+          ],
         },
       ],
     },
@@ -237,6 +323,24 @@ const pages = [
           content:
             "Se subdividió el patrón del Requinto (Tambor Chico) en cinco grupos de cuatro corcheas cada uno , donde se acentúa la segunda corchea (golpe abierto con la mano que no tiene baqueta), respetando el patrón del Tambor Chico original que consta de cuatro grupos de cuatro corcheas cada uno.",
         },
+      ],
+    },
+  },
+  {
+    slug: "claves-7",
+    title: "Claves compuestas en 7/8",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Claves compuestas en 7",
+        },
+        {
+          type: "div",
+          content:
+            `<p>Para la creación de los ritmos en 7, al igual que en los ritmos en 5, fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 4 claves compuestas, cada una con una duración de dos compases en 7/8.</p>
+            <p>La primera clave compuesta se desarrolló a partir de la “Clave Completa” en 5 y la segunda clave compuesta a partir de la “Clave Abierta” en 5, esta conversión se realizó utilizando la lógica de la Hemiola (este proceso de conversión está explicado más adelante en cada uno de los ritmos). Las otras dos claves compuestas se pueden entender como reducciones de estas dos primeras claves en 7 o como reducciones de las claves cubanas 3:2 y 2:3, en donde se eliminan o desplazan algunos de los golpes. Por ejemplo, la clave compuesta 4 - 3 en 7/8 se puede derivar de la clave cubana 3:2, donde se elimina el tercer golpe de la clave, restándole un tiempo de negra , dando como resultado la “Clave 4 - 3 en 7/8</p>`,
+        }
       ],
     },
   },

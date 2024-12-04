@@ -16,6 +16,11 @@ export const Section = ({ section }) => {
     case "text":
       return <p className="mb-4 text-gray-700">{section.content}</p>;
 
+    case "div":
+      return (
+        <div dangerouslySetInnerHTML={ { __html: section.content } }></div>
+      );
+
     case "audio": {
       return (
         <AudioPlayer key={location.pathname} playlists={section.playlists} slides={section.slides} />
