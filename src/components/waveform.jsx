@@ -41,7 +41,7 @@ const AudioPlayer = ({ playlists = [],
               collapse: false,
             },
           },
-          zoomLevels: [500, 1000, 3000, 5000],
+          zoomLevels: [500, 1000],
         });
 
         playlistRefs.current[index].load(playlist.data).then(function () {
@@ -146,9 +146,11 @@ const AudioPlayer = ({ playlists = [],
             </div>
           ))}
         </div>
-        <div className="col">
-          <Carousel slides={slides} />
-        </div>
+        {slides.length > 0 && (
+          <div className="col-sm">
+            <Carousel slides={slides} />
+          </div>
+        )}
       </div>
     </div>
   );

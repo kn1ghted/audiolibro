@@ -34,18 +34,7 @@ const pages = [
           type: "audio",
           content: "audio",
           idPlayer: "quinta-completa",
-          slides: [
-            {
-              id: "quintaCompleta",
-              images: [
-                {
-                  image: "./assets/img/5/01-quinta_completa-circular.png",
-                  title: "Lectura Circular",
-                  description: "Clave de Quinta Completa",
-                }
-              ]
-            }
-          ],
+          slides: [],
           playlists: [
             {
               id: "quinta-completa",
