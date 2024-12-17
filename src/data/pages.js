@@ -879,6 +879,44 @@ const pages = [
                   name: "Clave",
                 },
                 {
+                  src: "./assets/audio/kalote-5/11-quintu/Bongo Quintú.wav",
+                  name: "Bongo",
+                },
+                {
+                  src: "./assets/audio/kalote-5/11-quintu/Quinto Quintú.wav",
+                  name: "Quinto",
+                },
+                {
+                  src: "./assets/audio/kalote-5/11-quintu/Timbal Quintú.wav",
+                  name: "Timbal",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Quintú con variante de clave",
+        },
+        {
+          type: "text",
+          content:
+            "Variante de clave para Quintú.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "quintu-variante",
+          slides: [],
+          playlists: [
+            {
+              id: "quintu-variante",
+              data: [
+                {
+                  src: "./assets/audio/kalote-5/11-quintu/00-click_116bpm.wav",
+                  name: "Click 116",
+                },
+                {
                   src: "./assets/audio/kalote-5/11-quintu/02-clave2 Quintú.wav",
                   name: "Clave 2",
                 },
@@ -914,7 +952,10 @@ const pages = [
           type: "div",
           content:
             `<p>Para la creación de los ritmos en 7, al igual que en los ritmos en 5, fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 4 claves compuestas, cada una con una duración de dos compases en 7/8.</p>
-            <p>La primera clave compuesta se desarrolló a partir de la “Clave Completa” en 5 y la segunda clave compuesta a partir de la “Clave Abierta” en 5, esta conversión se realizó utilizando la lógica de la Hemiola (este proceso de conversión está explicado más adelante en cada uno de los ritmos). Las otras dos claves compuestas se pueden entender como reducciones de estas dos primeras claves en 7 o como reducciones de las claves cubanas 3:2 y 2:3, en donde se eliminan o desplazan algunos de los golpes. Por ejemplo, la clave compuesta 4 - 3 en 7/8 se puede derivar de la clave cubana 3:2, donde se elimina el tercer golpe de la clave, restándole un tiempo de negra , dando como resultado la “Clave 4 - 3 en 7/8</p>`,
+            <p>La primera clave compuesta se desarrolló a partir de la “Clave Completa” en 5 y la segunda clave compuesta a partir de la “Clave Abierta” en 5, esta conversión se realizó utilizando la lógica de la Hemiola (este proceso de conversión está explicado más adelante en cada uno de los ritmos). Las otras dos claves compuestas se pueden entender como reducciones de estas dos primeras claves en 7 o como reducciones de las claves cubanas 3:2 y 2:3, en donde se eliminan o desplazan algunos de los golpes. Por ejemplo, la clave compuesta 4 - 3 en 7/8 se puede derivar de la clave cubana 3:2, donde se elimina el tercer golpe de la clave, restándole un tiempo de negra , dando como resultado la “Clave 4 - 3 en 7/8</p>
+            <p>Para una mejor comprensión de estos ritmos es favorable estudiarlos como si estuvieran escritos en compás partido.</p>
+            <p>Dos de estas claves compuestas pertenecen a la estructura 4 - 3, una a la estructura 3 - 4 y otra a la estructura 2 - 3 - 2 del compás de amalgama, tomando los dos compases en 7/8 como una sola estructura de 7 tiempos (como si estuvieran en un solo compás en 7/4), siendo estas algunas de las posibles subdivisiones del compás de amalgama en 7.</p>
+            <p>Cabe aclarar que, en las partituras y en los cifrados en cada uno de los ritmos en 7 aparecen dos notaciones numéricas en el encabezado, en la primera cada número es equivalente a una negra y en la segunda cada número es equivalente a una corchea.</p>`,
         }
       ],
     },
@@ -926,14 +967,397 @@ const pages = [
       sections: [
         {
           type: "header",
-          content: "Subtitulo",
+          content: "Clave completa en 5/4",
         },
         {
           type: "text",
           content:
             "Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.",
         },
-
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "clave-completa",
+          slides: [],
+          playlists: [
+            {
+              id: "clave-completa",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/01-clave.wav",
+                  name: "Clave",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/02-cata.wav",
+                  name: "Cata",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/03-chequere.wav",
+                  name: "Chequeré",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/04-quinto.wav",
+                  name: "Quinto",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/05-conga.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/06-tumba.wav",
+                  name: "Tumba",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/07-campana.wav",
+                  name: "Campana",
+                },
+                {
+                  src: "./assets/audio/convite-7/01-clave-completa/08-campana_mano.wav",
+                  name: "Campana de mano",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Clave completa en 5/4 variante rápida",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "clave-completa-rapida",
+          slides: [],
+          playlists: [
+            {
+              id: "clave-completa-rapida",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/01-clave.wav",
+                  name: "Clave",
+                },
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/02-cata.wav",
+                  name: "Cata",
+                },
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/03-chequere.wav",
+                  name: "Chequeré",
+                },
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/04-conga.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/05-tumba.wav",
+                  name: "Tumba",
+                },
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/06-campana.wav",
+                  name: "Campana",
+                },
+                {
+                  src: "./assets/audio/convite-7/02-clave-completa_rapida/07-campana_mano.wav",
+                  name: "Campana de mano",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "abierta-7",
+    title: "Clave Abierta en 7",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Clave abierta en 5/4",
+        },
+        {
+          type: "text",
+          content:
+            'Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Abierta en 7”), la cual se deriva de la “Clave Abierta” en 5, utilizando la lógica de la Hemiola.',
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "clave-abierta",
+          slides: [],
+          playlists: [
+            {
+              id: "clave-abierta",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/01-clave.wav",
+                  name: "Clave",
+                },
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/02-chequere.wav",
+                  name: "Chequeré",
+                },
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/03-chequere_golpe.wav",
+                  name: "Chequeré variante",
+                },
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/04-conga.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/05-tumba.wav",
+                  name: "Tumbadora",
+                },
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.wav",
+                  name: "Tumbadora variación",
+                },
+                {
+                  src: "./assets/audio/convite-7/03-clave-abierta/07-campana_mano.wav",
+                  name: "Campana de mano",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "septima",
+    title: "Séptima en 7/8",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Séptima 4:3 en 7",
+        },
+        {
+          type: "text",
+          content:
+            "Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En esta ocasión se mantiene la misma estructura del patrón, pero se elimina el golpe que corresponde a la corchea del contratiempo del segundo tiempo de cada compás (el cuarto golpe del tambor Conga, la cuarta corchea) , quedando así la figura completa dentro de un compás de 7/8",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septima-4-3",
+          slides: [],
+          playlists: [
+            {
+              id: "septima-4-3",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/04-septima/01-clave-son_4-3.wav",
+                  name: "Clave 4:3",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
+                  name: "Timbal 4:3",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Séptima 3:4 en 7",
+        },
+        {
+          type: "text",
+          content:
+            "Variante de Séptima en 3:4.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septima-3-4",
+          slides: [],
+          playlists: [
+            {
+              id: "septima-3-4",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/04-septima/02-clave-son_3-4.wav",
+                  name: "Clave 3:4",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
+                  name: "Timbal 3:4",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Séptima Clave Completa",
+        },
+        {
+          type: "text",
+          content:
+            "Variante de Séptima con clave completa.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septima-clave-completa",
+          slides: [],
+          playlists: [
+            {
+              id: "septima-clave-completa",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/04-septima/03-clave-completa-son.wav",
+                  name: "Clave Completa",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
+                  name: "Timbal 4:3",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
+                  name: "Timbal 3:4",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Séptima Clave Abierta",
+        },
+        {
+          type: "text",
+          content:
+            "Variante de Séptima con clave abierta.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septima-clave-abierta",
+          slides: [],
+          playlists: [
+            {
+              id: "septima-clave-abierta",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/04-septima/04-clave-abierta-son.wav",
+                  name: "Clave Abierta",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  name: "Conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
+                  name: "Timbal 4:3",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
+                  name: "Timbal 3:4",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "septimo-4-3",
+    title: "Séptimo",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Séptimo 4:3",
+        },
+        {
+          type: "text",
+          content:
+            'Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En la versión 3 - 4 del compás partido en 7 se elimina el segundo golpe del tambor Conga (El contratiempo del primer tiempo, segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el Calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “Clave Abierta en 7" (aunque la “Clave Abierta en 7” está en un compás de amalgama de 2 - 4 - 2) .',
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septimo-4-3",
+          slides: [],
+          playlists: [
+            {
+              id: "septimo-4-3",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/05-septimo_4-3/01-clave_4-3.wav",
+                  name: "Clave 4:3",
+                },
+                {
+                  src: "./assets/audio/convite-7/05-septimo_4-3/02-clave_abierta.wav",
+                  name: "Clave Abierta",
+                },
+                {
+                  src: "./assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.wav",
+                  name: "Conga",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    slug: "septimo-3-4",
+    title: "Séptimo",
+    content: {
+      sections: [
+        {
+          type: "header",
+          content: "Séptimo 3:4",
+        },
+        {
+          type: "text",
+          content:
+            'Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En la versión 3 - 4 del compás partido en 7 se elimina el segundo golpe del tambor Conga (El contratiempo del primer tiempo, segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el Calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “Clave Abierta en 7" (aunque la “Clave Abierta en 7” está en un compás de amalgama de 2 - 4 - 2) .',
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septimo-3-4",
+          slides: [],
+          playlists: [
+            {
+              id: "septimo-3-4",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/06-septimo_3-4/01-clave_3-4.wav",
+                  name: "Clave 3:4",
+                },
+                {
+                  src: "./assets/audio/convite-7/06-septimo_3-4/02-clave_completa.wav",
+                  name: "Clave Completa",
+                },
+                {
+                  src: "./assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
+                  name: "Conga",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
   },
