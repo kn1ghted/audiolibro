@@ -13,7 +13,7 @@ export const Page = ({ pages }) => {
 
   return (
     <div className="main container align-self-center my-5">
-      <div className="p-4">
+      <div>
         <h1 className="text-3xl font-bold mb-6">{page.title}</h1>
         <div className="space-y-4">
           {page.content.sections.map((section, index) => (

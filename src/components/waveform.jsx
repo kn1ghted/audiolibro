@@ -4,8 +4,7 @@ import WaveformPlaylist from "waveform-playlist";
 import "../assets/css/waveform-playlist.css";
 import Carousel from "./carousel";
 
-const AudioPlayer = ({ playlists = [], 
-  slides = []  }) => {
+const AudioPlayer = ({ playlists = [], slides = [] }) => {
   const playlistRefs = useRef([]);
   const eeRefs = useRef([]); // Store event emitters
 
@@ -27,9 +26,9 @@ const AudioPlayer = ({ playlists = [],
           isScrolling: true,
           isAutomaticScroll: true,
           colors: {
-            waveOutlineColor: "#f8f9fa",
-            timeColor: "#fbfa81",
-            fadeColor: "#040415",
+            waveOutlineColor: "#f8f9fa", // waveforms 
+            timeColor: "grey",
+            fadeColor: "black",
           },
           controls: {
             show: true,
@@ -103,7 +102,7 @@ const AudioPlayer = ({ playlists = [],
         <div className="col-sm">
           {playlists.map((playlist) => (
             <div key={playlist.id}>
-              <div className="playlist-top-bar mb-4">
+              <div className="playlist-top-bar">
                 <div className="playlist-toolbar">
                   <button
                     type="button"

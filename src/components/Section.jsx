@@ -7,10 +7,18 @@ export const Section = ({ section }) => {
 
   console.log(location.pathname);
 
+  // function to replace spaces with hyphens and lowercase the string
+  function slugify(string) {
+    return string
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+      .replace(/-+/g, "-");
+  }
+
   switch (section.type) {
     case "header":
       return (
-        <h2 className="text-2xl font-bold mt-5 mb-3">{section.content}</h2>
+        <h2 id={slugify(section.content)} className="text-2xl font-bold mt-5 mb-3">{section.content}</h2>
       );
 
     case "text":

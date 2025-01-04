@@ -1,5 +1,8 @@
 :root {
-    /* --wp-controls-border-color: #000;
+  --wp-cursor-color: red;
+  --wp-channel-color: #000000;
+  --wp-channel-progress-color: #f50;
+  /* --wp-controls-border-color: #000;
     --wp-controls-background-color: #fff;
     --wp-mute-solo-color: #343a40;
     --wp-mute-solo-hover-color: #fff;
@@ -31,70 +34,78 @@
     --wp-annotation-box-border-color: grey;
     --wp-annotation-current-background-color: #ebf4f6;
     --wp-annotation-icon-hover-color: orange; */
-    }
+}
+.playlist .selection.point {
+  display: none;
+}
+.playlist {
+  margin: 5px 0px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+.playlist .controls {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.playlist-time-scale {
+  background-color: #f8f9fa;
+  border-left: 1px solid #dee2e6;
+  border-radius: 0;
+}
+.playlist-tracks {
+  background-color: #f8f9fa !important;
+  border-left: 1px solid #dee2e6;
+  border-radius: 0;
+}
+/* .playlist-tracks .channel-wrapper {
+  border-bottom: 1px solid #dee2e6;
+} */
 
-.playlist{
-    margin: 5px 0px;
-    background-color: #f8f9fa;
-    border:1px solid #dee2e6;
+.btn-group > .btn-solo.active {
+  background-color: #198754;
+  color: white;
 }
-.playlist .controls{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+.btn-group > .btn-solo {
+  display: none;
 }
-.playlist-time-scale{
-    background-color: #f8f9fa;
-    border-left: 1px solid #dee2e6;
-    border-radius: 0;
+.btn-group > .btn-solo.active:hover,
+.btn-group > .btn-mute.active:hover {
+  background-color: #dc3545;
 }
-.playlist-tracks{
-    background-color: #f8f9fa;
-    border-left: 1px solid #dee2e6;
-    border-radius: 0;
+.btn-group > .btn-mute.active,
+.btn-group > .btn-mute:hover {
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
-.playlist-tracks .channel-wrapper {
-    border-bottom: 1px solid #dee2e6;
+.playlist .controls {
+  border: 0px;
+  border-radius: 0;
 }
-
-.btn-group>.btn-solo.active {
-    background-color: #198754;
-    color: white;
+.playlist .controls .track-header {
+  font-weight: bold;
+  font-size: 16px;
 }
-.btn-group>.btn-solo {
-    display: none;
+.playlist .channel-wrapper .controls {
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.btn-group>.btn-solo.active:hover, .btn-group>.btn-mute.active:hover {
-    background-color: #dc3545;
+.playlist .channel-wrapper:nth-child(2n) .controls {
+  background-color: #f1ecec;
 }
-.btn-group>.btn-mute.active, .btn-group>.btn-mute:hover {
-    color: white;
-    background-color: #dc3545;
-    border-color: #dc3545;
-}
-.playlist .controls{
-    border:0px;
-    border-radius: 0;
-}
-.playlist .controls .track-header{
-    font-weight: bold;
-    font-size: 16px;
-}
-.playlist .channel-wrapper .controls{
-    background-color: #E0E0E0;
-    border-bottom: 1px solid #444;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-}
-.playlist .channel-wrapper:nth-child(2n) .controls{
-    background-color: #f1ecec;
-}
-.playlist .channel-wrapper:nth-child(2n) .controls .btn-group>.btn-solo.active {
-    background-color: #198754;
-    color: white;
+.playlist
+  .channel-wrapper:nth-child(2n)
+  .controls
+  .btn-group
+  > .btn-solo.active {
+  background-color: #198754;
+  color: white;
 }

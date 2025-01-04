@@ -8,3 +8,13 @@ jQuery(document).ready(function() {
     };
     jQuery(".player").trackSwitch(settings); // All other players are default
 });
+
+// smooth scroll if h2 has an id
+jQuery(document).ready(function() {
+    jQuery('h2[id]').click(function() {
+        var element = jQuery(this).attr('id');
+        jQuery('html, body').animate({
+            scrollTop: jQuery('#' + element).offset().top
+        }, 1000);
+    });
+});
