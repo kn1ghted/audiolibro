@@ -40,7 +40,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
               collapse: false,
             },
           },
-          zoomLevels: [500, 1000],
+          zoomLevels: [500, 1000, 1500],
         });
 
         playlistRefs.current[index].load(playlist.data).then(function () {
@@ -51,6 +51,9 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           const pauseBtn = document.getElementById(`btn-pause-${playlist.id}`);
           const stopBtn = document.getElementById(`btn-stop-${playlist.id}`);
           const loopBtn = document.getElementById(`btn-loop-${playlist.id}`);
+
+          const zoomInBtn = document.getElementById(`btn-zoomIn-${playlist.id}`);
+          const zoomOutBtn = document.getElementById(`btn-zoomOut-${playlist.id}`);
 
           let isLooping = true;
 
@@ -72,6 +75,16 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           loopBtn?.addEventListener("click", function () {
             isLooping = !isLooping;
             loopBtn.classList.toggle("active");
+          });
+
+          zoomInBtn?.addEventListener("click", function () {
+            ee.emit("zoomin");
+            console.log("zoom in");
+          });
+
+          zoomOutBtn?.addEventListener("click", function () {
+            ee.emit("zoomout");
+            console.log("zoom out");
           });
 
           ee.on("finished", function () {
@@ -103,7 +116,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           {playlists.map((playlist) => (
             <div key={playlist.id}>
               <div className="playlist-top-bar">
-                <div className="playlist-toolbar">
+                <div className="playlist-toolbar btn-group">
                   <button
                     type="button"
                     id={`btn-pause-${playlist.id}`}
@@ -138,6 +151,22 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
                     title="Toggle Loop"
                   >
                     <i className="fa-solid fa-repeat" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <div class="btn-group mx-4">
+                  <button 
+                    type="button"
+                    id={`btn-zoomIn-${playlist.id}`} 
+                    title="Zoom in" 
+                    className="btn-zoom-in btn btn-outline-dark">
+                    <i className="fas fa-search-plus" aria-hidden="true"></i>
+                  </button>
+                  <button 
+                    type="button"
+                    id={`btn-zoomOut-${playlist.id}`} 
+                    title="Zoom out" 
+                    className="btn-zoom-out btn btn-outline-dark">
+                    <i className="fas fa-search-minus" aria-hidden="true"></i>
                   </button>
                 </div>
               </div>
