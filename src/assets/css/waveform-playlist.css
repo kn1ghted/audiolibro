@@ -98,7 +98,11 @@
 }
 
 .playlist-tracks .channel-wrapper.campana .waveform .channel{
-  background-color: #0aa9e3;
+  background-color: #a03916;
+}
+
+.playlist-tracks .channel-wrapper.campana-variacion .waveform .channel{
+  background-color: #977abc;
 }
 
 .btn-group > .btn-solo.active {
