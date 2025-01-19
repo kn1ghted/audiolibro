@@ -42,34 +42,43 @@ const pages = [
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
                   name: "Click",
+                  muted: true,
+                  customClass: 'click',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
                   name: "Clave",
+                  customClass: 'clave',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
                   name: "Cata",
+                  customClass: 'cata',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/03-chequere.wav",
                   name: "Chequeré",
+                  customClass: 'chequere',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/04-quinto.wav",
                   name: "Quinto",
+                  customClass: 'quinto',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/05-conga.wav",
                   name: "Conga",
+                  customClass: 'conga',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
                   name: "Variacion Conga",
+                  customClass: 'variacion-conga',
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
                   name: "Tumbadora",
+                  customClass: 'tumbadora',
                 }
               ],
             },

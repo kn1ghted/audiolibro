@@ -26,9 +26,9 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           isScrolling: true,
           isAutomaticScroll: true,
           colors: {
-            waveOutlineColor: "#f8f9fa", // waveforms 
+            waveOutlineColor: "#000", // waveforms 
             timeColor: "grey",
-            fadeColor: "black",
+            fadeColor: "white",
           },
           controls: {
             show: true,

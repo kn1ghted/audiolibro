@@ -1,8 +1,8 @@
 :root {
-  --wp-cursor-color: red;
-  --wp-channel-color: #000000;
-  --wp-channel-progress-color: #f50;
-  /* --wp-controls-border-color: #000;
+  --wp-cursor-color: black;
+  --wp-channel-color: #ff0000;
+  /*--wp-channel-progress-color: #f50;
+   --wp-controls-border-color: #000;
     --wp-controls-background-color: #fff;
     --wp-mute-solo-color: #343a40;
     --wp-mute-solo-hover-color: #fff;
@@ -60,9 +60,46 @@
   border-left: 1px solid #dee2e6;
   border-radius: 0;
 }
+.playlist-tracks .channel-wrapper .waveform{
+  background-color: #000 !important;
+}
 /* .playlist-tracks .channel-wrapper {
   border-bottom: 1px solid #dee2e6;
 } */
+/* .playlist-tracks .channel-wrapper.cata .waveform{ 
+  background-color: #000 !important;
+} */
+.playlist-tracks .channel-wrapper.clave .waveform .channel, .playlist-tracks .channel-wrapper.click .waveform .channel{
+  background-color: #ffffff;
+}
+
+.playlist-tracks .channel-wrapper.cata .waveform .channel{
+  background-color: #009b41;
+}
+
+.playlist-tracks .channel-wrapper.chequere .waveform .channel{
+  background-color: #f18d51;
+}
+
+.playlist-tracks .channel-wrapper.quinto .waveform .channel{
+  background-color: #0aa9e3;
+}
+
+.playlist-tracks .channel-wrapper.conga .waveform .channel{
+  background-color: #d14189;
+}
+
+.playlist-tracks .channel-wrapper.variacion-conga .waveform .channel{
+  background-color: #faea01;
+}
+
+.playlist-tracks .channel-wrapper.tumbadora .waveform .channel{
+  background-color: #7fc386;
+}
+
+.playlist-tracks .channel-wrapper.campana .waveform .channel{
+  background-color: #0aa9e3;
+}
 
 .btn-group > .btn-solo.active {
   background-color: #198754;
