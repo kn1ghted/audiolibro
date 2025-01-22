@@ -90,7 +90,7 @@
 }
 
 .playlist-tracks .channel-wrapper.variacion-conga .waveform .channel{
-  background-color: #faea01;
+  background-color: #ffed00;
 }
 
 .playlist-tracks .channel-wrapper.tumbadora .waveform .channel{
@@ -103,6 +103,37 @@
 
 .playlist-tracks .channel-wrapper.campana-variacion .waveform .channel{
   background-color: #977abc;
+}
+
+.playlist-tracks .channel-wrapper.chico .waveform .channel{
+  background-color: #009640;
+}
+
+.playlist-tracks .channel-wrapper.quinto-repique .waveform .channel{
+  background-color: #f18a5d;
+}
+
+.playlist-tracks .channel-wrapper.quinto-tumba .waveform .channel{
+  background-color: #00b8f7;
+}
+
+.playlist-tracks .channel-wrapper.variacion-quinto-tumba .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.quinti-timbal .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.quinti-bongo .waveform .channel{
+  background-color: #009640;
+}
+.playlist-tracks .channel-wrapper.quinti-conga .waveform .channel{
+  background-color: #f18a5d;
+}
+.playlist-tracks .channel-wrapper.quinti-campana .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.variacon-quinti-campana .waveform .channel{
+  background-color: #00aeea;
 }
 
 .btn-group > .btn-solo.active {
