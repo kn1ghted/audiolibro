@@ -32,7 +32,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           },
           controls: {
             show: true,
-            width: 150,
+            width: 200,
             widgets: {
               remove: false,
               stereoPan: false,

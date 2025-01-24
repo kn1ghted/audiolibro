@@ -136,6 +136,64 @@
   background-color: #00aeea;
 }
 
+.playlist-tracks .channel-wrapper.setima-clave .waveform .channel{
+  background-color: #fff;
+}
+.playlist-tracks .channel-wrapper.setima-cata .waveform .channel{
+  background-color: #009640;
+}
+.playlist-tracks .channel-wrapper.setima-chequere .waveform .channel{
+  background-color: #f18d51;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-chequere .waveform .channel{
+  background-color: #00aeea;
+}
+.playlist-tracks .channel-wrapper.setima-completa-conga .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.setima-tumbadora .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.setima-campana .waveform .channel{
+  background-color: #7fc386;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-campana .waveform .channel{
+  background-color: #a03916;
+}
+.playlist-tracks .channel-wrapper.setima-timbal .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-tumbadora .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-abierta-tumbadora .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-campana-mano .waveform .channel{
+  background-color: #7fc386;
+}
+.playlist-tracks .channel-wrapper.setima-clave-4-3 .waveform .channel{
+  background-color: #00aeea;
+}
+.playlist-tracks .channel-wrapper.setima-clave-3-4 .waveform .channel{
+  background-color: #f18d51;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-clave .waveform .channel{
+  background-color: #fff;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-chequere .waveform .channel{
+  background-color: #009640;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-abierta-chequere .waveform .channel{
+  background-color: #f18d51;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-conga .waveform .channel{
+  background-color: #00aeea;
+}
+.playlist-tracks .channel-wrapper.setima-conga .waveform .channel{
+  background-color: #009640;
+}
+
 .btn-group > .btn-solo.active {
   background-color: #198754;
   color: white;
