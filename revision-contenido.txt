@@ -6,19 +6,21 @@ Global
 - cambiar tracks de clicks (sónido) - revisar si se puede crear track con sonido nuevo
 - revisar brincos de loop - largo de pistas
 - opción para descarga de archivos de audio - botón en navegación y pié de página
+- revisar anchor id para contenedor de reproductor
+- investigar cuantización del reproductor, posible solución a largo de pistas
 
 Frontpage
-- Cambiar imagen de reproductor a versión actual
-- Quitar imagen lectura circular
++ Cambiar imagen de reproductor a versión actual
++ Quitar imagen lectura circular
 - Editar imagen portada pie de página - pendiente de entrega
-- Créditos en pie de página (nombre)
++ Créditos en pie de página (nombre)
 
 KALOTE
 - Claves de 5
     - revisar título de sección y subtítulo de claves página 46
-    - todas pistas muteadas menos primer track por defecto Página 38
+    + todas pistas muteadas menos primer track por defecto Página 38
     - archivos primeras 3 claves pendientes
-    - agregar reproductor con 5 pistas (claves quintí página 87)
+    + agregar reproductor con 6 pistas (click + claves quintí página 87)
 - Quinta clave completa
     - revisar tamaño de tracks (cata / quinto)
     - variante rápida (cata / chequeré)

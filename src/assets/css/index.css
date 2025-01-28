@@ -53,6 +53,24 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+#sections h2 {
+  color: #ffed00;
+  font-weight: bold;
+}
+
+#sections h3 {
+  color: #00aeea;
+}
+
+footer h3 {
+  color: #ffed00;
+}
+
+footer h4 {
+  color: #00aeea;
+}
+
 .footer-menu li > a{
   color:#fff;
 }
@@ -62,13 +80,13 @@ button:focus-visible {
   gap: 1em;
 }
 
-.footer-menu-column .header-menu{
-  color:#fff;
+.footer-menu-column .header-menu {
+  color:#ffed00;
   font-weight: bold;
   font-size: 1.3rem;
 }
 .submenu li > a:hover{
-  color:#000;
+  color:#ffed00;
 }
 
 @media (prefers-color-scheme: light) {

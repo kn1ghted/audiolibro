@@ -1,5 +1,5 @@
 import slide01 from '../assets/img/lectura-circular.png'
-import waveform_player from '../assets/img/waveform-player.png'
+import waveform_player from '../assets/img/waveform-player-v2.png'
 import Carousel from './Carousel'
 
 const Homepage = () => {
@@ -39,14 +39,14 @@ const Homepage = () => {
           <p>La idea de la creación de este documento surge por un interés de explorar las posibilidades rítmicas dentro de la música popular latinoamericana, creando nuevos ritmos en métricas irregulares (compás de amalgama) a partir de ritmos bailables latinoamericanos, dejando de lado las métricas binarias y ternarias.</p>
       </div>
 
-      <div className="container">
+      <div id="sections" className="container">
           <div className="row align-items-start gx-5">
-            <div className="col bg-primary bg-gradient text-light p-5 me-1">
+            <div className="col bg-dark text-light p-5 me-1">
               <h2>Kalö̀te de monte</h2>
               <h3>Ritmos compuestos en métricas de 5</h3>
               <p>Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.</p>
             </div>
-            <div className="col bg-secondary bg-gradient text-light p-5 ms-1">
+            <div className="col bg-dark text-light p-5 ms-1">
               <h2>Convite de Diriá</h2>
               <h3>Ritmos compuestos en métricas de 7</h3>
               <p>Para la creación de los ritmos en 7, al igual que en los ritmos en 5, fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 4 claves compuestas, cada una con una duración de dos compases en 7/8.</p>
@@ -56,18 +56,18 @@ const Homepage = () => {
 
       <div className="container mt-2">
           <div className="row align-items-start gx-5">
-              <div className="col-xs-1 col-md-6 col-lg-6 bg-light text-light p-2">
+              {/* <div className="col-xs-1 col-md-6 col-lg-6 bg-light text-light p-2">
                   <Carousel slides={slides} interval={5000} />
-              </div>
-              <div className="col-xs-1 col-md-6 col-lg-6 p-2">
+              </div> */}
+              <div className="col-xs-1 col-md-12 col-lg-12 p-2">
                   <div className="container p-3">
-                      <h3>Ejemplo de reproductor de audio con pistas de audio:</h3>
-                      <p>El reproductor contendra las pistas correspondientes a cada instrumento. El reproductor funcionará por defecto cómo un búqle (loop) y cada pista se podrá silenciar o reproducir de manera aislada por parte del usuario</p>
+                      <h3>Reproductor de audio con pistas individuales por instrumento:</h3>
+                      <p>Cada reproductor contiene las pistas individuales para cada instrumento. El reproductor se ejecuta en búqle (loop) or defecto y cada pista se puede silenciar de manera aislada.</p>
                       <img className="img-fluid" src={waveform_player} alt="player"></img>
                       <ul className="list-group">
                           <li className="list-group-item text-small">
                             <small>
-                              <strong><a href="https://naomiaro.github.io/waveform-playlist/" target='_blank'>Waveform Playlist - Stem Tracks</a></strong> <em>&quot;Multitrack scheduling allows to layer audio for simultaneous playback. Mute, solo, or set different volume levels for each audio track that makes up the composition. Control the master volume of the mix.&quot;</em>. Licensed under the MIT License.
+                              <strong><a href="https://naomiaro.github.io/waveform-playlist/" target='_blank'>Waveform Playlist - Stem Tracks</a></strong> <em>&quot;Multitrack scheduling allows to layer audio for simultaneous playback.&quot;</em>. Licensed under the MIT License.
                             </small>
                           </li>
                       </ul>

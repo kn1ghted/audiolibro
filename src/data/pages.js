@@ -5,13 +5,62 @@ const pages = [
     content: {
       sections: [
         {
+          type: "text",
+          content:
+            "Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "claves-5",
+          slides: [],
+          playlists: [
+            {
+              id: "claves-5",
+              data: [
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  name: "Click",
+                  customClass: "click",
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/02-clave-4_2.wav",
+                  name: "Clave 4:2",
+                  muted: true,
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/01-clave-2_4.wav",
+                  name: "Clave 2:4",
+                  muted: true,
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/03-clave_montuno.wav",
+                  name: "Clave de Montuno 4:2:2",
+                  muted: true,
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/04-clave_montuno-variacion.wav",
+                  name: "Variación Clave Montuno 2:2:4",
+                  muted: true,
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/05-timbal.wav",
+                  name: "Cáscara de Timbal (montuno)",
+                  customClass: "quinti-timbal",
+                  muted: true,
+                }
+              ],
+            },
+          ],
+        },
+        {
           type: "header",
-          content: "Claves compuestas en 5",
+          content: "Tipos de Kalö̀te de Monte",
         },
         {
           type: "text",
           content:
-            "Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.",
+            "Se crearon seis tipos distintos de Kalö̀te de Monte, “Quinta de Clave Completa” , “Quinta de Clave Abierta” (ambos inspirados en la Rumba cubana, principalmente en el Guaguancó), dos variaciones de “Quinto” (inspirado en el Candombe Uruguayo), “Quintí” (inspirado en el Son Cubano y el Calypso, este ritmo puede utilizarse con cualquiera de las claves en cinco y funciona como patrón base), “Quinté” (una mezcla entre la Cumbia y ritmos guanacastecos) y “Quintú” (proveniente del patrón del Bolero).",
         },
       ],
     },
@@ -47,12 +96,12 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
-                  name: "Cata",
+                  name: "Catá",
                   customClass: "cata",
                 },
                 {
@@ -72,13 +121,13 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
-                  name: "Variacion Conga",
+                  name: "Conga Variacion",
                   muted: true,
                   customClass: "variacion-conga",
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
-                  name: "Tumbadora",
+                  name: "Tumba",
                   customClass: "tumbadora",
                 },
               ],
@@ -110,12 +159,12 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata.wav",
-                  name: "Cata",
+                  name: "Catá",
                   customClass: "cata",
                 },
                 {
@@ -135,13 +184,13 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/06-conga_variacion.wav",
-                  name: "Variación Conga",
+                  name: "Conga Variación",
                   muted: true,
                   customClass: "variacion-conga",
                 },
                 {
                   src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-tumbadora.wav",
-                  name: "Tumbadora",
+                  name: "Tumba",
                   customClass: "tumbadora",
                 },
               ],
