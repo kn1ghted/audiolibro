@@ -77,7 +77,7 @@ const pages = [
         {
           type: "text",
           content:
-            "Se creó este ritmo en torno a la Clave Completa, la cual es una clave compuesta que se construyó a partir de la combinación de la clave de Son cubano 3:2 y la clave de Guaguancó. Ejemplo con click a tempo de 118 bpm.",
+            "Se creó este ritmo en torno a la Clave Completa, la cual es una clave compuesta que se construyó a partir de la combinación de la clave de Son cubano 3:2 y la clave de Guaguancó. Ejemplo con click a tempo de 198 bpm.",
         },
         {
           type: "audio",
@@ -128,6 +128,65 @@ const pages = [
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
                   name: "Tumba",
+                  customClass: "tumbadora",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Clave Completa - pistas editadas",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "quinta-editadas",
+          slides: [],
+          playlists: [
+            {
+              id: "quinta-completa-edit",
+              data: [
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm-edit.wav",
+                  name: "Click trimed",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/01-clave-edit.wav",
+                  name: "Claves trimed",
+                  customClass: "clave",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/02-cata-edit.wav",
+                  name: "Catá trimed",
+                  customClass: "cata",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/03-chequere-edit.wav",
+                  name: "Chequeré trimed",
+                  customClass: "chequere",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/04-quinto-edit.wav",
+                  name: "Quinto trimed",
+                  customClass: "quinto",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/05-conga-edit.wav",
+                  name: "Conga trimed",
+                  customClass: "conga",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion-edit.wav",
+                  name: "Conga Variacion trimed",
+                  muted: true,
+                  customClass: "variacion-conga",
+                },
+                {
+                  src: "./assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora-edit.wav",
+                  name: "Tumba trimed",
                   customClass: "tumbadora",
                 },
               ],
