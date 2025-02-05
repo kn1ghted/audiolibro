@@ -6,7 +6,7 @@ Global
 - cambiar tracks de clicks (sónido) - revisar si se puede crear track con sonido nuevo
 - revisar brincos de loop - largo de pistas
 - opción para descarga de archivos de audio - botón en navegación y pié de página
-- revisar anchor id para contenedor de reproductor
++ revisar anchor id para contenedor de reproductor
 - investigar cuantización del reproductor, posible solución a largo de pistas
 
 Frontpage
@@ -25,21 +25,21 @@ KALOTE
     - revisar tamaño de tracks (cata / quinto)
     - variante rápida (cata / chequeré)
 - Quinta clave abierta
-    - typo texto intro
-    - cambiar nombre campana variación a campana de mano
-    - mutear ambas campanas
-    - cambiar nombre campana de mano
-    - mutear ambas campanas
+    + typo texto intro
+    + cambiar nombre campana variación a campana de mano
+    + mutear ambas campanas
+    + cambiar nombre campana de mano
+    + mutear ambas campanas
 - Quinto
-    - dejar texto intro solo primer párrafo página 66 
-    - unir 5:4 / 4:5 en una sola página
-    - agregar nombres paréntesis instrumentos partitura
+    + dejar texto intro solo primer párrafo página 66 
+    + unir 5:4 / 4:5 en una sola página
+    + agregar nombres paréntesis instrumentos partitura
 - Quintí
-    - quitar reproductor todas las pistas
+    + quitar reproductor todas las pistas
     - 4:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    - cambiar nombre campana variacion a campana de mano
-    - cambiar orden de campanas
-    - mutear ambas campanas
+    + cambiar nombre campana variacion a campana de mano
+    + cambiar orden de campanas
+    + mutear ambas campanas
     - 2:4 falta timbal después de clave
     - 2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
     - 2:4 mutear campanas, cambiar nombre y orden de pistas

@@ -271,7 +271,7 @@ const pages = [
         {
           type: "text",
           content:
-            "Se creó este ritmo en torno a la clave abierta, la cual es una clave compuesta, que se construyó a partir de la clave de Guaguancó, a la que se le agregó un silencio de negra entre el tercer y cuarto tiempo en cada compás, dando como resultado doscompases de cinco tiempos.",
+            "Se creó este ritmo en torno a la clave abierta, la cual es una clave compuesta, que se construyó a partir de la clave de Guaguancó, a la que se le agregó un silencio de negra entre el tercer y cuarto tiempo en cada compás, dando como resultado dos compases de cinco tiempos.",
         },
         {
           type: "audio",
@@ -337,11 +337,12 @@ const pages = [
                 {
                   src: "./assets/audio/kalote-5/03-quinta_clave_abierta/08-campana.wav",
                   name: "Campana",
+                  muted: true,
                   customClass: "campana",
                 },
                 {
                   src: "./assets/audio/kalote-5/03-quinta_clave_abierta/09-campana_variacion.wav",
-                  name: "Campana Variación",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "campana-variacion",
                 },
@@ -421,11 +422,12 @@ const pages = [
                 {
                   src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/08-campana.wav",
                   name: "Campana",
+                  muted: true,
                   customClass: "campana",
                 },
                 {
                   src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/09-campana_variacion.wav",
-                  name: "Campana Variación",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "campana-variacion",
                 },
@@ -437,13 +439,18 @@ const pages = [
     },
   },
   {
-    slug: "quinto-5-4",
+    slug: "quinto",
     title: "Quinto",
     content: {
       sections: [
         {
+          type: "text",
+          content:
+            "Para la creación de este ritmo se tomó como base el Candombe Uruguayo. A pesar de que el Candombe fue utilizado como punto de partida, el “Quinto” presenta características distintas, ya que se realizó una adaptación en la instrumentación tratando de respetar la sonoridad de cada tambor. El Candombe tradicionalmente consta de tres tambores con forma de barrilete de distintos tamaños, variando tanto en el ancho del tambor como en el parche, dando tres tonos diferentes 9-10). El Tambor Piano del Candombe, que es el tambor de tono más grave, se sustituyó por la Tumbadora; el Tambor Chico, que es el tambor de tono más agudo, por el Requinto (también se puede sustituir por el Tambor Quinto, aunque da un tono más grave) y el Tambor Repique, que es el tambor de tono medio, se sustituyó por el Tambor Quinto (aunque se puede sustituir por el Tambor Conga cuando el chico ha sido sustituido por el Tambor Quinto, dando como resultado un tono más grave), la función principal del Tambor Repique es la improvisación. Con esta sustitución de tambores se buscó mantener la relación de los tonos entre un tambor y otro.",
+        },
+        {
           type: "header",
-          content: "Variante 5 de 4",
+          content: "Variación 5 de 4",
         },
         {
           type: "text",
@@ -467,27 +474,27 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/05-quinto_5-4/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/05-quinto_5-4/02-chico.wav",
-                  name: "Chico",
+                  name: "Requinto (Chico)",
                   customClass: "chico",
                 },
                 {
                   src: "./assets/audio/kalote-5/05-quinto_5-4/03-quinto.wav",
-                  name: "Quinto",
+                  name: "Quinto (Repique)",
                   customClass: "quinto-repique",
                 },
                 {
                   src: "./assets/audio/kalote-5/05-quinto_5-4/04-tumba.wav",
-                  name: "Tumba",
+                  name: "Tumbadora (Piano)",
                   customClass: "quinto-tumba",
                 },
                 {
                   src: "./assets/audio/kalote-5/05-quinto_5-4/05-tumba_variacion.wav",
-                  name: "Tumba Variación",
+                  name: "Tumbadora Variación",
                   muted: true,
                   customClass: "variacion-quinto-tumba",
                 },
@@ -520,27 +527,27 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/06-quinto_5-4-rapido/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/06-quinto_5-4-rapido/02-chico.wav",
-                  name: "Chico",
+                  name: "Requinto (Chico)",
                   customClass: "chico",
                 },
                 {
                   src: "./assets/audio/kalote-5/06-quinto_5-4-rapido/03-quinto.wav",
-                  name: "Quinto",
+                  name: "Quinto (Repique)",
                   customClass: "quinto-repique",
                 },
                 {
                   src: "./assets/audio/kalote-5/06-quinto_5-4-rapido/04-tumba.wav",
-                  name: "Tumba",
+                  name: "Tumbadora (Piano)",
                   customClass: "quinto-tumba",
                 },
                 {
                   src: "./assets/audio/kalote-5/06-quinto_5-4-rapido/05-tumba_variacion.wav",
-                  name: "Tumba Variación",
+                  name: "Tumbadora Variación",
                   muted: true,
                   customClass: "variacion-quinto-tumba",
                 },
@@ -548,17 +555,9 @@ const pages = [
             },
           ],
         },
-      ],
-    },
-  },
-  {
-    slug: "quinto-4-5",
-    title: "Quinto",
-    content: {
-      sections: [
         {
           type: "header",
-          content: "Variante 4 de 5",
+          content: "Variación 4 de 5",
         },
         {
           type: "text",
@@ -582,27 +581,27 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/07-quinto_4_5/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/07-quinto_4_5/02-chico.wav",
-                  name: "Chico",
+                  name: "Quinto (Chico)",
                   customClass: "chico",
                 },
                 {
                   src: "./assets/audio/kalote-5/07-quinto_4_5/03-quinto.wav",
-                  name: "Quinto",
+                  name: "Quinto (Repique)",
                   customClass: "quinto-repique",
                 },
                 {
                   src: "./assets/audio/kalote-5/07-quinto_4_5/04-tumba.wav",
-                  name: "Tumba",
+                  name: "Tumbadora (Piano)",
                   customClass: "quinto-tumba",
                 },
                 {
                   src: "./assets/audio/kalote-5/07-quinto_4_5/05-tumba_variacion.wav",
-                  name: "Tumba Variación",
+                  name: "Tumbadora Variación",
                   muted: true,
                   customClass: "variacion-quinto-tumba",
                 },
@@ -612,7 +611,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Variante 4 de 5 - rápida",
+          content: "Variación 4 de 5 - rápida",
         },
         {
           type: "text",
@@ -635,27 +634,27 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/08-quinto_4-5-rapido/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/08-quinto_4-5-rapido/02-chico.wav",
-                  name: "Chico",
+                  name: "Quinto (Chico)",
                   customClass: "chico",
                 },
                 {
                   src: "./assets/audio/kalote-5/08-quinto_4-5-rapido/03-quinto.wav",
-                  name: "Quinto",
+                  name: "Quinto (Repique)",
                   customClass: "quinto-repique",
                 },
                 {
                   src: "./assets/audio/kalote-5/06-quinto_5-4-rapido/04-tumba.wav",
-                  name: "Tumba",
+                  name: "Tumbadora (Piano)",
                   customClass: "quinto-tumba",
                 },
                 {
                   src: "./assets/audio/kalote-5/08-quinto_4-5-rapido/05-tumba_variacion.wav",
-                  name: "Tumba Variación",
+                  name: "Tumbadora Variación",
                   muted: true,
                   customClass: "variacion-quinto-tumba",
                 },
@@ -679,78 +678,6 @@ const pages = [
           type: "text",
           content:
             "Para crear este ritmo se utilizó como base el patrón del Tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). A este se le agregaron dos golpes (dos corcheas) en cada compás: un golpe abierto en el tercer tiempo y un tapado antes de los dos últimos golpes abiertos, y así se completó el compás en 5.",
-        },
-        {
-          type: "audio",
-          content: "audio",
-          idPlayer: "quinti-tracks",
-          slides: [],
-          playlists: [
-            {
-              id: "quinti-tracks",
-              data: [
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
-                  name: "Click",
-                  muted: true,
-                  customClass: "click",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/01-clave-2_4.wav",
-                  name: "Clave 2:4",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/02-clave-4_2.wav",
-                  name: "Clave 4:2",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/03-clave_montuno.wav",
-                  name: "Clave Montuno",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/04-clave_montuno-variacion.wav",
-                  name: "Clave Montuno Variación",
-                  muted: true,
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/05-timbal.wav",
-                  name: "Timbal",
-                  customClass: "quinti-timbal",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/06-timbal_variacion.wav",
-                  name: "Timbal Variación",
-                  muted: true,
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/07-bongo.wav",
-                  name: "Bongo",
-                  customClass: "quinti-bongo",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
-                  name: "Conga Tumbadora",
-                  customClass: "quinti-conga",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
-                  name: "Quinto",
-                  customClass: "quinto",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
-                  name: "Campana",
-                  customClass: "quinti-campana",
-                },
-                {
-                  src: "./assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
-                  name: "Campana Variación",
-                  muted: true,
-                  customClass: "variacion-quinti-campana",
-                },
-              ],
-            },
-          ],
         },
         {
           type: "header",
@@ -786,15 +713,16 @@ const pages = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
-                  name: "Campana",
-                  customClass: "quinti-campana",
-                },
-                {
                   src: "./assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
-                  name: "Campana Variación",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  name: "Campana",
+                  muted: true,
+                  customClass: "quinti-campana",
                 },
               ],
             },
@@ -834,15 +762,16 @@ const pages = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
-                  name: "Campana",
-                  customClass: "quinti-campana",
-                },
-                {
                   src: "./assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
-                  name: "Campana Variación",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  name: "Campana",
+                  muted: true,
+                  customClass: "quinti-campana",
                 },
               ],
             },
@@ -869,7 +798,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/03-clave_montuno.wav",
-                  name: "Clave Montuno",
+                  name: "Clave 4:2:2",
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
@@ -877,15 +806,16 @@ const pages = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
-                  name: "Campana",
-                  customClass: "quinti-campana",
-                },
-                {
                   src: "./assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
-                  name: "Campana Variación",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  name: "Campana",
+                  muted: true,
+                  customClass: "quinti-campana",
                 },
               ],
             },
@@ -912,7 +842,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/04-clave_montuno-variacion.wav",
-                  name: "Clave Montuno Variación",
+                  name: "Clave 2:2:4",
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/07-bongo.wav",
@@ -941,16 +871,16 @@ const pages = [
         },
         {
           type: "header",
-          content: "Quintí Timbal Montuno",
+          content: "Quintí Cáscara de Timbal",
         },
         {
           type: "audio",
           content: "audio",
-          idPlayer: "quinti-timbal-montuno",
+          idPlayer: "quinti-cascara-timbal",
           slides: [],
           playlists: [
             {
-              id: "quinti-timbal-montuno",
+              id: "quinti-cascara-timbal",
               data: [
                 {
                   src: "./assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
@@ -960,7 +890,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/05-timbal.wav",
-                  name: "Timbal",
+                  name: "Cáscara de Timbal",
                   customClass: "quinti-timbal",
                 },
                 {
@@ -974,15 +904,16 @@ const pages = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
-                  name: "Campana",
-                  customClass: "quinti-campana",
-                },
-                {
                   src: "./assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
-                  name: "Campana Variación",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
+                },
+                {
+                  src: "./assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  name: "Campana",
+                  muted: true,
+                  customClass: "quinti-campana",
                 },
               ],
             },
@@ -1030,12 +961,12 @@ const pages = [
       sections: [
         {
           type: "header",
-          content: "Quinté en 5/2",
+          content: "Quinté en 5",
         },
         {
           type: "text",
           content:
-            "La estructura principal que se utilizó para la creación de este ritmo proviene de la Cumbia Colombiana. La Tumbadora y la percusión menor mantienen el patrón original de la Cumbia, es el Tambor Conga el que lleva el ritmo a una métrica en 5, inspirada en un patrón rítmico que se encuentra presente en la música costarricense, principalmente en la música de Guanacaste. Este patrón consta de corchea - negra, corchea - negra en repetición constante como en la percusión del 'Pasillo'.",
+            "La estructura principal que se utilizó para la creación de este ritmo proviene de la Cumbia Colombiana. La Tumbadora y la percusión menor mantienen el patrón original de la Cumbia, es el Tambor Conga el que lleva el ritmo a una métrica en 5.",
         },
         {
           type: "audio",
@@ -1049,6 +980,7 @@ const pages = [
                 {
                   src: "./assets/audio/kalote-5/10-quinte/00-click_190bpm.wav",
                   name: "Click 190",
+                  muted: true,
                   customClass: "click",
                 },
                 {
@@ -1057,11 +989,11 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/10-quinte/02-maraca.wav",
-                  name: "Maraca",
+                  name: "Maracas",
                 },
                 {
                   src: "./assets/audio/kalote-5/10-quinte/03-quinto.wav",
-                  name: "Quinto",
+                  name: "Conga",
                   customClass: "quinto",
                 },
                 {
@@ -1082,7 +1014,7 @@ const pages = [
       sections: [
         {
           type: "header",
-          content: "Quintú en 5/2",
+          content: "Quintú en 5",
         },
         {
           type: "text",
@@ -1101,6 +1033,7 @@ const pages = [
                 {
                   src: "./assets/audio/kalote-5/11-quintu/00-click_116bpm.wav",
                   name: "Click 116",
+                  muted: true,
                   customClass: "click",
                 },
                 {

@@ -22,26 +22,21 @@ const navigation = [
       },
       {
         id: "23",
-        label: "Quinto 5 de 4",
-        path: "/quinto-5-4",
+        label: "Quinto",
+        path: "/quinto",
       },
       {
         id: "24",
-        label: "Quinto 4 de 5",
-        path: "/quinto-4-5",
-      },
-      {
-        id: "25",
         label: "Quintí",
         path: "/quinti",
       },
       {
-        id: "26",
+        id: "25",
         label: "Quinté",
         path: "/quinte",
       },
       {
-        id: "27",
+        id: "26",
         label: "Quintú",
         path: "/quintu",
       },
