@@ -70,13 +70,8 @@ const navigation = [
       },
       {
         id: "35",
-        label: "Séptimo 4:3",
-        path: "/septimo-4-3",
-      },
-      {
-        id: "36",
-        label: "Séptimo 3:4",
-        path: "/septimo-3-4",
+        label: "Séptimo",
+        path: "/septimo",
       },
     ],
   }

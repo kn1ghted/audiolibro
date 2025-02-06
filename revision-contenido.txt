@@ -42,61 +42,61 @@ KALOTE
     + mutear ambas campanas
     - 2:4 falta timbal después de clave
     - 2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    - 2:4 mutear campanas, cambiar nombre y orden de pistas
-    - 4:2:2 cambiar nombre clave 4:2:2
+    + 2:4 mutear campanas, cambiar nombre y orden de pistas
+    + 4:2:2 cambiar nombre clave 4:2:2
     - 4:2:2 falta bongo
     - 4:2:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    - 4:2:2 mutear campanas, cambiar nombre y orden de pistas
-    - 2:2:4 cambiar nombre clave
+    + 4:2:2 mutear campanas, cambiar nombre y orden de pistas
+    + 2:2:4 cambiar nombre clave
     - 2:2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    - 2:2:4 mutear campanas, cambiar nombre y orden de pistas
-    - cambiar nombre cáscara de timbal 
-    - cambiar nombre clave cáscara de timbal 
+    + 2:2:4 mutear campanas, cambiar nombre y orden de pistas
+    + cambiar nombre cáscara de timbal 
+    + cambiar nombre clave cáscara de timbal 
     - cáscara de timbal cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    - cáscara de timbal mutear campanas, cambiar nombre y orden de pistas
+    + cáscara de timbal mutear campanas, cambiar nombre y orden de pistas
     - quinti clave completa, tomar instrumentos de partitura, clave pendiente de grabar
     - quinti clave abierta, tomar instrumentos de partitura, clave pendiente de grabar
     - quinti 3:4, tomar instrumentos de partitura, clave pendiente de grabar
     - quinti 2:4 conga y tumba, armar con clave existente
 - Quinté
-    - quinté 5:2 cambiar a quinté en 5
-    - texto intro cortar hasta 5
-    - quinté cambiar nombre quinto por conga
-    - mutear clicks
+    + quinté 5:2 cambiar a quinté en 5
+    + texto intro cortar hasta 5
+    + quinté cambiar nombre quinto por conga
+    + mutear clicks
 - Quintú
-    - cambiar nombre a quintú en 5 
-    - mutear click
+    + cambiar nombre a quintú en 5 
+    + mutear click
     - texto adicional para bongo y clave 2
-    - un solo reproductor
-    - pistas al final, muteadas como adicionales (clave 2 y bongo)
-    - quinto cambiar nombre a congas
-    - timbal cambiar nombre a cáscara
-    - revisar orden de pistas
+    + un solo reproductor
+    + pistas al final, muteadas como adicionales (clave 2 y bongo)
+    + quinto cambiar nombre a congas
+    + timbal cambiar nombre a cáscara
+    + revisar orden de pistas
 
 CONVITE
 - Claves de 7
-    - revisar título de sección y subtitulo de claves
-    - página 182
-    - texto intro solo primer párrafo
-    - un reproductor con pistas de claves (4)
-    - todas pistas muteadas menos primer track por defecto
-    - tomar claves y tempo de folder de séptima
-    - tomar orden del libro página 177
+    + revisar título de sección y subtitulo de claves
+    + página 182
+    + texto intro solo primer párrafo
+    + un reproductor con pistas de claves (4)
+    + todas pistas muteadas menos primer track por defecto
+    + tomar claves y tempo de folder de séptima
+    + tomar orden del libro página 177
 - Clave completa
     - título y texto página 183
     - track chequeré variación pendiente en reproductor normal - escribir aclaración en texto intro
     - track chequere 1 en variante rápida - escribir aclaración en texto intro
     - click 175bpm 7/8
     - click 203bpm 7/8 rápida
-    - mutear campanas ambos reproductores
-    - revisar título rápida  - en 7
+    + mutear campanas ambos reproductores
+    + revisar título rápida  - en 7
     - rápida no hay quinto - agregar a texto intro
 - Clave abierta
-    - título y texto intro página 196
+    + título y texto intro página 196
     - click 119bpm blanca
 - Séptima
-    - texto intro mover debajo del título
-    - modificar título a solo séptima
+    + texto intro mover debajo del título
+    + modificar título a solo séptima
     - click blanca 120bpm
     - unificar 4:3 y 3:4 en una sola página
     - agregar 2 reproductores 2 tracks (clave 4:3 + conga / clave abierta + conga)
@@ -104,8 +104,8 @@ CONVITE
     - abierta - timbal 3:4
 - Séptimo
     - click blanca 120bpm
-    - unificar 4:3 y 3:4 en una sola página
-    - 4:3 texto intro página 235, solo tercer párrafo
+    + unificar 4:3 y 3:4 en una sola página
+    + 4:3 texto intro página 235, solo tercer párrafo
     - 4:3 clave completa conga 4:3 - revisar archivos y nombres
     - 3:4 clave abierta conga 3:4 - revisar archivos y nombres
     - dos reproductores para cada sección
