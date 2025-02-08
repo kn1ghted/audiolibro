@@ -8,6 +8,7 @@ Global
 - opción para descarga de archivos de audio - botón en navegación y pié de página
 + revisar anchor id para contenedor de reproductor
 - investigar cuantización del reproductor, posible solución a largo de pistas
+- limpieza de archivos (assets)
 
 Frontpage
 + Cambiar imagen de reproductor a versión actual

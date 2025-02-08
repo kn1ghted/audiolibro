@@ -256,6 +256,69 @@ const pages = [
             },
           ],
         },
+        {
+          type: "header",
+          content: "Clave Completa - rápida (pistas editadas)",
+        },
+        {
+          type: "text",
+          content: "Variante con click a tempo 225 bpm.",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "quinta-completa-rapida-editadas",
+          slides: [],
+          playlists: [
+            {
+              id: "quinta-completa-rapida-editadas",
+              data: [
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm-edit.wav",
+                  name: "Click",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave-edit.wav",
+                  name: "Claves",
+                  customClass: "clave",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata-edit.wav",
+                  name: "Catá",
+                  customClass: "cata",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/03-chequere-edit.wav",
+                  name: "Chequeré",
+                  customClass: "chequere",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/04-quinto-edit.wav",
+                  name: "Quinto",
+                  customClass: "quinto",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-conga-edit.wav",
+                  name: "Conga",
+                  customClass: "conga",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/06-conga_variacion-edit.wav",
+                  name: "Conga Variación",
+                  muted: true,
+                  customClass: "variacion-conga",
+                },
+                {
+                  src: "./assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-tumbadora-edit.wav",
+                  name: "Tumba",
+                  customClass: "tumbadora",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
   },
