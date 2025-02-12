@@ -13,10 +13,10 @@ export const Navbar = ({ navigation }) => {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
         {navigation.map((link) => (
-        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.id}>
+        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.slug}>
           <Link 
           className={`nav-link ${link.children ? 'dropdown-toggle' : ''}`} 
-          to={link.path} 
+          to={link.slug} 
           role="button" 
           data-bs-toggle={link.children ? 'dropdown' : undefined} 
           aria-expanded="false"
@@ -26,12 +26,12 @@ export const Navbar = ({ navigation }) => {
           {link.children && (
            <ul className="dropdown-menu" aria-labelledby="dd_ritmos-5">
           {link.children.map((child) => (
-            <li key={child.path}>
+            <li key={child.slug}>
             <Link 
-              to={child.path}
+              to={child.slug}
               className="dropdown-item"
             >
-              {child.label}
+              {child.title}
             </Link>
             </li>
           ))}
