@@ -7,8 +7,8 @@ Global
 - revisar brincos de loop - largo de pistas
 - opción para descarga de archivos de audio - botón en navegación y pié de página
 + revisar anchor id para contenedor de reproductor
-- investigar cuantización del reproductor, posible solución a largo de pistas
-- limpieza de archivos (assets)
++ investigar cuantización del reproductor, posible solución a largo de pistas
++ limpieza de archivos (assets)
 
 Frontpage
 + Cambiar imagen de reproductor a versión actual
@@ -23,8 +23,8 @@ KALOTE
     - archivos primeras 3 claves pendientes
     + agregar reproductor con 6 pistas (click + claves quintí página 87)
 - Quinta clave completa
-    - revisar tamaño de tracks (cata / quinto)
-    - variante rápida (cata / chequeré)
+    + revisar tamaño de tracks (cata / quinto)
+    + variante rápida (cata / chequeré)
 - Quinta clave abierta
     + typo texto intro
     + cambiar nombre campana variación a campana de mano
@@ -37,23 +37,23 @@ KALOTE
     + agregar nombres paréntesis instrumentos partitura
 - Quintí
     + quitar reproductor todas las pistas
-    - 4:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
+    + 4:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
     + cambiar nombre campana variacion a campana de mano
     + cambiar orden de campanas
     + mutear ambas campanas
-    - 2:4 falta timbal después de clave
-    - 2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
+    + 2:4 falta timbal después de clave
+    + 2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
     + 2:4 mutear campanas, cambiar nombre y orden de pistas
     + 4:2:2 cambiar nombre clave 4:2:2
-    - 4:2:2 falta bongo
-    - 4:2:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
+    + 4:2:2 falta bongo
+    + 4:2:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
     + 4:2:2 mutear campanas, cambiar nombre y orden de pistas
     + 2:2:4 cambiar nombre clave
-    - 2:2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
+    + 2:2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
     + 2:2:4 mutear campanas, cambiar nombre y orden de pistas
     + cambiar nombre cáscara de timbal 
     + cambiar nombre clave cáscara de timbal 
-    - cáscara de timbal cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
+    + cáscara de timbal cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
     + cáscara de timbal mutear campanas, cambiar nombre y orden de pistas
     - quinti clave completa, tomar instrumentos de partitura, clave pendiente de grabar
     - quinti clave abierta, tomar instrumentos de partitura, clave pendiente de grabar
@@ -67,7 +67,7 @@ KALOTE
 - Quintú
     + cambiar nombre a quintú en 5 
     + mutear click
-    - texto adicional para bongo y clave 2
+    + texto adicional para bongo y clave 2
     + un solo reproductor
     + pistas al final, muteadas como adicionales (clave 2 y bongo)
     + quinto cambiar nombre a congas
