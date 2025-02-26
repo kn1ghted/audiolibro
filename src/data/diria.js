@@ -489,14 +489,7 @@ const diria = [
         },
       ],
     },
-  },
-  {
-    slug: "septimo-3-4",
-    title: "Séptimo",
-    content: {
-      sections: [],
-    },
-  },
+  }
 ];
 
 export default diria;

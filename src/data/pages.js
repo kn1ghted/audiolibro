@@ -1151,11 +1151,11 @@ const pages = [
         {
           type: "audio",
           content: "audio",
-          idPlayer: "quinti-2-4",
+          idPlayer: "quinti-2-4-conga",
           slides: [],
           playlists: [
             {
-              id: "quinti-2-4",
+              id: "quinti-2-4-conga",
               data: [
                 {
                   src: "./assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
@@ -1378,7 +1378,7 @@ const pages = [
         {
           type: "text",
           content:
-            "Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Completa en 7”), la cual se deriva de la “Clave Completa” en 5 utilizando la lógica de la Hemiola.}",
+            `Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Completa en 7”), la cual se deriva de la “Clave Completa” en 5 utilizando la lógica de la Hemiola.} (ojo texto pdf). El chequeré presente en el reproductor corresponde a la partitura presentada en el libro para el instrumento chequeré variación.`,
         },
         {
           type: "audio",
@@ -1391,17 +1391,17 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/01-clave-completa/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "setima-clave",
                 },
                 {
                   src: "./assets/audio/convite-7/01-clave-completa/02-cata.wav",
-                  name: "Cata",
+                  name: "Catá",
                   customClass: "setima-cata",
                 },
                 {
                   src: "./assets/audio/convite-7/01-clave-completa/03-chequere.wav",
-                  name: "Chequeré",
+                  name: "Chequeré variación",
                   customClass: "setima-chequere",
                 },
                 {
@@ -1440,6 +1440,11 @@ const pages = [
           content: "Clave completa en 7 - variante rápida",
         },
         {
+          type: "text",
+          content:
+            `La pista usada para el chequeré en el reproductor corresponde al cifrado del chequeré en el libro. Adicionalmente se aclara que no se incluye la pista correspondiente a la partitura para el instrumento quinto en el libro.`,
+        },
+        {
           type: "audio",
           content: "audio",
           idPlayer: "clave-completa-rapida",
@@ -1455,7 +1460,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/02-clave-completa_rapida/02-cata.wav",
-                  name: "Cata",
+                  name: "Catá",
                   customClass: "setima-cata",
                 },
                 {
@@ -1572,7 +1577,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptima 4:3 en 7",
+          content: "Séptima 4:3 en 7/8",
         },
         {
           type: "text",
@@ -1591,6 +1596,39 @@ const pages = [
                 {
                   src: "./assets/audio/convite-7/04-septima/01-clave-son_4-3.wav",
                   name: "Clave 4:3",
+                  customClass: "setima-clave-4-3",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  name: "Conga",
+                  customClass: "setima-conga",
+                },
+                {
+                  src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
+                  name: "Timbal 4:3",
+                  customClass: "setima-timbal",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "text",
+          content:
+            `Ejemplo de audio con clave abierta.`,
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septima-4-3-abierta",
+          slides: [],
+          playlists: [
+            {
+              id: "septima-4-3-abierta",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/04-septima/04-clave-abierta-son.wav",
+                  name: "Clave abierta",
                   customClass: "setima-clave-4-3",
                 },
                 {
@@ -1674,11 +1712,6 @@ const pages = [
                   name: "Timbal 4:3",
                   customClass: "setima-timbal",
                 },
-                {
-                  src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
-                  name: "Timbal 3:4",
-                  customClass: "setima-timbal",
-                },
               ],
             },
           ],
@@ -1708,11 +1741,6 @@ const pages = [
                   src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
                   name: "Conga",
                   customClass: "setima-conga",
-                },
-                {
-                  src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
-                  name: "Timbal 4:3",
-                  customClass: "setima-timbal",
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
@@ -1751,16 +1779,12 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/05-septimo_4-3/01-clave_4-3.wav",
-                  name: "Clave 4:3",
+                  name: "Clave 4-3",
                   customClass: "setima-clave-4-3",
                 },
                 {
-                  src: "./assets/audio/convite-7/05-septimo_4-3/02-clave_abierta.wav",
-                  name: "Clave Abierta",
-                },
-                {
                   src: "./assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.wav",
-                  name: "Conga",
+                  name: "Conga variación",
                   customClass: "setima-conga",
                 },
               ],
@@ -1787,12 +1811,8 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/06-septimo_3-4/01-clave_3-4.wav",
-                  name: "Clave 3:4",
+                  name: "Clave 3-4",
                   customClass: "setima-clave-3-4",
-                },
-                {
-                  src: "./assets/audio/convite-7/06-septimo_3-4/02-clave_completa.wav",
-                  name: "Clave Completa",
                 },
                 {
                   src: "./assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
@@ -1803,15 +1823,60 @@ const pages = [
             },
           ],
         },
-      ],
-    },
-  },
-  {
-    slug: "septimo-3-4",
-    title: "Séptimo",
-    content: {
-      sections: [
-        
+        {
+          type: "header",
+          content: "Séptimo de clave completa en 7/4",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septimo-clave-completa",
+          slides: [],
+          playlists: [
+            {
+              id: "septimo-clave-completa",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/06-septimo_3-4/02-clave_completa.wav",
+                  name: "Clave completa",
+                  customClass: "setima-clave-3-4",
+                },
+                {
+                  src: "./assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
+                  name: "Conga",
+                  customClass: "setima-conga",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Séptimo de clave abierta en 7/4",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septimo-clave-abierta",
+          slides: [],
+          playlists: [
+            {
+              id: "septimo-clave-abierta",
+              data: [
+                {
+                  src: "./assets/audio/convite-7/05-septimo_4-3/02-clave_abierta.wav",
+                  name: "Clave abierta",
+                  customClass: "setima-clave-3-4",
+                },
+                {
+                  src: "./assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
+                  name: "Conga",
+                  customClass: "setima-conga",
+                },
+              ],
+            },
+          ],
+        },
       ],
     },
   },

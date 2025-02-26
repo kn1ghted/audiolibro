@@ -84,14 +84,14 @@ CONVITE
     + tomar claves y tempo de folder de séptima
     + tomar orden del libro página 177
 - Clave completa
-    - título y texto página 183
-    - track chequeré variación pendiente en reproductor normal - escribir aclaración en texto intro
-    - track chequere 1 en variante rápida - escribir aclaración en texto intro
+    + título y texto página 183
+    + track chequeré variación pendiente en reproductor normal - escribir aclaración en texto intro
+    + track chequere 1 en variante rápida - escribir aclaración en texto intro
     - click 175bpm 7/8
     - click 203bpm 7/8 rápida
     + mutear campanas ambos reproductores
     + revisar título rápida  - en 7
-    - rápida no hay quinto - agregar a texto intro
+    + rápida no hay quinto - agregar a texto intro
 - Clave abierta
     + título y texto intro página 196
     - click 119bpm blanca
@@ -99,14 +99,14 @@ CONVITE
     + texto intro mover debajo del título
     + modificar título a solo séptima
     - click blanca 120bpm
-    - unificar 4:3 y 3:4 en una sola página
-    - agregar 2 reproductores 2 tracks (clave 4:3 + conga / clave abierta + conga)
-    - completa - timbal 4:3
-    - abierta - timbal 3:4
+    + unificar 4:3 y 3:4 en una sola página
+    + agregar 2 reproductores 2 tracks (clave 4:3 + conga / clave abierta + conga)
+    + completa - timbal 4:3
+    + abierta - timbal 3:4
 - Séptimo
     - click blanca 120bpm
     + unificar 4:3 y 3:4 en una sola página
     + 4:3 texto intro página 235, solo tercer párrafo
-    - 4:3 clave completa conga 4:3 - revisar archivos y nombres
-    - 3:4 clave abierta conga 3:4 - revisar archivos y nombres
+    + 4:3 clave completa conga 4:3 - revisar archivos y nombres
+    + 3:4 clave abierta conga 3:4 - revisar archivos y nombres
     - dos reproductores para cada sección
