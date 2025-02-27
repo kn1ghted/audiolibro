@@ -13,16 +13,16 @@ const FooterMenu = () => {
             <ul className="list-unstyled mb-0 footer-menu-columns">
                 <div className="footer-menu-column">
                     {firstColumn.map((link) => (
-                        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.id}>
+                        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.slug}>
                             <Link className="header-menu">
                                 {link.label}
                             </Link>
                             {link.children && (
                                 <ul className="list-unstyled submenu">
                                     {link.children.map((child) => (
-                                        <li key={child.path}>
-                                            <Link to={child.path}>
-                                                {child.label}
+                                        <li key={child.slug}>
+                                            <Link to={child.slug}>
+                                                {child.title}
                                             </Link>
                                         </li>
                                     ))}
@@ -33,16 +33,16 @@ const FooterMenu = () => {
                 </div>
                 <div className="footer-menu-column">
                     {secondColumn.map((link) => (
-                        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.id}>
+                        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.slug}>
                            <Link className="header-menu">
                                 {link.label}
                             </Link>
                             {link.children && (
                                 <ul className="list-unstyled submenu">
                                     {link.children.map((child) => (
-                                        <li key={child.path}>
-                                            <Link to={child.path}>
-                                                {child.label}
+                                        <li key={child.slug}>
+                                            <Link to={child.slug}>
+                                                {child.title}
                                             </Link>
                                         </li>
                                     ))}
