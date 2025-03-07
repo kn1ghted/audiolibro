@@ -21,7 +21,7 @@ const FooterMenu = () => {
                                 <ul className="list-unstyled submenu">
                                     {link.children.map((child) => (
                                         <li key={child.slug}>
-                                            <Link to={child.slug}>
+                                            <Link to={`${link.slug}/${child.slug}`}>
                                                 {child.title}
                                             </Link>
                                         </li>
@@ -41,7 +41,7 @@ const FooterMenu = () => {
                                 <ul className="list-unstyled submenu">
                                     {link.children.map((child) => (
                                         <li key={child.slug}>
-                                            <Link to={child.slug}>
+                                            <Link to={`${link.slug}/${child.slug}`}>
                                                 {child.title}
                                             </Link>
                                         </li>
