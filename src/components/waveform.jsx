@@ -15,6 +15,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
     // });
 
     console.log(slides);
+    console.log(playlists);
 
     playlists.forEach((playlist, index) => {
       if (!playlistRefs.current[index]) {
@@ -153,7 +154,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
                     <i className="fa-solid fa-repeat" aria-hidden="true"></i>
                   </button>
                 </div>
-                <div class="btn-group mx-4">
+                <div className="btn-group mx-4">
                   <button 
                     type="button"
                     id={`btn-zoomIn-${playlist.id}`} 

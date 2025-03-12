@@ -6,6 +6,7 @@ const navigation = [
     id: "2",
     label: " Kalö̀te de monte",
     path: "#",
+    slug: "kalote",
     children: kalote,
     // children: [
     //   // PATH debe ser igual al slug de la página en pages.js
@@ -51,6 +52,7 @@ const navigation = [
     label: "Convite de Diriá",
     // se usa para crear dropdowns
     path: "#", 
+    slug: "diria",
     children: diria,
     // children: [
     //   {
@@ -83,4 +85,3 @@ const navigation = [
 ];
 
 export default navigation;
-
