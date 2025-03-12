@@ -22,11 +22,11 @@ const pages = [
                   src: "./assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
                   name: "Click",
                   customClass: "click",
+                  muted: true,
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/02-clave-4_2.wav",
                   name: "Clave 4:2",
-                  muted: true,
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/01-clave-2_4.wav",
@@ -53,15 +53,6 @@ const pages = [
             },
           ],
         },
-        {
-          type: "header",
-          content: "Tipos de Kalö̀te de Monte",
-        },
-        {
-          type: "text",
-          content:
-            "Se crearon seis tipos distintos de Kalö̀te de Monte, “Quinta de Clave Completa” , “Quinta de Clave Abierta” (ambos inspirados en la Rumba cubana, principalmente en el Guaguancó), dos variaciones de “Quinto” (inspirado en el Candombe Uruguayo), “Quintí” (inspirado en el Son Cubano y el Calypso, este ritmo puede utilizarse con cualquiera de las claves en cinco y funciona como patrón base), “Quinté” (una mezcla entre la Cumbia y ritmos guanacastecos) y “Quintú” (proveniente del patrón del Bolero).",
-        },
       ],
     },
   },
@@ -77,7 +68,7 @@ const pages = [
         {
           type: "text",
           content:
-            "Se creó este ritmo en torno a la Clave Completa, la cual es una clave compuesta que se construyó a partir de la combinación de la clave de Son cubano 3:2 y la clave de Guaguancó. Ejemplo con click a tempo de 198 bpm.",
+            "Se creó este ritmo en torno a la Clave Completa, la cual es una clave compuesta que se construyó a partir de la combinación de la clave de Son cubano 3:2 y la clave de Guaguancó. Se tomó los primeros 5 tiempos de la clave de Son Cubano 3:2 y se complementaron con los últimos 5 tiempos de la clave de Guagancó, dando como resultado dos compases de cinco tiempos.",
         },
         {
           type: "audio",
@@ -121,7 +112,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
-                  name: "Conga Variacion",
+                  name: "Conga Variación",
                   muted: true,
                   customClass: "variacion-conga",
                 },
@@ -363,17 +354,17 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/03-quinta_clave_abierta/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/03-quinta_clave_abierta/02-cata.wav",
-                  name: "Cata",
+                  name: "Catá",
                   customClass: "cata",
                 },
                 {
                   src: "./assets/audio/kalote-5/03-quinta_clave_abierta/03-chequere.wav",
-                  name: "Chequere",
+                  name: "Chequeré",
                   customClass: "chequere",
                 },
                 {
@@ -424,18 +415,6 @@ const pages = [
         {
           type: "audio",
           content: "audio",
-          slides: [
-            /*{
-              id: "quinta-abierta-rapida",
-              images: [
-                {
-                  image: "./assets/img/5/02-quinta_abierta-circular.png",
-                  title: "Lectura Circular",
-                  description: "Clave de Quinta Abierta rápida",
-                }
-              ]
-            }*/
-          ],
           playlists: [
             {
               id: "quinta-clave-abierta-rapida",
@@ -448,17 +427,17 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/01-clave.wav",
-                  name: "Clave",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/02-cata.wav",
-                  name: "Cata",
+                  name: "Catá",
                   customClass: "cata",
                 },
                 {
                   src: "./assets/audio/kalote-5/04-quinta_clave_abierta-rapida/03-chequere.wav",
-                  name: "Chequere",
+                  name: "Chequeré",
                   customClass: "chequere",
                 },
                 {
@@ -771,7 +750,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -815,7 +794,7 @@ const pages = [
                   name: "Claves",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/05-timbal.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/06-timbal_variacion.wav",
                   name: "Timbales",
                   customClass: "quinti-timbal",
                 },
@@ -825,7 +804,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -874,7 +853,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -923,7 +902,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -945,7 +924,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Quintí Cáscara de Timbal",
+          content: "Quintí Cáscara de Timbal (Quintí Timbal)",
         },
         {
           type: "audio",
@@ -964,7 +943,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/09-quinti/05-timbal.wav",
-                  name: "Timbales",
+                  name: "Timbales (clave cáscara de timbal)",
                   customClass: "quinti-timbal",
                 },
                 {
@@ -973,7 +952,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -1022,7 +1001,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -1071,7 +1050,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -1120,7 +1099,7 @@ const pages = [
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/09-quinto.wav",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
@@ -1168,7 +1147,7 @@ const pages = [
                   name: "Claves",
                 },
                 {
-                  src: "./assets/audio/kalote-5/09-quinti/05-timbal.wav",
+                  src: "./assets/audio/kalote-5/09-quinti/06-timbal_variacion.wav",
                   name: "Timbales",
                   customClass: "quinti-timbal",
                 },
@@ -1266,8 +1245,8 @@ const pages = [
         {
           type: "div",
           content:
-            `<p>El patrón que se utilizó de referencia para la creación de este ritmo proviene del Bolero. La clave es igual a una Clave Cubana 3:2 a la que se le agrega dos golpes de negra al final , dando como resultado dos compases de 5/4.</p>
-            <p>En este ejemplo de audio se agregan 2 pistas adicionales: una clave en variación y un Bongo. Estos se encuentran al final del reproductor.</p>`,
+            `<p>El patrón que se utilizó de referencia para la creación de este ritmo proviene del Bolero. La clave es igual a una Clave Cubana 3:2 a la que se le agrega dos golpes de negra al final, dando como resultado la Clave 3:4 en dos compases de 5/4.</p>
+            <p>En este ejemplo de audio se agregan 2 pistas adicionales que no se encuentran en la partitura: un Bongo (es el mismo patrón del bongo del Quintí a un tiempo más lento) y una Clave en Variación (es la misma Clave 3:4 pero el patrón invierte los compases y comienza en el segundo compás dando una Clave 4:3). Estos se encuentran al final del reproductor.</p>`,
         },
         {
           type: "audio",
@@ -1286,11 +1265,11 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/kalote-5/11-quintu/01-Clave.wav",
-                  name: "Clave",
+                  name: "Clave 3:4",
                 },
                 {
                   src: "./assets/audio/kalote-5/11-quintu/Timbal Quintú.wav",
-                  name: "Cáscara",
+                  name: "Cáscara 3:4",
                 },
                 {
                   src: "./assets/audio/kalote-5/11-quintu/Quinto Quintú.wav",
@@ -1298,13 +1277,13 @@ const pages = [
                   customClass: "quinto",
                 },
                 {
-                  src: "./assets/audio/kalote-5/11-quintu/02-clave2 Quintú.wav",
-                  name: "Clave 2",
+                  src: "./assets/audio/kalote-5/11-quintu/Bongo Quintú.wav",
+                  name: "Bongo",
                   muted: true,
                 },
                 {
-                  src: "./assets/audio/kalote-5/11-quintu/Bongo Quintú.wav",
-                  name: "Bongo",
+                  src: "./assets/audio/kalote-5/11-quintu/02-clave2 Quintú.wav",
+                  name: "Clave Variación 4:3",
                   muted: true,
                 },
               ],
@@ -1345,27 +1324,19 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/02-clave-son_3-4.wav",
-                  name: "Clave 3:4",
+                  name: "Clave 3 - 4 en 7/8",
                   muted: true,
                   customClass: "setima-chequere",
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/01-clave-son_4-3.wav",
-                  name: "Clave 4:3",
+                  name: "Clave 4 - 3 en 7/8",
                   muted: true,
                   customClass: "variacion-setima-chequere",
                 },
               ],
             },
           ],
-        },
-        {
-          type: "header",
-          content: "Tipos de Convite de Diriá",
-        },
-        {
-          type: "div",
-          content: `Se crearon cuatro tipos de Convites de Diriá, “ Clave Completa en 7” , “ Clave abierta en 7” (para la creación de ambos se tomó como punto de partida los ritmos que pertenecen a la familia de la Rumba Cubana (7-8) y se utilizaron las claves compuestas pertenecientes a las Quintas), “Séptima” y “Séptimo” (ambos se originan del patrón del Tambor Conga que se utiliza en el Son Cubano y en las variaciones del Calypso limonense (8)).`,
         },
       ],
     },
@@ -1378,7 +1349,7 @@ const pages = [
         {
           type: "text",
           content:
-            `Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Completa en 7”), la cual se deriva de la “Clave Completa” en 5 utilizando la lógica de la Hemiola.} (ojo texto pdf). El chequeré presente en el reproductor corresponde a la partitura presentada en el libro para el instrumento chequeré variación.`,
+            `Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Completa en 7”), la cual se deriva de la “Clave Completa” en 5 utilizando la lógica de la Hemiola. El Chequeré presente en este reproductor corresponde al Chequeré Variación de la partitura en el libro.`,
         },
         {
           type: "audio",
@@ -1401,7 +1372,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/01-clave-completa/03-chequere.wav",
-                  name: "Chequeré variación",
+                  name: "Chequeré Variación",
                   customClass: "setima-chequere",
                 },
                 {
@@ -1442,7 +1413,7 @@ const pages = [
         {
           type: "text",
           content:
-            `La pista usada para el chequeré en el reproductor corresponde al cifrado del chequeré en el libro. Adicionalmente se aclara que no se incluye la pista correspondiente a la partitura para el instrumento quinto en el libro.`,
+            `La pista usada en este reproductor para el Chequeré corresponde al Chequeré de la partitura en el libro. Además en este reproductor no se incluye la pista correspondiente al Quinto de la partitura en el libro.`,
         },
         {
           type: "audio",
@@ -1503,10 +1474,6 @@ const pages = [
     content: {
       sections: [
         {
-          type: "header",
-          content: "Clave abierta en 5/4",
-        },
-        {
           type: "text",
           content:
             "Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Abierta en 7”), la cual se deriva de la “Clave Abierta” en 5, utilizando la lógica de la Hemiola.",
@@ -1532,7 +1499,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/03-clave-abierta/03-chequere_golpe.wav",
-                  name: "Chequeré variante",
+                  name: "Chequeré Variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-chequere",
                 },
@@ -1548,7 +1515,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.wav",
-                  name: "Tumbadora variación",
+                  name: "Tumbadora Variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-tumbadora",
                 },
@@ -1573,16 +1540,11 @@ const pages = [
         {
           type: "text",
           content:
-            "Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En esta ocasión se mantiene la misma estructura del patrón, pero se elimina el golpe que corresponde a la corchea del contratiempo del segundo tiempo de cada compás (el cuarto golpe del tambor Conga, la cuarta corchea) , quedando así la figura completa dentro de un compás de 7/8",
+            "Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En esta ocasión se mantiene la misma estructura del patrón, pero se elimina el golpe que corresponde a la corchea del contratiempo del segundo tiempo de cada compás (el cuarto golpe del tambor Conga, la cuarta corchea), quedando así la figura completa dentro de un compás de 7/8.",
         },
         {
           type: "header",
-          content: "Séptima 4:3 en 7/8",
-        },
-        {
-          type: "text",
-          content:
-            `Ejemplo a tempo con click de 120bpm por valor de blancas.`,
+          content: "Séptima 4 - 3 en 7",
         },
         {
           type: "audio",
@@ -1595,7 +1557,7 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/04-septima/01-clave-son_4-3.wav",
-                  name: "Clave 4:3",
+                  name: "Clave 4 - 3",
                   customClass: "setima-clave-4-3",
                 },
                 {
@@ -1605,40 +1567,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
-                  name: "Timbal 4:3",
-                  customClass: "setima-timbal",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          type: "text",
-          content:
-            `Ejemplo de audio con clave abierta.`,
-        },
-        {
-          type: "audio",
-          content: "audio",
-          idPlayer: "septima-4-3-abierta",
-          slides: [],
-          playlists: [
-            {
-              id: "septima-4-3-abierta",
-              data: [
-                {
-                  src: "./assets/audio/convite-7/04-septima/04-clave-abierta-son.wav",
-                  name: "Clave abierta",
-                  customClass: "setima-clave-4-3",
-                },
-                {
-                  src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
-                  name: "Conga",
-                  customClass: "setima-conga",
-                },
-                {
-                  src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
-                  name: "Timbal 4:3",
+                  name: "Timbales",
                   customClass: "setima-timbal",
                 },
               ],
@@ -1647,11 +1576,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptima 3:4 en 7",
-        },
-        {
-          type: "text",
-          content: "Variante de Séptima en 3:4.",
+          content: "Séptima 3 - 4 en 7",
         },
         {
           type: "audio",
@@ -1664,7 +1589,7 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/04-septima/02-clave-son_3-4.wav",
-                  name: "Clave 3:4",
+                  name: "Clave 3 - 4",
                   customClass: "setima-clave-3-4",
                 },
                 {
@@ -1674,7 +1599,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
-                  name: "Timbal 3:4",
+                  name: "Timbales",
                   customClass: "setima-timbal",
                 },
               ],
@@ -1683,11 +1608,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptima Clave Completa",
-        },
-        {
-          type: "text",
-          content: "Variante de Séptima con clave completa.",
+          content: "Séptima Clave Completa en 7",
         },
         {
           type: "audio",
@@ -1700,7 +1621,7 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/04-septima/03-clave-completa-son.wav",
-                  name: "Clave Completa",
+                  name: "Clave Completa en 7",
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
@@ -1709,7 +1630,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
-                  name: "Timbal 4:3",
+                  name: "Timbales",
                   customClass: "setima-timbal",
                 },
               ],
@@ -1718,11 +1639,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptima Clave Abierta",
-        },
-        {
-          type: "text",
-          content: "Variante de Séptima con clave abierta.",
+          content: "Séptima Clave Abierta en 7",
         },
         {
           type: "audio",
@@ -1735,7 +1652,7 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/04-septima/04-clave-abierta-son.wav",
-                  name: "Clave Abierta",
+                  name: "Clave Abierta en 7",
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/05-conga-son.wav",
@@ -1744,7 +1661,7 @@ const pages = [
                 },
                 {
                   src: "./assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
-                  name: "Timbal 3:4",
+                  name: "Timbales",
                   customClass: "setima-timbal",
                 },
               ],
@@ -1760,13 +1677,16 @@ const pages = [
     content: {
       sections: [
         {
-          type: "header",
-          content: "Séptimo 4:3",
+          type: "div",
+          content:
+            `<p>Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999).</p>
+            <p>En la versión 4 - 3, se elimina el segundo golpe del tambor Conga (segunda corchea de cada compás) y el primer golpe abierto del patrón se adelanta una corchea, quedando en el quinto tiempo del compás. En esta versión se puede utilizar tanto la clave compuesta de la forma 4 - 3 en 7, como la “Clave Completa en 7".</p>
+            <p>En la versión 3 - 4, se elimina el segundo golpe del tambor Conga (segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el Calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “Clave Abierta en 7" (aunque la “Clave Abierta en 7” está en un compás de amalgama de 2 - 4 - 2).</p>
+            `,
         },
         {
-          type: "text",
-          content:
-            'En la versión 4 - 3, además de eliminar el segundo golpe del tambor Conga (segundo tiempo del compás), el primer golpe abierto se adelanta una corchea , quedando en el quinto tiempo del compás . En esta versión se puede utilizar tanto la clave compuesta de la forma 4 - 3 en 7, como la “Clave Completa en 7" .',
+          type: "header",
+          content: "Séptimo 4 - 3",
         },
         {
           type: "audio",
@@ -1779,12 +1699,12 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/05-septimo_4-3/01-clave_4-3.wav",
-                  name: "Clave 4-3",
+                  name: "Clave 4 - 3",
                   customClass: "setima-clave-4-3",
                 },
                 {
                   src: "./assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.wav",
-                  name: "Conga variación",
+                  name: "Conga Variación",
                   customClass: "setima-conga",
                 },
               ],
@@ -1793,12 +1713,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptimo 3:4",
-        },
-        {
-          type: "text",
-          content:
-            'Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En la versión 3 - 4 del compás partido en 7 se elimina el segundo golpe del tambor Conga (El contratiempo del primer tiempo, segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el Calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “Clave Abierta en 7" (aunque la “Clave Abierta en 7” está en un compás de amalgama de 2 - 4 - 2) .',
+          content: "Séptimo 3 - 4",
         },
         {
           type: "audio",
@@ -1811,7 +1726,7 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/06-septimo_3-4/01-clave_3-4.wav",
-                  name: "Clave 3-4",
+                  name: "Clave 3 - 4",
                   customClass: "setima-clave-3-4",
                 },
                 {
@@ -1825,7 +1740,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptimo de clave completa en 7/4",
+          content: "Séptimo de clave completa en 7",
         },
         {
           type: "audio",
@@ -1838,12 +1753,12 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/06-septimo_3-4/02-clave_completa.wav",
-                  name: "Clave completa",
+                  name: "Clave Completa en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "./assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
-                  name: "Conga",
+                  src: "./assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.wav",
+                  name: "Conga Variación",
                   customClass: "setima-conga",
                 },
               ],
@@ -1852,7 +1767,7 @@ const pages = [
         },
         {
           type: "header",
-          content: "Séptimo de clave abierta en 7/4",
+          content: "Séptimo de Clave Abierta en 7",
         },
         {
           type: "audio",
@@ -1865,7 +1780,7 @@ const pages = [
               data: [
                 {
                   src: "./assets/audio/convite-7/05-septimo_4-3/02-clave_abierta.wav",
-                  name: "Clave abierta",
+                  name: "Clave Abierta en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {

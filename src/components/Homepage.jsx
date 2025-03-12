@@ -44,12 +44,12 @@ const Homepage = () => {
             <div className="col bg-dark text-light p-5 me-1">
               <h2>Kalö̀te de monte</h2>
               <h3>Ritmos compuestos en métricas de 5</h3>
-              <p>Para la creación de los ritmos en 5 fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 7 claves compuestas y un patrón rítmico en Timbal que cumple función de clave.</p>
+              <p>Se crearon seis tipos distintos de Kalö̀te de Monte, “Quinta de Clave Completa” , “Quinta de Clave Abierta” (ambos inspirados en la Rumba cubana, principalmente en el Guaguancó), dos variaciones de “Quinto” (inspirado en el Candombe Uruguayo), “Quintí” (inspirado en el Son Cubano y el Calypso, este ritmo puede utilizarse con cualquiera de las claves en cinco y funciona como patrón base), “Quinté” (una mezcla entre la Cumbia y ritmos guanacastecos) y “Quintú” (proveniente del patrón del Bolero).</p>
             </div>
             <div className="col bg-dark text-light p-5 ms-1">
               <h2>Convite de Diriá</h2>
               <h3>Ritmos compuestos en métricas de 7</h3>
-              <p>Para la creación de los ritmos en 7, al igual que en los ritmos en 5, fue muy importante el desarrollo de distintas claves compuestas que le dieran sentido y cohesión a estos ritmos; para ello se crearon 4 claves compuestas, cada una con una duración de dos compases en 7/8.</p>
+              <p>Se crearon cuatro tipos de Convites de Diriá, “ Clave Completa en 7” , “ Clave abierta en 7” (para la creación de ambos se tomó como punto de partida los ritmos que pertenecen a la familia de la Rumba Cubana y se utilizaron las claves compuestas pertenecientes a las Quintas), “Séptima” y “Séptimo” (ambos se originan del patrón del Tambor Conga que se utiliza en el Son Cubano y en las variaciones del Calypso limonense).</p>
             </div>
           </div>
       </div>

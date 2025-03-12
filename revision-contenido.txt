@@ -1,112 +1,43 @@
 Audiolibro
 Revisión de contenido
-25 enero 2025
+25 enero 2025 / 1 de marzo 
 
 Global
 - cambiar tracks de clicks (sónido) - revisar si se puede crear track con sonido nuevo
 - revisar brincos de loop - largo de pistas
 - opción para descarga de archivos de audio - botón en navegación y pié de página
-+ revisar anchor id para contenedor de reproductor
-+ investigar cuantización del reproductor, posible solución a largo de pistas
-+ limpieza de archivos (assets)
+- revisar menu offcanvas responsive
+- nombres y titulo para Créditos
+- revisión items menu navegación: quinta clave abierta
 
 Frontpage
-+ Cambiar imagen de reproductor a versión actual
-+ Quitar imagen lectura circular
 - Editar imagen portada pie de página - pendiente de entrega
-+ Créditos en pie de página (nombre)
 
 KALOTE
 - Claves de 5
-    - revisar título de sección y subtítulo de claves página 46
-    + todas pistas muteadas menos primer track por defecto Página 38
     - archivos primeras 3 claves pendientes
-    + agregar reproductor con 6 pistas (click + claves quintí página 87)
-- Quinta clave completa
-    + revisar tamaño de tracks (cata / quinto)
-    + variante rápida (cata / chequeré)
++ Quinta clave completa
+    - item menu quinta de clave completa
 - Quinta clave abierta
-    + typo texto intro
-    + cambiar nombre campana variación a campana de mano
-    + mutear ambas campanas
-    + cambiar nombre campana de mano
-    + mutear ambas campanas
+    - item menu quinta de clave abierta
 - Quinto
-    + dejar texto intro solo primer párrafo página 66 
-    + unir 5:4 / 4:5 en una sola página
-    + agregar nombres paréntesis instrumentos partitura
+    - revisar nombre paréntesis
 - Quintí
-    + quitar reproductor todas las pistas
-    + 4:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    + cambiar nombre campana variacion a campana de mano
-    + cambiar orden de campanas
-    + mutear ambas campanas
-    + 2:4 falta timbal después de clave
-    + 2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    + 2:4 mutear campanas, cambiar nombre y orden de pistas
-    + 4:2:2 cambiar nombre clave 4:2:2
-    + 4:2:2 falta bongo
-    + 4:2:2 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    + 4:2:2 mutear campanas, cambiar nombre y orden de pistas
-    + 2:2:4 cambiar nombre clave
-    + 2:2:4 cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    + 2:2:4 mutear campanas, cambiar nombre y orden de pistas
-    + cambiar nombre cáscara de timbal 
-    + cambiar nombre clave cáscara de timbal 
-    + cáscara de timbal cambiar CONGA TUMBADORA por CONGA (quinto nombre archivo)
-    + cáscara de timbal mutear campanas, cambiar nombre y orden de pistas
+    - revisar nombre cáscara de timbal con paréntesis abajo
     - quinti clave completa, tomar instrumentos de partitura, clave pendiente de grabar
     - quinti clave abierta, tomar instrumentos de partitura, clave pendiente de grabar
-    - quinti 3:4, tomar instrumentos de partitura, clave pendiente de grabar
-    - quinti 2:4 conga y tumba, armar con clave existente
-- Quinté
-    + quinté 5:2 cambiar a quinté en 5
-    + texto intro cortar hasta 5
-    + quinté cambiar nombre quinto por conga
-    + mutear clicks
-- Quintú
-    + cambiar nombre a quintú en 5 
-    + mutear click
-    + texto adicional para bongo y clave 2
-    + un solo reproductor
-    + pistas al final, muteadas como adicionales (clave 2 y bongo)
-    + quinto cambiar nombre a congas
-    + timbal cambiar nombre a cáscara
-    + revisar orden de pistas
+    - quinti 3:4, tomar instrumentos de partitura, clave pendiente de grabar  
 
 CONVITE
 - Claves de 7
-    + revisar título de sección y subtitulo de claves
-    + página 182
-    + texto intro solo primer párrafo
-    + un reproductor con pistas de claves (4)
-    + todas pistas muteadas menos primer track por defecto
-    + tomar claves y tempo de folder de séptima
-    + tomar orden del libro página 177
+    - click muteado (pendiente)
 - Clave completa
-    + título y texto página 183
-    + track chequeré variación pendiente en reproductor normal - escribir aclaración en texto intro
-    + track chequere 1 en variante rápida - escribir aclaración en texto intro
     - click 175bpm 7/8
     - click 203bpm 7/8 rápida
-    + mutear campanas ambos reproductores
-    + revisar título rápida  - en 7
-    + rápida no hay quinto - agregar a texto intro
 - Clave abierta
-    + título y texto intro página 196
     - click 119bpm blanca
 - Séptima
-    + texto intro mover debajo del título
-    + modificar título a solo séptima
     - click blanca 120bpm
-    + unificar 4:3 y 3:4 en una sola página
-    + agregar 2 reproductores 2 tracks (clave 4:3 + conga / clave abierta + conga)
-    + completa - timbal 4:3
-    + abierta - timbal 3:4
 - Séptimo
     - click blanca 120bpm
-    + unificar 4:3 y 3:4 en una sola página
-    + 4:3 texto intro página 235, solo tercer párrafo
-    + 4:3 clave completa conga 4:3 - revisar archivos y nombres
-    + 3:4 clave abierta conga 3:4 - revisar archivos y nombres
     - dos reproductores para cada sección
