@@ -58,7 +58,7 @@ const kalote = [
   },
   {
     slug: "quinta-completa",
-    title: "Quinta",
+    title: "Quinta Clave Completa",
     content: {
       sections: [
         {
@@ -80,104 +80,45 @@ const kalote = [
               id: "quinta-completa",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm.wav",
-                  name: "Click",
-                  muted: true,
-                  customClass: "click",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/01-clave.wav",
-                  name: "Claves",
-                  customClass: "clave",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/02-cata.wav",
-                  name: "Catá",
-                  customClass: "cata",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/03-chequere.wav",
-                  name: "Chequeré",
-                  customClass: "chequere",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/04-quinto.wav",
-                  name: "Quinto",
-                  customClass: "quinto",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/05-conga.wav",
-                  name: "Conga",
-                  customClass: "conga",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.wav",
-                  name: "Conga Variación",
-                  muted: true,
-                  customClass: "variacion-conga",
-                },
-                {
-                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora.wav",
-                  name: "Tumba",
-                  customClass: "tumbadora",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          type: "header",
-          content: "Clave Completa - pistas editadas",
-        },
-        {
-          type: "audio",
-          content: "audio",
-          idPlayer: "quinta-editadas",
-          slides: [],
-          playlists: [
-            {
-              id: "quinta-completa-edit",
-              data: [
-                {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/00-click-198bpm-edit.wav",
-                  name: "Click trimed",
+                  name: "Click 198bpm",
                   muted: true,
                   customClass: "click",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/01-clave-edit.wav",
-                  name: "Claves trimed",
+                  name: "Claves",
                   customClass: "clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/02-cata-edit.wav",
-                  name: "Catá trimed",
+                  name: "Catá",
                   customClass: "cata",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/03-chequere-edit.wav",
-                  name: "Chequeré trimed",
+                  name: "Chequeré",
                   customClass: "chequere",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/04-quinto-edit.wav",
-                  name: "Quinto trimed",
+                  name: "Quinto",
                   customClass: "quinto",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/05-conga-edit.wav",
-                  name: "Conga trimed",
+                  name: "Conga",
                   customClass: "conga",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion-edit.wav",
-                  name: "Conga Variacion trimed",
+                  name: "Conga Variación",
                   muted: true,
                   customClass: "variacion-conga",
                 },
                 {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora-edit.wav",
-                  name: "Tumba trimed",
+                  name: "Tumba",
                   customClass: "tumbadora",
                 },
               ],
@@ -200,69 +141,6 @@ const kalote = [
           playlists: [
             {
               id: "quinta-completa-rapida",
-              data: [
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.wav",
-                  name: "Click",
-                  muted: true,
-                  customClass: "click",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/01-clave.wav",
-                  name: "Claves",
-                  customClass: "clave",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata.wav",
-                  name: "Catá",
-                  customClass: "cata",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/03-chequere.wav",
-                  name: "Chequeré",
-                  customClass: "chequere",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/04-quinto.wav",
-                  name: "Quinto",
-                  customClass: "quinto",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-conga.wav",
-                  name: "Conga",
-                  customClass: "conga",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/06-conga_variacion.wav",
-                  name: "Conga Variación",
-                  muted: true,
-                  customClass: "variacion-conga",
-                },
-                {
-                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-tumbadora.wav",
-                  name: "Tumba",
-                  customClass: "tumbadora",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          type: "header",
-          content: "Clave Completa - rápida (pistas editadas)",
-        },
-        {
-          type: "text",
-          content: "Variante con click a tempo 225 bpm.",
-        },
-        {
-          type: "audio",
-          content: "audio",
-          idPlayer: "quinta-completa-rapida-editadas",
-          slides: [],
-          playlists: [
-            {
-              id: "quinta-completa-rapida-editadas",
               data: [
                 {
                   src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm-edit.wav",
@@ -315,7 +193,7 @@ const kalote = [
   },
   {
     slug: "quinta-abierta",
-    title: "Quinta",
+    title: "Quinta Clave Abierta",
     content: {
       sections: [
         {
@@ -469,6 +347,60 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/09-campana_variacion.wav",
+                  name: "Campana de Mano",
+                  muted: true,
+                  customClass: "campana-variacion",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "audio",
+          content: "audio",
+          playlists: [
+            {
+              id: "quinta-clave-abierta-rapida-rafa",
+              data: [
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/00-click_213bpm.wav",
+                  name: "Click",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/02-cata.wav",
+                  name: "Catá",
+                  customClass: "cata",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/03-chequere.wav",
+                  name: "Chequeré",
+                  customClass: "chequere",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/04-quinto.wav",
+                  name: "Quinto",
+                  customClass: "quinto",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/05-conga.wav",
+                  name: "Conga",
+                  customClass: "conga",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/07-tumba.wav",
+                  name: "Tumbadora",
+                  customClass: "tumbadora",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/08-campana.wav",
+                  name: "Campana",
+                  muted: true,
+                  customClass: "campana",
+                },
+                {
+                  src: "../assets/audio/kalote-5-edit/04-quinta_clave_abierta-rapida/09-campana_variacion.wav",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "campana-variacion",
@@ -1264,25 +1196,25 @@ const kalote = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/01-Clave.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/01-clave.wav",
                   name: "Clave 3:4",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/Timbal Quintú.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/02-timbal.wav",
                   name: "Cáscara 3:4",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/Quinto Quintú.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/03-quinto.wav",
                   name: "Congas",
                   customClass: "quinto",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/Bongo Quintú.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/04-bongo.wav",
                   name: "Bongo",
                   muted: true,
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/02-clave2 Quintú.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/05-clave-variacion.wav",
                   name: "Clave Variación 4:3",
                   muted: true,
                 },
