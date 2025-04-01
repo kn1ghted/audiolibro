@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom";
 export const Section = ({ section }) => {
   const location = useLocation();
 
-  console.log(location.pathname);
+  //console.log(location.pathname);
 
   // function to replace spaces with hyphens and lowercase the string
   function slugify(string) {

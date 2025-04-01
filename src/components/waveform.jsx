@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import WaveformPlaylist from "waveform-playlist";
 import "../assets/css/waveform-playlist.css";
@@ -7,15 +7,11 @@ import Carousel from "./carousel";
 const AudioPlayer = ({ playlists = [], slides = [] }) => {
   const playlistRefs = useRef([]);
   const eeRefs = useRef([]); // Store event emitters
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // if playlists are playing, stop them and mount new ones
-    // playlistRefs.current.forEach((playlist) => {
-    //   //console.log("test", playlist);
-    // });
-
-    console.log(slides);
     console.log(playlists);
+    setLoading(true);
 
     playlists.forEach((playlist, index) => {
       if (!playlistRefs.current[index]) {
@@ -27,7 +23,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           isScrolling: true,
           isAutomaticScroll: true,
           colors: {
-            waveOutlineColor: "#000", // waveforms 
+            waveOutlineColor: "#000", // waveforms
             timeColor: "grey",
             fadeColor: "white",
           },
@@ -53,8 +49,12 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
           const stopBtn = document.getElementById(`btn-stop-${playlist.id}`);
           const loopBtn = document.getElementById(`btn-loop-${playlist.id}`);
 
-          const zoomInBtn = document.getElementById(`btn-zoomIn-${playlist.id}`);
-          const zoomOutBtn = document.getElementById(`btn-zoomOut-${playlist.id}`);
+          const zoomInBtn = document.getElementById(
+            `btn-zoomIn-${playlist.id}`
+          );
+          const zoomOutBtn = document.getElementById(
+            `btn-zoomOut-${playlist.id}`
+          );
 
           let isLooping = true;
 
@@ -98,8 +98,24 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
             }
           });
         });
+
       }
     });
+
+   // Transtiion fade out
+    // Add fade out transition
+    setTimeout(() => {
+      const loadingElements = document.querySelectorAll('.loading-container');
+      loadingElements.forEach(element => {
+      element.style.transition = 'opacity 0.5s ease-out';
+      element.style.opacity = '0';
+      });
+      
+      // Remove loading state after transition completes
+      setTimeout(() => {
+      setLoading(false);
+      }, 600);
+    }, 1500);
 
     // Cleanup function
     return () => {
@@ -112,75 +128,85 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
 
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-sm">
-          {playlists.map((playlist) => (
-            <div key={playlist.id}>
-              <div className="playlist-top-bar">
-                <div className="playlist-toolbar btn-group">
-                  <button
-                    type="button"
-                    id={`btn-pause-${playlist.id}`}
-                    className="btn-pause btn btn-outline-warning"
-                    title="Pause"
-                  >
-                    <i className="fas fa-circle-pause" aria-hidden="true"></i>
-                  </button>
-                  <button
-                    type="button"
-                    id={`btn-play-${playlist.id}`}
-                    className="btn-play btn btn-outline-success"
-                    title="Play"
-                  >
-                    <i className="fas fa-circle-play" aria-hidden="true"></i>
-                  </button>
-                  <button
-                    type="button"
-                    id={`btn-stop-${playlist.id}`}
-                    className="btn-stop btn btn-outline-danger"
-                    title="Stop"
-                  >
-                    <i
-                      className="fa-regular fa-circle-stop"
-                      aria-hidden="true"
-                    ></i>
-                  </button>
-                  <button
-                    type="button"
-                    id={`btn-loop-${playlist.id}`}
-                    className="btn-loop btn-stop btn btn btn-outline-secondary active"
-                    title="Toggle Loop"
-                  >
-                    <i className="fa-solid fa-repeat" aria-hidden="true"></i>
-                  </button>
-                </div>
-                <div className="btn-group mx-4">
-                  <button 
-                    type="button"
-                    id={`btn-zoomIn-${playlist.id}`} 
-                    title="Zoom in" 
-                    className="btn-zoom-in btn btn-outline-dark">
-                    <i className="fas fa-search-plus" aria-hidden="true"></i>
-                  </button>
-                  <button 
-                    type="button"
-                    id={`btn-zoomOut-${playlist.id}`} 
-                    title="Zoom out" 
-                    className="btn-zoom-out btn btn-outline-dark">
-                    <i className="fas fa-search-minus" aria-hidden="true"></i>
-                  </button>
-                </div>
-              </div>
-              <div id={playlist.id} className="rounded h-[60px]" />
-            </div>
-          ))}
-        </div>
-        {slides.length > 0 && (
+     <div className="row">
           <div className="col-sm">
-            <Carousel slides={slides} />
+            {playlists.map((playlist) => (
+              <div key={playlist.id} className="playlist-container position-relative">
+                {loading && (
+                  <div className="loading-container d-flex justify-content-center align-items-center py-4">
+                    <div className="spinner-border text-primary" role="status">
+                      <span className="visually-hidden">Loading...</span>
+                    </div>
+                    <span className="ms-2">Loading audio waveforms...</span>
+                  </div>
+                )}
+                <div className="playlist-top-bar">
+                  <div className="playlist-toolbar btn-group">
+                    <button
+                      type="button"
+                      id={`btn-pause-${playlist.id}`}
+                      className="btn-pause btn btn-outline-warning"
+                      title="Pause"
+                    >
+                      <i className="fas fa-circle-pause" aria-hidden="true"></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-play-${playlist.id}`}
+                      className="btn-play btn btn-outline-success"
+                      title="Play"
+                    >
+                      <i className="fas fa-circle-play" aria-hidden="true"></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-stop-${playlist.id}`}
+                      className="btn-stop btn btn-outline-danger"
+                      title="Stop"
+                    >
+                      <i
+                        className="fa-regular fa-circle-stop"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-loop-${playlist.id}`}
+                      className="btn-loop btn-stop btn btn btn-outline-secondary active"
+                      title="Toggle Loop"
+                    >
+                      <i className="fa-solid fa-repeat" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div className="btn-group mx-4">
+                    <button
+                      type="button"
+                      id={`btn-zoomIn-${playlist.id}`}
+                      title="Zoom in"
+                      className="btn-zoom-in btn btn-outline-dark"
+                    >
+                      <i className="fas fa-search-plus" aria-hidden="true"></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-zoomOut-${playlist.id}`}
+                      title="Zoom out"
+                      className="btn-zoom-out btn btn-outline-dark"
+                    >
+                      <i className="fas fa-search-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+                <div id={playlist.id} className="rounded h-[60px]" />
+              </div>
+            ))}
           </div>
-        )}
-      </div>
+          {slides.length > 0 && (
+            <div className="col-sm">
+              <Carousel slides={slides} />
+            </div>
+          )}
+        </div>
     </div>
   );
 };
