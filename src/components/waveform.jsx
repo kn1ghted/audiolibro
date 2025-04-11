@@ -135,9 +135,9 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
                 {loading && (
                   <div className="loading-container d-flex justify-content-center align-items-center py-4">
                     <div className="spinner-border text-primary" role="status">
-                      <span className="visually-hidden">Loading...</span>
+                      <span className="visually-hidden">Cargando...</span>
                     </div>
-                    <span className="ms-2">Loading audio waveforms...</span>
+                    <span className="ms-2">Cargando...</span>
                   </div>
                 )}
                 <div className="playlist-top-bar">
