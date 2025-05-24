@@ -1,5 +1,6 @@
 import kalote from "./kalote";
 import diria from "./diria";
+import test from "./test";
 
 const navigation = [
   {
@@ -81,6 +82,14 @@ const navigation = [
     //     path: "/septimo",
     //   },
     // ],
+  },
+  {
+    id: "4",
+    label: "Test audios",
+    // se usa para crear dropdowns
+    path: "#", 
+    slug: "test-audios",
+    children: test
   }
 ];
 
