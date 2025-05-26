@@ -602,33 +602,33 @@ const kalote = [
               id: "quinti-4-2",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/02-clave-4_2.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/02-clave-4_2.mp3",
                   name: "Claves",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -651,38 +651,38 @@ const kalote = [
               id: "quinti-2-4",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/01-clave-2_4.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/01-clave-2_4.mp3",
                   name: "Claves",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/06-timbal_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/06-timbal_variacion.mp3",
                   name: "Timbales",
                   customClass: "quinti-timbal",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -705,33 +705,33 @@ const kalote = [
               id: "quinti-4-2-2",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/03-clave_montuno.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/03-clave_montuno.mp3",
                   name: "Claves",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -754,33 +754,33 @@ const kalote = [
               id: "quinti-2-2-4",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/04-clave_montuno-variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/04-clave_montuno-variacion.mp3",
                   name: "Claves",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -803,34 +803,34 @@ const kalote = [
               id: "quinti-cascara-timbal",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/05-timbal.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/05-timbal.mp3",
                   name: "Timbales (clave cáscara de timbal)",
                   customClass: "quinti-timbal",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -857,29 +857,29 @@ const kalote = [
               id: "quinti-clave-completa",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -906,29 +906,29 @@ const kalote = [
               id: "quinti-clave-abierta",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -955,29 +955,29 @@ const kalote = [
               id: "quinti-3-4",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/09-quinto.mp3",
                   name: "Conga",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -1004,38 +1004,38 @@ const kalote = [
               id: "quinti-2-4-conga",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
                   name: "Click",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/01-clave-2_4.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/01-clave-2_4.mp3",
                   name: "Claves",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/06-timbal_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/06-timbal_variacion.mp3",
                   name: "Timbales",
                   customClass: "quinti-timbal",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
                   name: "Bongo",
                   customClass: "quinti-bongo",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/08-conga-tumbadora.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/08-conga-tumbadora.mp3",
                   name: "Conga y Tumba",
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/10-campana.wav",
+                  src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "quinti-campana",
@@ -1071,26 +1071,26 @@ const kalote = [
               id: "quinte",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/10-quinte/00-click_190bpm.wav",
+                  src: "../assets/audio/kalote-5/10-quinte/00-click_190bpm.mp3",
                   name: "Click 190",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/10-quinte/01-caxixi.wav",
+                  src: "../assets/audio/kalote-5/10-quinte/01-caxixi.mp3",
                   name: "Caxixi",
                 },
                 {
-                  src: "../assets/audio/kalote-5/10-quinte/02-maraca.wav",
+                  src: "../assets/audio/kalote-5/10-quinte/02-maraca.mp3",
                   name: "Maracas",
                 },
                 {
-                  src: "../assets/audio/kalote-5/10-quinte/03-quinto.wav",
+                  src: "../assets/audio/kalote-5/10-quinte/03-quinto.mp3",
                   name: "Conga",
                   customClass: "quinto",
                 },
                 {
-                  src: "../assets/audio/kalote-5/10-quinte/04-tumba.wav",
+                  src: "../assets/audio/kalote-5/10-quinte/04-tumba.mp3",
                   name: "Tumba",
                 },
               ],
@@ -1125,31 +1125,31 @@ const kalote = [
               id: "quintu",
               data: [
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/00-click_116bpm.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/00-click_116bpm.mp3",
                   name: "Click 116",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/01-clave.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/01-clave.mp3",
                   name: "Clave 3:4",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/02-timbal.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/02-timbal.mp3",
                   name: "Cáscara 3:4",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/03-quinto.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/03-quinto.mp3",
                   name: "Congas",
                   customClass: "quinto",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/04-bongo.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/04-bongo.mp3",
                   name: "Bongo",
                   muted: true,
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/05-clave-variacion.wav",
+                  src: "../assets/audio/kalote-5/11-quintu/05-clave-variacion.mp3",
                   name: "Clave Variación 4:3",
                   muted: true,
                 },
