@@ -452,18 +452,18 @@ const diria = [
               id: "septimo-4-3",
               data: [
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/00-click-120bpm.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
                   name: "Click 120",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/01-clave_4-3.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/02-clave_4-3.mp3",
                   name: "Clave 4 - 3",
                   customClass: "setima-clave-4-3",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
                   name: "Conga Variación",
                   customClass: "setima-conga",
                 },
@@ -485,18 +485,18 @@ const diria = [
               id: "septimo-3-4",
               data: [
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/00-click-120bpm.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
                   name: "Click 120",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/01-clave_3-4.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
                   name: "Clave 3 - 4",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/05-conga_pandeiro.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
@@ -518,18 +518,18 @@ const diria = [
               id: "septimo-clave-completa",
               data: [
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/00-click-120bpm.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
                   name: "Click 120",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/02-clave_completa.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa.mp3",
                   name: "Clave Completa en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
                   name: "Conga Variación",
                   customClass: "setima-conga",
                 },
@@ -551,18 +551,18 @@ const diria = [
               id: "septimo-clave-abierta",
               data: [
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/00-click-120bpm.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
                   name: "Click 120",
                   muted: true,
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/02-clave_abierta.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
                   name: "Clave Abierta en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/05-conga_pandeiro.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
