@@ -58,7 +58,7 @@ const kalote = [
   },
   {
     slug: "quinta-completa",
-    title: "Quinta Clave Completa",
+    title: "Quinta de Clave Completa",
     content: {
       sections: [
         {
@@ -193,7 +193,7 @@ const kalote = [
   },
   {
     slug: "quinta-abierta",
-    title: "Quinta Clave Abierta",
+    title: "Quinta de Clave Abierta",
     content: {
       sections: [
         {

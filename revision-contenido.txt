@@ -4,9 +4,9 @@ Revisión de contenido
 
 Global
 - cambiar tracks de clicks (sónido) - revisar si se puede crear track con sonido nuevo
-- revisar brincos de loop - largo de pistas
++ revisar brincos de loop - largo de pistas
 - opción para descarga de archivos de audio - botón en navegación y pié de página
-- revisar menu offcanvas responsive
++ revisar menu offcanvas responsive
 - nombres y titulo para Créditos
 - revisión items menu navegación: quinta clave abierta
 
@@ -17,27 +17,24 @@ KALOTE
 - Claves de 5
     - archivos primeras 3 claves pendientes
 + Quinta clave completa
-    - item menu quinta de clave completa
+    + item menu quinta de clave completa
 - Quinta clave abierta
-    - item menu quinta de clave abierta
+    + item menu quinta de clave abierta
 - Quinto
     - revisar nombre paréntesis
 - Quintí
-    - revisar nombre cáscara de timbal con paréntesis abajo
-    - quinti clave completa, tomar instrumentos de partitura, clave pendiente de grabar
-    - quinti clave abierta, tomar instrumentos de partitura, clave pendiente de grabar
-    - quinti 3:4, tomar instrumentos de partitura, clave pendiente de grabar  
+    - clave pendiente de grabar  
 
 CONVITE
 - Claves de 7
-    - click muteado (pendiente)
+    + click muteado (pendiente)
 - Clave completa
-    - click 175bpm 7/8
-    - click 203bpm 7/8 rápida
+    + click 175bpm 7/8
+    + click 203bpm 7/8 rápida
 - Clave abierta
-    - click 119bpm blanca
+    + click 119bpm blanca
 - Séptima
-    - click blanca 120bpm
+    + click blanca 120bpm
 - Séptimo
-    - click blanca 120bpm
+    + click blanca 120bpm
     - dos reproductores para cada sección

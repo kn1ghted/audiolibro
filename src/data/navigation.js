@@ -85,7 +85,7 @@ const navigation = [
   },
   {
     id: "4",
-    label: "Test audios",
+    label: "Testing",
     // se usa para crear dropdowns
     path: "#", 
     slug: "test-audios",

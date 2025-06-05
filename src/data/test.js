@@ -1,7 +1,7 @@
 const test = [
     {
       slug: "test",
-      title: "Página prueba pistas editadas",
+      title: "Página prueba",
       content: {
         sections: [
           {
