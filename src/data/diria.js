@@ -18,24 +18,30 @@ const diria = [
               id: "claves-7",
               data: [
                 {
-                  src: "../assets/audio/convite-7/04-septima/03-clave-completa-son.wav",
+                  src: "../assets/audio/convite-7/00-claves-7/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/00-claves-7/01-clave-completa-son.mp3",
                   name: "Clave Completa en 7/8",
                   customClass: "setima-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son.wav",
+                  src: "../assets/audio/convite-7/00-claves-7/02-clave-abierta-son.mp3",
                   name: "Clave Abierta en 7/8",
                   muted: true,
                   customClass: "setima-cata",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/02-clave-son_3-4.wav",
+                  src: "../assets/audio/convite-7/00-claves-7/03-clave-son_3-4.mp3",
                   name: "Clave 3 - 4 en 7/8",
                   muted: true,
                   customClass: "setima-chequere",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/01-clave-son_4-3.wav",
+                  src: "../assets/audio/convite-7/00-claves-7/04-clave-son_4-3.mp3",
                   name: "Clave 4 - 3 en 7/8",
                   muted: true,
                   customClass: "variacion-setima-chequere",
@@ -67,43 +73,49 @@ const diria = [
               id: "clave-completa",
               data: [
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/01-clave.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/00-click-175bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/01-clave-completa/01-clave.mp3",
                   name: "Claves",
                   customClass: "setima-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/02-cata.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/02-cata.mp3",
                   name: "Catá",
                   customClass: "setima-cata",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/03-chequere.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/03-chequere.mp3",
                   name: "Chequeré Variación",
                   customClass: "setima-chequere",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/04-quinto.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/04-quinto.mp3",
                   name: "Quinto",
                   customClass: "setima-quinto",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/05-conga.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/05-conga.mp3",
                   name: "Conga",
                   customClass: "setima-completa-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/06-tumba.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/06-tumba.mp3",
                   name: "Tumba",
                   customClass: "setima-tumbadora",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/07-campana.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/07-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "setima-campana",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/08-campana_mano.wav",
+                  src: "../assets/audio/convite-7/01-clave-completa/08-campana_mano.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-setima-campana",
@@ -131,38 +143,44 @@ const diria = [
               id: "clave-completa-rapida",
               data: [
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/01-clave.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/00-click-203bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/01-clave.mp3",
                   name: "Clave",
                   customClass: "setima-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/02-cata.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/02-cata.mp3",
                   name: "Catá",
                   customClass: "setima-cata",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/03-chequere.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/03-chequere.mp3",
                   name: "Chequeré",
                   customClass: "setima-chequere",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/04-conga.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/04-conga.mp3",
                   name: "Conga",
                   customClass: "setima-completa-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/05-tumba.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/05-tumba.mp3",
                   name: "Tumba",
                   customClass: "setima-tumbadora",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/06-campana.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/06-campana.mp3",
                   name: "Campana",
                   muted: true,
                   customClass: "setima-campana",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/07-campana_mano.wav",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/07-campana_mano.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "variacion-setima-campana",
@@ -194,39 +212,45 @@ const diria = [
               id: "clave-abierta",
               data: [
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/01-clave.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/00-click-238bpm.mp3",
+                  name: "Click 238",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/03-clave-abierta/01-clave.mp3",
                   name: "Clave",
                   customClass: "setima-abierta-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/02-chequere.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/02-chequere.mp3",
                   name: "Chequeré",
                   customClass: "setima-abierta-chequere",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/03-chequere_golpe.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/03-chequere_golpe.mp3",
                   name: "Chequeré Variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-chequere",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/04-conga.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/04-conga.mp3",
                   name: "Conga",
                   customClass: "setima-abierta-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/05-tumba.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/05-tumba.mp3",
                   name: "Tumbadora",
                   customClass: "setima-abierta-tumbadora",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.mp3",
                   name: "Tumbadora Variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-tumbadora",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/07-campana_mano.wav",
+                  src: "../assets/audio/convite-7/03-clave-abierta/07-campana_mano.mp3",
                   name: "Campana de mano",
                   muted: true,
                   customClass: "setima-abierta-campana-mano",
@@ -262,17 +286,23 @@ const diria = [
               id: "septima-4-3",
               data: [
                 {
-                  src: "../assets/audio/convite-7/04-septima/01-clave-son_4-3.wav",
+                  src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/01-clave-son_4-3.mp3",
                   name: "Clave 4 - 3",
                   customClass: "setima-clave-4-3",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
+                  src: "../assets/audio/convite-7/04-septima/07-timbales_4-3.mp3",
                   name: "Timbales",
                   customClass: "setima-timbal",
                 },
@@ -294,17 +324,23 @@ const diria = [
               id: "septima-3-4",
               data: [
                 {
-                  src: "../assets/audio/convite-7/04-septima/02-clave-son_3-4.wav",
+                  src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/02-clave-son_3-4.mp3",
                   name: "Clave 3 - 4",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
+                  src: "../assets/audio/convite-7/04-septima/06-timbales_3-4.mp3",
                   name: "Timbales",
                   customClass: "setima-timbal",
                 },
@@ -326,16 +362,22 @@ const diria = [
               id: "septima-clave-completa",
               data: [
                 {
-                  src: "../assets/audio/convite-7/04-septima/03-clave-completa-son.wav",
+                  src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/03-clave-completa-son.mp3",
                   name: "Clave Completa en 7",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/07-timbales_4-3.wav",
+                  src: "../assets/audio/convite-7/04-septima/07-timbales_4-3.mp3",
                   name: "Timbales",
                   customClass: "setima-timbal",
                 },
@@ -357,16 +399,22 @@ const diria = [
               id: "septima-clave-abierta",
               data: [
                 {
-                  src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son.wav",
+                  src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son.mp3",
                   name: "Clave Abierta en 7",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/05-conga-son.wav",
+                  src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/06-timbales_3-4.wav",
+                  src: "../assets/audio/convite-7/04-septima/06-timbales_3-4.mp3",
                   name: "Timbales",
                   customClass: "setima-timbal",
                 },
@@ -404,12 +452,18 @@ const diria = [
               id: "septimo-4-3",
               data: [
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/01-clave_4-3.wav",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/02-clave_4-3.mp3",
                   name: "Clave 4 - 3",
                   customClass: "setima-clave-4-3",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.wav",
+                  src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
                   name: "Conga Variación",
                   customClass: "setima-conga",
                 },
@@ -431,12 +485,18 @@ const diria = [
               id: "septimo-3-4",
               data: [
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/01-clave_3-4.wav",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
                   name: "Clave 3 - 4",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
+                  src: "../assets/audio/convite-7/05-septimo/05-conga_pandeiro.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
@@ -458,12 +518,18 @@ const diria = [
               id: "septimo-clave-completa",
               data: [
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/02-clave_completa.wav",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa.mp3",
                   name: "Clave Completa en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/03-conga_pandeiro.wav",
+                  src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
                   name: "Conga Variación",
                   customClass: "setima-conga",
                 },
@@ -485,12 +551,18 @@ const diria = [
               id: "septimo-clave-abierta",
               data: [
                 {
-                  src: "../assets/audio/convite-7/05-septimo_4-3/02-clave_abierta.wav",
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
+                  name: "Click 120",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
                   name: "Clave Abierta en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/06-septimo_3-4/03-conga_pandeiro.wav",
+                  src: "../assets/audio/convite-7/05-septimo/05-conga_pandeiro.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
                 },
