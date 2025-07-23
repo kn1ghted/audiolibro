@@ -38,3 +38,41 @@ CONVITE
 - Séptimo
     + click blanca 120bpm
     - dos reproductores para cada sección
+
+Revisión contenido audio - edición Rafa
+
+Tareas pre integración de archivos nuevo de audio:
+- integrar clic formato wav en página de prueba y subir nueva versión al enlace público
+- cambiar nombre folders principales
+- solamente versiones mp3*
+- kalote-5
+    - falta folder solo audios de claves (6 pistas)
+    - revisar nombres todos archivos (espacios, letras mayúsculas, tíldes)
+    - quinto-5_4 + quinto-5_4 rápido: falta tumba variación
+    - quinto-4_5 + quinto-4_5 rápido: falta tumba variación
+    - quinti: claves adicionales*
+- convite-7
+    - falta folder solo audios de claves (5 pistas)
+    - revisar nombres todos archivos (espacios, letras mayúsculas, tíldes)
+    - clave completa + rápida: falta clics
+    - clave abierta: clic solo wav -> convertir mp3
+        - duración: 17,617s
+        - pistas instrumentos 17, 424s 
+    - septima: revisar nombre de folder
+    - septimo: revisar nombre de folder
+    - septimo 4-3 y 3-4: faltan clics
+    - generación / edición todos los clics 
+
+Tareas de integración:
+- crear una rama nueva en repo
+- subir versiones mp3
+- revisar integridad de aplicación (contenido y funcionalidad)
+- revisar consistencia de loops
+
+Tareas post integración:
+- generar versiones wav finales (para versión descargable)
+- aclarar hospedaje de archivos wav (solo en caso de que sea demasiado pesado)
+- testing global (contenido y funcionalidad)
+- creación de cuenta github final
+- mover repositorio a cuenta github final
+- publicación de repositorio en github pages con enlace público final

@@ -5,21 +5,31 @@ const test = [
       content: {
         sections: [
           {
+            type: "header",
+            content: "Clave abierta en 7",
+          },          
+          {
             type: "div",
-            content: `<p>Clave abierta en 7. Audio edición Rafa Vargas. Pistas en mp3</p>`,
+            content: `<p>Audio edición Rafa Vargas. Pistas en mp3</p>`,
           },
           {
             type: "audio",
             content: "audio",
-            idPlayer: "test-pistas",
+            idPlayer: "test-pistas-7",
             slides: [],
             playlists: [
               {
-                id: "test-pistas",
+                id: "test-pistas-7",
                 data: [
+                  // {
+                  //   src: "../assets/audio/test/03-clave-abierta/Click-238bpm-edit.wav",
+                  //   name: "Click 238 wav",
+                  //   muted: true,
+                  //   customClass: "click",
+                  // },
                   {
                     src: "../assets/audio/test/03-clave-abierta/00-click-238bpm.mp3",
-                    name: "Click 238",
+                    name: "Click 238 mp3",
                     muted: true,
                     customClass: "click",
                   },
@@ -60,6 +70,56 @@ const test = [
                     name: "Campana de mano",
                     muted: true,
                     customClass: "setima-abierta-campana-mano",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "header",
+            content: "Quintú",
+          },          
+          {
+            type: "div",
+            content: `<p>Audio edición Rafa Vargas. Pistas en mp3</p>`,
+          },
+          {
+            type: "audio",
+            content: "audio",
+            idPlayer: "test-pistas-5",
+            slides: [],
+            playlists: [
+              {
+                id: "test-pistas-5",
+                data: [
+                  {
+                    src: "../assets/audio/test/11-quintu/00-click_116bpm.mp3",
+                    name: "Click 116",
+                    muted: true,
+                    customClass: "click",
+                  },
+                  {
+                    src: "../assets/audio/test/11-quintu/01-clave.mp3",
+                    name: "Clave 3:4",
+                  },
+                  {
+                    src: "../assets/audio/test/11-quintu/02-timbal.mp3",
+                    name: "Cáscara 3:4",
+                  },
+                  {
+                    src: "../assets/audio/test/11-quintu/03-quinto.mp3",
+                    name: "Congas",
+                    customClass: "quinto",
+                  },
+                  {
+                    src: "../assets/audio/test/11-quintu/04-bongo.mp3",
+                    name: "Bongo",
+                    muted: true,
+                  },
+                  {
+                    src: "../assets/audio/test/11-quintu/05-clave-variacion.mp3",
+                    name: "Clave Variación 4:3",
+                    muted: true,
                   },
                 ],
               },
