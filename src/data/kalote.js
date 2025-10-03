@@ -25,26 +25,41 @@ const kalote = [
                   muted: true,
                 },
                 {
-                  src: "../assets/audio/kalote-5/00-claves-5/01-clave-4_2.mp3",
-                  name: "Clave 4:2",
+                  src: "../assets/audio/kalote-5/00-claves-5/01-clave_completa.mp3",
+                  name: "Clave Completa",
                 },
                 {
-                  src: "../assets/audio/kalote-5/00-claves-5/02-clave-2_4.mp3",
+                  src: "../assets/audio/kalote-5/00-claves-5/02-clave_abierta.mp3",
+                  name: "Clave Abierta",
+                  muted: true,
+                },
+                {
+                  src: "../assets/audio/kalote-5/00-claves-5/03-clave_quintu_3_4.mp3",
+                  name: "Clave Quintú",
+                  muted: true,
+                },
+                {
+                  src: "../assets/audio/kalote-5/00-claves-5/04-clave_4_2.mp3",
+                  name: "Clave 4:2",
+                  muted: true,
+                },
+                {
+                  src: "../assets/audio/kalote-5/00-claves-5/05-clave_2_4.mp3",
                   name: "Clave 2:4",
                   muted: true,
                 },
                 {
-                  src: "../assets/audio/kalote-5/00-claves-5/03-clave_montuno.mp3",
+                  src: "../assets/audio/kalote-5/00-claves-5/06-clave_montuno_4_2_2.mp3",
                   name: "Clave de Montuno 4:2:2",
                   muted: true,
                 },
                 {
-                  src: "../assets/audio/kalote-5/00-claves-5/04-clave_montuno-variacion.mp3",
+                  src: "../assets/audio/kalote-5/00-claves-5/07-clave_montuno-variacion_2_2_4.mp3",
                   name: "Variación Clave Montuno 2:2:4",
                   muted: true,
                 },
                 {
-                  src: "../assets/audio/kalote-5/00-claves-5/05-cascara_timbal.mp3",
+                  src: "../assets/audio/kalote-5/00-claves-5/08-cascara_timbal.mp3",
                   name: "Cáscara de Timbal (montuno)",
                   customClass: "quinti-timbal",
                   muted: true,
@@ -324,7 +339,7 @@ const kalote = [
                   customClass: "variacion-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/07-tumba.mp3",
+                  src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/07-tumbadora.mp3",
                   name: "Tumbadora",
                   customClass: "tumbadora",
                 },
@@ -608,7 +623,7 @@ const kalote = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/02-clave-4_2.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/02-clave_4_2.mp3",
                   name: "Claves",
                 },
                 {
@@ -657,7 +672,7 @@ const kalote = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/01-clave-2_4.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/01-clave_2_4.mp3",
                   name: "Claves",
                 },
                 {
@@ -760,7 +775,7 @@ const kalote = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/04-clave_montuno-variacion.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/04-clave_montuno_variacion.mp3",
                   name: "Claves",
                 },
                 {
@@ -845,7 +860,7 @@ const kalote = [
         },
         {
           type: "text",
-          content: "Pista de clave pendiente de grabar",
+          content: "Pista de clave completa agregada al reproductor",
         },
         {
           type: "audio",
@@ -861,6 +876,10 @@ const kalote = [
                   name: "Click",
                   muted: true,
                   customClass: "click",
+                },
+                {
+                  src: "../assets/audio/kalote-5/09-quinti/12-clave_completa.mp3",
+                  name: "Claves",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -894,7 +913,7 @@ const kalote = [
         },
         {
           type: "text",
-          content: "Pista de clave pendiente de grabar",
+          content: "Pista de clave abierta agregada al reproductor.",
         },
         {
           type: "audio",
@@ -910,6 +929,10 @@ const kalote = [
                   name: "Click",
                   muted: true,
                   customClass: "click",
+                },
+                {
+                  src: "../assets/audio/kalote-5/09-quinti/13-clave_abierta.mp3",
+                  name: "Claves",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -943,7 +966,7 @@ const kalote = [
         },
         {
           type: "text",
-          content: "Pista de clave pendiente de grabar",
+          content: "Pista de clave de quintú 3:4 agregada al reproductor.",
         },
         {
           type: "audio",
@@ -959,6 +982,10 @@ const kalote = [
                   name: "Click",
                   muted: true,
                   customClass: "click",
+                },
+                {
+                  src: "../assets/audio/kalote-5/09-quinti/14-clave_quintu_3_4.mp3",
+                  name: "Claves",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -1010,7 +1037,7 @@ const kalote = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/01-clave-2_4.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/01-clave_2_4.mp3",
                   name: "Claves",
                 },
                 {
