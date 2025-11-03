@@ -144,7 +144,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/02-clave-completa_rapida/00-click-203bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 203",
                   muted: true,
                   customClass: "click",
                 },
