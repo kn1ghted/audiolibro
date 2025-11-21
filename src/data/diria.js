@@ -144,7 +144,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/02-clave-completa_rapida/00-click-203bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 203",
                   muted: true,
                   customClass: "click",
                 },
@@ -557,7 +557,7 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/03-clave_abierta.mp3",
                   name: "Clave Abierta en 7",
                   customClass: "setima-clave-3-4",
                 },
