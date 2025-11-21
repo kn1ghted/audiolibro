@@ -557,7 +557,7 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/03-clave_abierta.mp3",
                   name: "Clave Abierta en 7",
                   customClass: "setima-clave-3-4",
                 },
