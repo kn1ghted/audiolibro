@@ -54,6 +54,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.btn-group > .btn-mute:hover {
+  color: var(--wp-mute-solo-color) !important;
+  background-color: transparent !important;
+}
+
+.btn-group > .btn-mute.active:hover {
+  color: white !important;
+  background-color: #dc3545 !important;
+}
+
 #sections h2 {
   color: #ffed00;
   font-weight: bold;
