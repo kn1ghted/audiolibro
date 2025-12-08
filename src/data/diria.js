@@ -19,7 +19,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/00-claves-7/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -74,7 +74,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/01-clave-completa/00-click-175bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 175bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -144,7 +144,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/02-clave-completa_rapida/00-click-203bpm.mp3",
-                  name: "Click 203",
+                  name: "Click 203bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -213,7 +213,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/03-clave-abierta/00-click-238bpm.mp3",
-                  name: "Click 238",
+                  name: "Click 238bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -287,7 +287,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -325,7 +325,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -363,7 +363,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -400,7 +400,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -453,7 +453,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -486,7 +486,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -519,7 +519,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -552,7 +552,7 @@ const diria = [
               data: [
                 {
                   src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
-                  name: "Click 120",
+                  name: "Click 120bpm",
                   muted: true,
                   customClass: "click",
                 },

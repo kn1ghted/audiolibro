@@ -20,7 +20,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/00-claves-5/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   customClass: "click",
                   muted: true,
                 },
@@ -166,7 +166,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/00-click-225bpm.mp3",
-                  name: "Click",
+                  name: "Click 225bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -237,7 +237,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/03-quinta_clave_abierta/00-click_200bpm.mp3",
-                  name: "Click",
+                  name: "Click 200bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -299,7 +299,7 @@ const kalote = [
         },
         {
           type: "text",
-          content: "Variante con click a 225 bpm (clic 213bpm).",
+          content: "Variante con click 213bpm.",
         },
         {
           type: "audio",
@@ -310,7 +310,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/00-click_213bpm.mp3",
-                  name: "Click",
+                  name: "Click 213bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -399,13 +399,14 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/05-quinto_5-4/00-click_198bpm.mp3",
-                  name: "Click",
+                  name: "Click 198bpm",
                   muted: true,
                   customClass: "click",
                 },
                 {
                   src: "../assets/audio/kalote-5/05-quinto_5-4/01-clave.mp3",
                   name: "Claves",
+                  muted: true,
                   customClass: "clave",
                 },
                 {
@@ -452,13 +453,14 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/00-click_118bpm.mp3",
-                  name: "Click",
+                  name: "Click 118bpm",
                   muted: true,
                   customClass: "click",
                 },
                 {
                   src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/01-clave.mp3",
                   name: "Claves",
+                  muted: true,
                   customClass: "clave",
                 },
                 {
@@ -506,13 +508,14 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/07-quinto_4_5/00-click_198bpm.mp3",
-                  name: "Click",
+                  name: "Click 198bpm",
                   muted: true,
                   customClass: "click",
                 },
                 {
                   src: "../assets/audio/kalote-5/07-quinto_4_5/01-clave.mp3",
                   name: "Claves",
+                  muted: true,
                   customClass: "clave",
                 },
                 {
@@ -559,13 +562,14 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/00-click_118bpm.mp3",
-                  name: "Click",
+                  name: "Click 118bpm",
                   muted: true,
                   customClass: "click",
                 },
                 {
                   src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/01-clave.mp3",
                   name: "Claves",
+                  muted: true,
                   customClass: "clave",
                 },
                 {
@@ -625,7 +629,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -674,7 +678,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -728,7 +732,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -777,7 +781,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -826,7 +830,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -880,7 +884,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -933,7 +937,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -986,7 +990,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -1039,7 +1043,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/00-click_162bpm.mp3",
-                  name: "Click",
+                  name: "Click 162bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -1106,7 +1110,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/10-quinte/00-click_190bpm.mp3",
-                  name: "Click 190",
+                  name: "Click 190bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -1160,7 +1164,7 @@ const kalote = [
               data: [
                 {
                   src: "../assets/audio/kalote-5/11-quintu/00-click_116bpm.mp3",
-                  name: "Click 116",
+                  name: "Click 116bpm",
                   muted: true,
                   customClass: "click",
                 },
@@ -1180,12 +1184,6 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/11-quintu/04-bongo.mp3",
                   name: "Bongo",
-                  muted: true,
-                },
-                {
-                  src: "../assets/audio/kalote-5/11-quintu/05-clave-variacion.mp3",
-                  name: "Clave Variación 4:3",
-                  muted: true,
                 },
               ],
             },
