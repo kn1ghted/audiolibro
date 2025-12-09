@@ -583,7 +583,7 @@ const kalote = [
                   customClass: "quinto-repique",
                 },
                 {
-                  src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/04-tumba.mp3",
+                  src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/04-tumba.mp3",
                   name: "Tumbadora (Piano)",
                   customClass: "quinto-tumba",
                 },
