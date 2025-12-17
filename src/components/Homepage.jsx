@@ -62,7 +62,7 @@ const Homepage = () => {
               <div className="col-xs-1 col-md-12 col-lg-12 p-2">
                   <div className="container p-3">
                       <h3>Reproductor de audio con pistas individuales por instrumento:</h3>
-                      <p>Cada reproductor contiene las pistas individuales para cada instrumento. El reproductor se ejecuta en búqle (loop) or defecto y cada pista se puede silenciar de manera aislada.</p>
+                      <p>Cada reproductor contiene las pistas individuales para cada instrumento. El reproductor se ejecuta en bucle (loop) or defecto y cada pista se puede silenciar de manera aislada.</p>
                       <img className="img-fluid" src={waveform_player} alt="player"></img>
                       <ul className="list-group">
                           <li className="list-group-item text-small">

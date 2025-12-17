@@ -377,7 +377,7 @@ const kalote = [
         {
           type: "text",
           content:
-            "Para la creación de este ritmo se tomó como base el Candombe Uruguayo. A pesar de que el Candombe fue utilizado como punto de partida, el “Quinto” presenta características distintas, ya que se realizó una adaptación en la instrumentación tratando de respetar la sonoridad de cada tambor. El Candombe tradicionalmente consta de tres tambores con forma de barrilete de distintos tamaños, variando tanto en el ancho del tambor como en el parche, dando tres tonos diferentes 9-10). El Tambor Piano del Candombe, que es el tambor de tono más grave, se sustituyó por la Tumbadora; el Tambor Chico, que es el tambor de tono más agudo, por el Requinto (también se puede sustituir por el Tambor Quinto, aunque da un tono más grave) y el Tambor Repique, que es el tambor de tono medio, se sustituyó por el Tambor Quinto (aunque se puede sustituir por el Tambor Conga cuando el chico ha sido sustituido por el Tambor Quinto, dando como resultado un tono más grave), la función principal del Tambor Repique es la improvisación. Con esta sustitución de tambores se buscó mantener la relación de los tonos entre un tambor y otro.",
+            "Para la creación de este ritmo se tomó como base el Candombe Uruguayo. A pesar de que el Candombe fue utilizado como punto de partida, el “Quinto” presenta características distintas, ya que se realizó una adaptación en la instrumentación tratando de respetar la sonoridad de cada tambor. El Candombe tradicionalmente consta de tres tambores con forma de barrilete de distintos tamaños, variando tanto en el ancho del tambor como en el parche, dando tres tonos diferentes. El Tambor Piano del Candombe, que es el tambor de tono más grave, se sustituyó por la Tumbadora; el Tambor Chico, que es el tambor de tono más agudo, por el Requinto (también se puede sustituir por el Tambor Quinto, aunque da un tono más grave) y el Tambor Repique, que es el tambor de tono medio, se sustituyó por el Tambor Quinto (aunque se puede sustituir por el Tambor Conga cuando el chico ha sido sustituido por el Tambor Quinto, dando como resultado un tono más grave), la función principal del Tambor Repique es la improvisación. Con esta sustitución de tambores se buscó mantener la relación de los tonos entre un tambor y otro.",
         },
         {
           type: "header",
@@ -870,10 +870,6 @@ const kalote = [
           content: "Quintí Clave Completa",
         },
         {
-          type: "text",
-          content: "Pista de clave completa agregada al reproductor",
-        },
-        {
           type: "audio",
           content: "audio",
           idPlayer: "quinti-clave-completa",
@@ -921,10 +917,6 @@ const kalote = [
         {
           type: "header",
           content: "Quintí Clave Abierta",
-        },
-        {
-          type: "text",
-          content: "Pista de clave abierta agregada al reproductor.",
         },
         {
           type: "audio",
@@ -1150,8 +1142,7 @@ const kalote = [
         {
           type: "div",
           content:
-            `<p>El patrón que se utilizó de referencia para la creación de este ritmo proviene del Bolero. La clave es igual a una Clave Cubana 3:2 a la que se le agrega dos golpes de negra al final, dando como resultado la Clave 3:4 en dos compases de 5/4.</p>
-            <p>En este ejemplo de audio se agregan 2 pistas adicionales que no se encuentran en la partitura: un Bongo (es el mismo patrón del bongo del Quintí a un tiempo más lento) y una Clave en Variación (es la misma Clave 3:4 pero el patrón invierte los compases y comienza en el segundo compás dando una Clave 4:3). Estos se encuentran al final del reproductor.</p>`,
+            `<p>El patrón que se utilizó de referencia para la creación de este ritmo proviene del Bolero. La clave es igual a una Clave Cubana 3:2 a la que se le agrega dos golpes de negra al final, dando como resultado la Clave 3:4 en dos compases de 5/4.</p>`,
         },
         {
           type: "audio",
