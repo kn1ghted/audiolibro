@@ -1,6 +1,6 @@
 import kalote from "./kalote";
 import diria from "./diria";
-import test from "./test";
+import creditos from "./creditos";
 
 const navigation = [
   {
@@ -18,14 +18,13 @@ const navigation = [
     slug: "diria",
     children: diria,
   },
-  /*{
+  {
     id: "4",
-    label: "Testing",
-    // se usa para crear dropdowns
+    label: "Créditos",
     path: "#", 
-    slug: "test-audios",
-    children: test
-  }*/
+    slug: "creditos",
+    children: creditos
+  }
 ];
 
 export default navigation;

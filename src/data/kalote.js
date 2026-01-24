@@ -968,10 +968,6 @@ const kalote = [
           content: "Quintí 3:4 - Clave de Quintú",
         },
         {
-          type: "text",
-          content: "Pista de clave de quintú 3:4 agregada al reproductor.",
-        },
-        {
           type: "audio",
           content: "audio",
           idPlayer: "quinti-3-4",
@@ -1019,10 +1015,6 @@ const kalote = [
         {
           type: "header",
           content: "Quintí 2:4 - Conga y Tumbadora",
-        },
-        {
-          type: "text",
-          content: "Revisar pistas",
         },
         {
           type: "audio",

@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 
 
 const FooterMenu = () => {
-    // Split the navigation items into two columns
-    const midIndex = Math.ceil(navigation.length / 2);
-    const firstColumn = navigation.slice(0, midIndex);
-    const secondColumn = navigation.slice(midIndex);
+    // Split the navigation items into three columns
+    const index = Math.ceil(navigation.length / 3);
+    const firstColumn = navigation.slice(0, index);
+    const secondColumn = navigation.slice(index, index*2);
+    const thirdColumn = navigation.slice(index*2);
 
     return (
         <div className="footer-menu">
@@ -33,6 +34,26 @@ const FooterMenu = () => {
                 </div>
                 <div className="footer-menu-column">
                     {secondColumn.map((link) => (
+                        <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.slug}>
+                           <Link className="header-menu">
+                                {link.label}
+                            </Link>
+                            {link.children && (
+                                <ul className="list-unstyled submenu">
+                                    {link.children.map((child) => (
+                                        <li key={child.slug}>
+                                            <Link to={`${link.slug}/${child.slug}`}>
+                                                {child.title}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </li>
+                    ))}
+                </div>
+                <div className="footer-menu-column">
+                    {thirdColumn.map((link) => (
                         <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.slug}>
                            <Link className="header-menu">
                                 {link.label}

@@ -1,43 +1,21 @@
 Audiolibro
 Revisión de contenido
-25 enero 2025 / 1 de marzo 
+24 enero 2026 
 
 Global
-+ cambiar tracks de clicks (sónido) - revisar si se puede crear track con sonido nuevo
-+ revisar brincos de loop - largo de pistas
 - opción para descarga de archivos de audio - botón en navegación y pié de página
-+ revisar menu offcanvas responsive
-- nombres y titulo para Créditos
-+ revisión items menu navegación: quinta clave abierta
+- orden y nombre de archivos para crear el zip para descarga
+- integración créditos nueva página
+- bug reproductores safari / ecosia
 
 Frontpage
-- Editar imagen portada pie de página - pendiente de entrega
++ quitar logo audiolibro en el pie de página
 
 KALOTE
-+ Claves de 5
-    + archivos primeras 3 claves pendientes
-+ Quinta clave completa
-    + item menu quinta de clave completa
-+ Quinta clave abierta
-    + item menu quinta de clave abierta
-- Quinto
-    - revisar nombre paréntesis
-+ Quintí
-    + clave pendiente de grabar  
+- cambiar archivo de audio campana enviado whatsapp
 
 CONVITE
-+ Claves de 7
-    + click muteado (pendiente)
-+ Clave completa
-    + click 175bpm 7/8
-    + click 203bpm 7/8 rápida
-+ Clave abierta
-    + click 119bpm blanca
-+ Séptima
-    + click blanca 120bpm
-+ Séptimo
-    + click blanca 120bpm
-    + dos reproductores para cada sección 
++ no hay tareas pendientes
 
 Tareas de integración:
 + crear una rama nueva en repo
