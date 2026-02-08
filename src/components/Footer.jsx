@@ -14,7 +14,25 @@ const Footer = () => {
           <div className="col-12 col-md-3 text-center small text-light">
             <div className="mb-4">
               <h3 className="mb-4">Descargas</h3>
-              <a className="btn btn-outline-light me-2" type="button" href={pdfLibro} target='_blank'>Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i></a>
+              <a
+                className="btn btn-outline-light me-2"
+                type="button"
+                href={pdfLibro}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i>
+              </a>
+
+              {/* ZIP de audios — ubicado en /public/assets/audio/ */}
+              <a
+                className="btn btn-outline-light mt-2"
+                href="/audiolibro/public/assets/audio/audio_files.zip"
+                download
+                rel="noopener noreferrer"
+              >
+                Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
+              </a>
             </div>
             <div>
               <h3 className="mb-1">Créditos:</h3>

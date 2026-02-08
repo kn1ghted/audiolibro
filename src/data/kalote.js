@@ -654,6 +654,12 @@ const kalote = [
                   customClass: "variacion-quinti-campana",
                 },
                 {
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
+                  name: "Campana de Mano Nueva",
+                  muted: true,
+                  customClass: "variacion-quinti-campana",
+                },
+                {
                   src: "../assets/audio/kalote-5/09-quinti/10-campana.mp3",
                   name: "Campana",
                   muted: true,
