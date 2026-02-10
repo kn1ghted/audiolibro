@@ -57,6 +57,15 @@ export const Navbar = ({ navigation }) => {
           >
             Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i>
           </a>
+          {/* ZIP de audios — ubicado en /public/assets/audio/ */}
+          <a
+            className="btn btn-outline-success"
+            href="/audiolibro/public/assets/audio/audio_files.zip"
+            download
+            rel="noopener noreferrer"
+          >
+            Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
+          </a>
         </form>
         <div class="d-lg-none">
           <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
@@ -110,6 +119,15 @@ export const Navbar = ({ navigation }) => {
                   target="_blank"
                 >
                   Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i>
+                </a>
+                {/* ZIP de audios — ubicado en /public/assets/audio/ */}
+                <a
+                  className="btn btn-outline-success"
+                  href="/audiolibro/public/assets/audio/audio_files.zip"
+                  download
+                  rel="noopener noreferrer"
+                >
+                  Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
                 </a>
               </form>
             </div>

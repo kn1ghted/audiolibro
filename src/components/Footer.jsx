@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="mb-4">
               <h3 className="mb-4">Descargas</h3>
               <a
-                className="btn btn-outline-light me-2"
+                className="btn btn-outline-light me-2 mt-2"
                 type="button"
                 href={pdfLibro}
                 target="_blank"

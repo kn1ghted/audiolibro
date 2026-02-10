@@ -648,14 +648,8 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
-                  name: "Campana de Mano",
-                  muted: true,
-                  customClass: "variacion-quinti-campana",
-                },
-                {
                   src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
-                  name: "Campana de Mano Nueva",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
@@ -708,7 +702,7 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
@@ -757,7 +751,7 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
@@ -806,8 +800,8 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
-                  name: "Campana de mano",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
@@ -856,7 +850,7 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
                   name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
@@ -905,8 +899,8 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
-                  name: "Campana de mano",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
@@ -954,8 +948,8 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
-                  name: "Campana de mano",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
@@ -1003,8 +997,8 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
-                  name: "Campana de mano",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
@@ -1057,8 +1051,8 @@ const kalote = [
                   customClass: "quinti-conga",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion.mp3",
-                  name: "Campana de mano",
+                  src: "../assets/audio/kalote-5/09-quinti/11-campana_variacion_nueva.mp3",
+                  name: "Campana de Mano",
                   muted: true,
                   customClass: "variacion-quinti-campana",
                 },
