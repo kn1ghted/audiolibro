@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef} from "react";
 import { Link } from "react-router-dom";
 import navigation from "../data/navigation";
 
@@ -6,6 +6,17 @@ import navigation from "../data/navigation";
 import pdf from "../assets/docs/kalote-convite.pdf";
 
 export const Navbar = ({ navigation }) => {
+  const offcanvasRef = useRef(null);
+  const hideOffcanvas = () => {
+    if (offcanvasRef.current) {
+      const offcanvasInstance = bootstrap.Offcanvas.getInstance(
+        offcanvasRef.current,
+      );
+      if (offcanvasInstance) {
+        offcanvasInstance.hide();
+      }
+    }
+  }; 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container container-fluid">
@@ -67,11 +78,11 @@ export const Navbar = ({ navigation }) => {
             Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
           </a>
         </form>
-        <div class="d-lg-none">
+        <div className="d-lg-none">
           <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
             <i className="bi bi-list"></i>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu" aria-labelledby="offcanvas-menu-label">
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu" ref={offcanvasRef} aria-labelledby="offcanvas-menu-label">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title">Audiolibro</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -100,7 +111,7 @@ export const Navbar = ({ navigation }) => {
                           <li key={child.slug}>
                             <Link
                               to={`${link.slug}/${child.slug}`}
-                              className="dropdown-item"
+                              className="dropdown-item" onClick={hideOffcanvas}
                             >
                               {child.title}
                             </Link>

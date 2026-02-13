@@ -10,7 +10,6 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    console.log(playlists);
     setLoading(true);
 
     playlists.forEach((playlist, index) => {
