@@ -21,9 +21,10 @@ const navigation = [
   {
     id: "4",
     label: "Créditos",
-    path: "#", 
+    path: 'creditos', 
     slug: "creditos",
-    children: creditos
+    content: creditos,
+    children: [],
   }
 ];
 
