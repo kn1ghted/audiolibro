@@ -32,7 +32,7 @@ const creditos = [
                             <li>Draxe Ramírez Campos</li>
                           </ul>
 
-                          <h4 class="mt-3">Mezcla</h4>
+                          <h4 class="mt-3">Mezcla y Edición</h4>
                           <ul>
                             <li>Rafael Vargas Unfried</li>
                           </ul>

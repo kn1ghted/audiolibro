@@ -34,13 +34,6 @@ const Footer = () => {
                 Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
               </a>
             </div>
-            <div>
-              <h3 className="mb-1">Créditos:</h3>
-              <h4>Autor y compositor:</h4>
-              <p>Daniel Cuenca Alpízar</p>
-              <h4>Patrocinador:</h4>
-              <p>Enrique Sánchez Sibaja</p>
-            </div>
           </div>
         </div>
       </div>

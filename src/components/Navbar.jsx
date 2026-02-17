@@ -21,7 +21,7 @@ export const Navbar = ({ navigation }) => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container container-fluid">
         <Link className="navbar-brand" to="/">
-          AudioLibro
+          Cinco & Siete
         </Link>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
