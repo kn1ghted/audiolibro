@@ -24,17 +24,22 @@ const creditos = [
                             <li>Juan Cuellar Aberle</li>
                             <li>Alexis Leal Prieto</li>
                           </ul>
-                        </div>
-
-                        <div class="col-12 col-sm-6 mb-3">
-                          <h4 class="mt-3">Grabación</h4>
+                          <h4 class="mt-3">Grabación y premezcla</h4>
                           <ul>
                             <li>Draxe Ramírez Campos</li>
                           </ul>
+                        </div>
 
-                          <h4 class="mt-3">Mezcla y Edición</h4>
+                        <div class="col-12 col-sm-6 mb-3">
+                          <h4 class="mt-3">Mezcla</h4>
                           <ul>
                             <li>Rafael Vargas Unfried</li>
+                          </ul>
+                          <h4 class="mt-3">Edición</h4>
+                          <ul>
+                            <li>Rafael Vargas Unfried</li>
+                            <li>David Cuenca Alpízar</li>
+                            <li>Edwin Calderón Quesada</li>
                           </ul>
                           <h4 class="mt-3">Desarrollo de Aplicación Web</h4>
                           <ul>
