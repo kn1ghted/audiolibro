@@ -1,4 +1,4 @@
-import React,{useRef} from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import navigation from "../data/navigation";
 
@@ -27,30 +27,37 @@ export const Navbar = ({ navigation }) => {
           <ul className="navbar-nav">
             {navigation.map((link) => (
               <li
-                className={`nav-item ${link.children ? "dropdown" : ""}`}
+                className={`nav-item ${link.children && link.children.length > 0 ? "dropdown" : ""}`}
                 key={link.slug}
               >
                 <Link
                   className={`nav-link ${
-                    link.children ? "dropdown-toggle" : ""
+                    link.children && link.children.length > 0
+                      ? "dropdown-toggle"
+                      : ""
                   }`}
                   to={link.slug}
                   role="button"
-                  data-bs-toggle={link.children ? "dropdown" : undefined}
+                  data-bs-toggle={
+                    link.children && link.children.length > 0
+                      ? "dropdown"
+                      : undefined
+                  }
                   aria-expanded="false"
                 >
                   {link.label}
                 </Link>
-                {link.children && (
+                {link.children && link.children.length > 0 && (
                   <ul className="dropdown-menu" aria-labelledby="dd_ritmos-5">
                     {link.children.map((child) => (
                       <li key={child.slug}>
-                        <Link
-                          to={`${link.slug}/${child.slug}`}
+                        <a
+                          href={`${link.slug}/${child.slug}`}
                           className="dropdown-item"
+                          onClick={hideOffcanvas}
                         >
                           {child.title}
-                        </Link>
+                        </a>
                       </li>
                     ))}
                   </ul>
@@ -87,31 +94,42 @@ export const Navbar = ({ navigation }) => {
               <h5 class="offcanvas-title">Audiolibro</h5>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div className="offcanvas-body">
               <ul className="navbar-nav">
                 {navigation.map((link) => (
                   <li
-                    className={`nav-item ${link.children ? "dropdown" : ""}`}
+                    className={`nav-item ${link.children && link.children.length > 0 ? "dropdown" : ""}`}
                     key={link.slug}
                   >
                     <Link
                       className={`nav-link ${
-                        link.children ? "dropdown-toggle" : ""
+                        link.children && link.children.length > 0
+                          ? "dropdown-toggle"
+                          : ""
                       }`}
                       to={link.slug}
+                      onClick={link.children && link.children.length > 0 ? undefined : hideOffcanvas}
                       role="button"
-                      data-bs-toggle={link.children ? "dropdown" : undefined}
+                      data-bs-toggle={
+                        link.children && link.children.length > 0
+                          ? "dropdown"
+                          : undefined
+                      }
                       aria-expanded="false"
                     >
                       {link.label}
                     </Link>
-                    {link.children && (
-                      <ul className="dropdown-menu" aria-labelledby="dd_ritmos-5">
+                    {link.children && link.children.length > 0 && (
+                      <ul
+                        className="dropdown-menu"
+                        aria-labelledby="dd_ritmos-5"
+                      >
                         {link.children.map((child) => (
                           <li key={child.slug}>
                             <Link
                               to={`${link.slug}/${child.slug}`}
                               className="dropdown-item" onClick={hideOffcanvas}
+                              onClick={hideOffcanvas}
                             >
                               {child.title}
                             </Link>
@@ -129,7 +147,8 @@ export const Navbar = ({ navigation }) => {
                   href={pdf}
                   target="_blank"
                 >
-                  Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i>
+                  Descargar PDF{" "}
+                  <i className="bi bi-file-earmark-arrow-down"></i>
                 </a>
                 {/* ZIP de audios — ubicado en /public/assets/audio/ */}
                 <a
@@ -144,7 +163,6 @@ export const Navbar = ({ navigation }) => {
             </div>
           </div>
         </div>
-        
       </div>
     </nav>
   );

@@ -15,6 +15,7 @@ const App = () => {
         <main className="flex-grow bg-white">
           <Routes>
             <Route path="/" element={<Homepage />} />
+            <Route path="/:slug" element={<Page pages={navigation} />} />
             <Route path="/:slug/:slug" element={<Page pages={navigation} />} />
           </Routes>
         </main>
