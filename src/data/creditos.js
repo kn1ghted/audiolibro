@@ -7,7 +7,7 @@ const creditos = [
           {
             type: "div",
             content: `<section class="creditos container my-5">
-                      <h2>Autor y Compositor</h2>
+                      <h2>Autor y cocreador rítmico</h2>
                       <p><strong>Daniel Cuenca Alpízar</strong></p>
 
                       <!-- A partir de aquí el contenido se organiza en 2 columnas responsive -->
@@ -18,7 +18,7 @@ const creditos = [
                           <ul>
                             <li>Enrique Sánchez Sibaja</li>
                           </ul>
-                          <h4 class="mt-3">Grabación de percusión y colaboración con el desarrollo rítmico</h4>
+                          <h4 class="mt-3">Grabación de percusión y cocreadores rítmicos</h4>
                           <ul>
                             <li>Rafael Vargas Unfried</li>
                             <li>Juan Cuellar Aberle</li>
