@@ -129,7 +129,6 @@ export const Navbar = ({ navigation }) => {
                             <Link
                               to={`${link.slug}/${child.slug}`}
                               className="dropdown-item" onClick={hideOffcanvas}
-                              onClick={hideOffcanvas}
                             >
                               {child.title}
                             </Link>
