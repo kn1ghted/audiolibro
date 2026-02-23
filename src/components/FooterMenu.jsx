@@ -15,7 +15,7 @@ const FooterMenu = () => {
                 <div className="footer-menu-column">
                     {firstColumn.map((link) => (
                         <li className={`nav-item ${link.children ? 'dropdown' : ''}`} key={link.slug}>
-                            <Link className="header-menu" to={link.slug}>
+                            <Link className="header-menu">
                                 {link.label}
                             </Link>
                             {link.children && (
@@ -35,7 +35,7 @@ const FooterMenu = () => {
                 <div className="footer-menu-column">
                     {secondColumn.map((link) => (
                         <li className={`nav-item ${link.children && link.children.length > 0  ? 'dropdown' : ''}`} key={link.slug}>
-                           <Link className="header-menu" to={link.slug}>
+                           <Link className="header-menu">
                                 {link.label}
                             </Link>
                             {link.children && link.children.length > 0 &&  (

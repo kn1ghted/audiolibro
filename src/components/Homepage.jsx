@@ -34,7 +34,7 @@ const Homepage = () => {
   return (
     <section className="main container align-self-center my-5">
     <div className="content">
-          <h1 className="fw-bold">Audiolibro</h1>
+          <h1 className="fw-bold">Cinco & Siete</h1>
           <h2>Creación de Ritmos bailables latinoamericanos en métricas irregulares (5 y 7)</h2>
           <p>La idea de la creación de este documento surge por un interés de explorar las posibilidades rítmicas dentro de la música popular latinoamericana, creando nuevos ritmos en métricas irregulares (compás de amalgama) a partir de ritmos bailables latinoamericanos, dejando de lado las métricas binarias y ternarias.</p>
       </div>
