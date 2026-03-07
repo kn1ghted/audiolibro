@@ -5,10 +5,10 @@ const creditos = [
       content: {
         sections: [        
           {
-            type: "section",
+            type: "text",
             content: `<section class="creditos container my-5">
                       <h2>Autor y cocreador rítmico</h2>
-                      <p><strong>Daniel Cuenca Alpízar</strong></p>
+                      <p class="fs-2"><strong>Daniel Cuenca Alpízar</strong></p>
 
                       <!-- A partir de aquí el contenido se organiza en 2 columnas responsive -->
                       <div class="row mt-4">
