@@ -5,7 +5,7 @@ const creditos = [
       content: {
         sections: [        
           {
-            type: "div",
+            type: "section",
             content: `<section class="creditos container my-5">
                       <h2>Autor y cocreador rítmico</h2>
                       <p><strong>Daniel Cuenca Alpízar</strong></p>

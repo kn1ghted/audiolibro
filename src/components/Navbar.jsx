@@ -51,13 +51,12 @@ export const Navbar = ({ navigation }) => {
                   <ul className="dropdown-menu" aria-labelledby="dd_ritmos-5">
                     {link.children.map((child) => (
                       <li key={child.slug}>
-                        <a
-                          href={`${link.slug}/${child.slug}`}
+                        <Link
+                          to={`${link.slug}/${child.slug}`}
                           className="dropdown-item"
-                          onClick={hideOffcanvas}
-                        >
+                          onClick={hideOffcanvas}>
                           {child.title}
-                        </a>
+                        </Link>
                       </li>
                     ))}
                   </ul>

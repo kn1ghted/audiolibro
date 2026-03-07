@@ -25,12 +25,12 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/00-claves-7/01-clave-completa-son.mp3",
-                  name: "Clave Completa en 7/8",
+                  name: "Clave completa en 7/8",
                   customClass: "setima-clave",
                 },
                 {
                   src: "../assets/audio/convite-7/00-claves-7/02-clave-abierta-son.mp3",
-                  name: "Clave Abierta en 7/8",
+                  name: "Clave abierta en 7/8",
                   muted: true,
                   customClass: "setima-cata",
                 },
@@ -55,13 +55,13 @@ const diria = [
   },
   {
     slug: "completa-7",
-    title: "Clave Completa en 7",
+    title: "Clave completa en 7",
     content: {
       sections: [
         {
           type: "text",
           content:
-            `Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Completa en 7”), la cual se deriva de la “Clave Completa” en 5 utilizando la lógica de la Hemiola. El Chequeré presente en este reproductor corresponde al Chequeré Variación de la partitura en el libro.`,
+            `Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“clave completa en 7”), la cual se deriva de la “clave completa” en 5 utilizando la lógica de la hemiola. El chequeré presente en este reproductor corresponde al chequeré variación de la partitura en el libro.`,
         },
         {
           type: "audio",
@@ -90,7 +90,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/01-clave-completa/03-chequere.mp3",
-                  name: "Chequeré Variación",
+                  name: "Chequeré variación",
                   customClass: "setima-chequere",
                 },
                 {
@@ -131,7 +131,7 @@ const diria = [
         {
           type: "text",
           content:
-            `La pista usada en este reproductor para el Chequeré corresponde al Chequeré de la partitura en el libro. Además en este reproductor no se incluye la pista correspondiente al Quinto de la partitura en el libro.`,
+            `La pista usada en este reproductor para el chequeré corresponde al chequeré de la partitura en el libro. Además en este reproductor no se incluye la pista correspondiente al quinto de la partitura en el libro.`,
         },
         {
           type: "audio",
@@ -194,13 +194,13 @@ const diria = [
   },
   {
     slug: "abierta-7",
-    title: "Clave Abierta en 7",
+    title: "Clave abierta en 7",
     content: {
       sections: [
         {
           type: "text",
           content:
-            "Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“Clave Abierta en 7”), la cual se deriva de la “Clave Abierta” en 5, utilizando la lógica de la Hemiola.",
+            "Este ritmo se creó a partir de la clave compuesta que lleva el mismo nombre (“clave abierta en 7”), la cual se deriva de la “clave abierta” en 5, utilizando la lógica de la hemiola.",
         },
         {
           type: "audio",
@@ -229,7 +229,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/03-clave-abierta/03-chequere_golpe.mp3",
-                  name: "Chequeré Variación",
+                  name: "Chequeré variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-chequere",
                 },
@@ -245,7 +245,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.mp3",
-                  name: "Tumbadora Variación",
+                  name: "Tumbadora variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-tumbadora",
                 },
@@ -270,7 +270,7 @@ const diria = [
         {
           type: "text",
           content:
-            "Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En esta ocasión se mantiene la misma estructura del patrón, pero se elimina el golpe que corresponde a la corchea del contratiempo del segundo tiempo de cada compás (el cuarto golpe del tambor Conga, la cuarta corchea), quedando así la figura completa dentro de un compás de 7/8.",
+            "Este ritmo se creó tomando como base el patrón del tambor conga del son cubano, el cual también se utiliza en una de las variantes del calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999). En esta ocasión se mantiene la misma estructura del patrón, pero se elimina el golpe que corresponde a la corchea del contratiempo del segundo tiempo de cada compás (el cuarto golpe del tambor Conga, la cuarta corchea), quedando así la figura completa dentro de un compás de 7/8.",
         },
         {
           type: "header",
@@ -350,7 +350,7 @@ const diria = [
         },
         {
           type: "header",
-          content: "Séptima Clave Completa en 7",
+          content: "Séptima clave completa en 7",
         },
         {
           type: "audio",
@@ -369,7 +369,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/03-clave-completa-son.mp3",
-                  name: "Clave Completa en 7",
+                  name: "Clave completa en 7",
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
@@ -387,7 +387,7 @@ const diria = [
         },
         {
           type: "header",
-          content: "Séptima Clave Abierta en 7",
+          content: "Séptima clave abierta en 7",
         },
         {
           type: "audio",
@@ -406,7 +406,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son.mp3",
-                  name: "Clave Abierta en 7",
+                  name: "Clave abierta en 7",
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
@@ -433,9 +433,9 @@ const diria = [
         {
           type: "div",
           content:
-            `<p>Este ritmo se creó tomando como base el patrón del tambor Conga del Son Cubano, el cual también se utiliza en una de las variantes del Calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999).</p>
-            <p>En la versión 4 - 3, se elimina el segundo golpe del tambor Conga (segunda corchea de cada compás) y el primer golpe abierto del patrón se adelanta una corchea, quedando en el quinto tiempo del compás. En esta versión se puede utilizar tanto la clave compuesta de la forma 4 - 3 en 7, como la “Clave Completa en 7".</p>
-            <p>En la versión 3 - 4, se elimina el segundo golpe del tambor Conga (segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el Calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “Clave Abierta en 7" (aunque la “Clave Abierta en 7” está en un compás de amalgama de 2 - 3 - 2).</p>
+            `<p>Este ritmo se creó tomando como base el patrón del tambor conga del son cubano, el cual también se utiliza en una de las variantes del calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999).</p>
+            <p>En la versión 4 - 3, se elimina el segundo golpe del tambor conga (segunda corchea de cada compás) y el primer golpe abierto del patrón se adelanta una corchea, quedando en el quinto tiempo del compás. En esta versión se puede utilizar tanto la clave compuesta de la forma 4 - 3 en 7, como la “clave completa en 7".</p>
+            <p>En la versión 3 - 4, se elimina el segundo golpe del tambor conga (segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “clave abierta en 7" (aunque la “clave abierta en 7” está en un compás de amalgama de 2 - 3 - 2).</p>
             `,
         },
         {
@@ -464,7 +464,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
-                  name: "Conga Variación",
+                  name: "Conga variación",
                   customClass: "setima-conga",
                 },
               ],
@@ -525,12 +525,12 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/05-septimo/04-clave_completa.mp3",
-                  name: "Clave Completa en 7",
+                  name: "Clave completa en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {
                   src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
-                  name: "Conga Variación",
+                  name: "Conga cariación",
                   customClass: "setima-conga",
                 },
               ],
@@ -539,7 +539,7 @@ const diria = [
         },
         {
           type: "header",
-          content: "Séptimo de Clave Abierta en 7",
+          content: "Séptimo de clave abierta en 7",
         },
         {
           type: "audio",
@@ -558,7 +558,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/05-septimo/03-clave_abierta.mp3",
-                  name: "Clave Abierta en 7",
+                  name: "Clave abierta en 7",
                   customClass: "setima-clave-3-4",
                 },
                 {

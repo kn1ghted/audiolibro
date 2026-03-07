@@ -28,7 +28,10 @@ export const Section = ({ section }) => {
       return (
         <div dangerouslySetInnerHTML={ { __html: section.content } }></div>
       );
-
+    case "section":
+      return (
+        <section dangerouslySetInnerHTML={ { __html: section.content } }></section>
+      );
     case "audio": {
       return (
         <AudioPlayer key={location.pathname} playlists={section.playlists} slides={section.slides} />

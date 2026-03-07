@@ -12,7 +12,7 @@ const navigation = [
   },
   {
     id: "3",
-    label: "Convite de Diriá",
+    label: "Convite de diriá",
     // se usa para crear dropdowns
     path: "#", 
     slug: "diria",
