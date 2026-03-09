@@ -13,6 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-nav {
+  .dropdown {
+    .show {
+      font-weight: bold;
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        &:hover {
+          color: #646cff;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -96,7 +112,7 @@ footer h4 {
   font-size: 1.3rem;
 }
 .submenu li > a:hover{
-  color:#ffed00;
+  color:#646cff;
 }
 
 @media (prefers-color-scheme: light) {

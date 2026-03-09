@@ -5,13 +5,14 @@ import pdfLibro from '../assets/docs/kalote-convite.pdf'
 
 const Footer = () => {
   return (
-    <footer className="bg-dark">
+    <footer className="bg-black">
       <div className="container px-4 py-5">
-        <div className="row justify-content-center align-items-center g-3">
-          <div className="col-12 col-md-9" align="center">
+        <div className="row justify-content-center align-items-top g-3">
+          <div className="col-12 col-md-9">
+            <h3 className="mb-4">Reproductores de audio</h3>
             <FooterMenu />
           </div>
-          <div className="col-12 col-md-3 text-center small text-light">
+          <div className="col-12 col-md-3 small text-light">
             <div className="mb-4">
               <h3 className="mb-4">Descargas</h3>
               <a

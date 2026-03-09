@@ -3,17 +3,26 @@ const creditos = [
       slug: "creditos",
       title: "Créditos",
       content: {
-        sections: [        
+        sections: [
           {
-            type: "text",
-            content: `<section class="creditos container my-5">
-                      <h2>Autor y cocreador rítmico</h2>
-                      <p class="fs-2"><strong>Daniel Cuenca Alpízar</strong></p>
-
+            type: "header",
+            content: "Autor y cocreador rítmico",
+          }, 
+          {
+            type: "div",
+            content: `<p class="fs-2"><strong>Daniel Cuenca Alpízar</strong></p>`
+          },  
+          {
+            type: "header",
+            content: "Créditos a:",
+          },     
+          {
+            type: "div",
+            content: `
                       <!-- A partir de aquí el contenido se organiza en 2 columnas responsive -->
                       <div class="row mt-4">
                         <div class="col-12 col-sm-6 mb-3">
-                          <h3>Créditos a:</h3>
+                          <h3></h3>
                           <h4>Patrocinador</h4>
                           <ul>
                             <li>Enrique Sánchez Sibaja</li>
