@@ -84,16 +84,18 @@ export const Navbar = ({ navigation }) => {
             Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
           </a>
         </form>
-        <div className="d-lg-none">
+        <div className="d-lg-none text-center">
           <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
             <i className="bi bi-list"></i>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-menu" ref={offcanvasRef} aria-labelledby="offcanvas-menu-label">
+          <p class="text-small">Navegación</p>
+          <div class="offcanvas offcanvas-end text-left" tabindex="-1" id="offcanvas-menu" ref={offcanvasRef} aria-labelledby="offcanvas-menu-label">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title">Audiolibro</h5>
+              <h2 class="offcanvas-title">Audiolibro</h2>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body">
+              <h3 class="offcanvas-title mb-3 mt-4">Reproductores de audio</h3>
               <ul className="navbar-nav">
                 {navigation.map((link) => (
                   <li
@@ -101,7 +103,7 @@ export const Navbar = ({ navigation }) => {
                     key={link.slug}
                   >
                     <Link
-                      className={`nav-link ${
+                      className={`nav-link text-left ${
                         link.children && link.children.length > 0
                           ? "dropdown-toggle"
                           : ""
@@ -138,6 +140,7 @@ export const Navbar = ({ navigation }) => {
                   </li>
                 ))}
               </ul>
+              <h3 class="offcanvas-title mb-3 mt-4">Descargas</h3>
               <form className="justify-content-start">
                 <a
                   className="btn btn-outline-success me-2"
