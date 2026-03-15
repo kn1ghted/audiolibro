@@ -77,7 +77,7 @@ export const Navbar = ({ navigation }) => {
           {/* ZIP de audios — ubicado en /public/assets/audio/ */}
           <a
             className="btn btn-outline-success"
-            href="/audiolibro/public/assets/audio/audio_files.zip"
+            href="/audiolibro/public/assets/audio/5-7-audios.zip"
             download
             rel="noopener noreferrer"
           >
@@ -88,10 +88,10 @@ export const Navbar = ({ navigation }) => {
           <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
             <i className="bi bi-list"></i>
           </button>
-          <p class="text-small">Navegación</p>
+          <p class="text-small">Menú</p>
           <div class="offcanvas offcanvas-end text-left" tabindex="-1" id="offcanvas-menu" ref={offcanvasRef} aria-labelledby="offcanvas-menu-label">
             <div class="offcanvas-header">
-              <h2 class="offcanvas-title">Audiolibro</h2>
+              <h2 class="offcanvas-title">5 y 7</h2>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body">
@@ -154,7 +154,7 @@ export const Navbar = ({ navigation }) => {
                 {/* ZIP de audios — ubicado en /public/assets/audio/ */}
                 <a
                   className="btn btn-outline-success"
-                  href="/audiolibro/public/assets/audio/audio_files.zip"
+                  href="/audiolibro/public/assets/audio/5-7-audios.zip"
                   download
                   rel="noopener noreferrer"
                 >
