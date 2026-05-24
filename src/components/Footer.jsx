@@ -28,7 +28,7 @@ const Footer = () => {
               {/* ZIP de audios — ubicado en /public/assets/audio/ */}
               <a
                 className="btn btn-outline-light mt-2"
-                href="/audiolibro/public/assets/audio/5-7-audios.zip"
+                href="/audiolibro/assets/audio/5-7-audios.zip"
                 download
                 rel="noopener noreferrer"
               >
