@@ -1160,7 +1160,7 @@ const kalote = [
                   name: "Cáscara 3:4",
                 },
                 {
-                  src: "../assets/audio/kalote-5/11-quintu/03-quinto.mp3",
+                  src: "../assets/audio/kalote-5/11-quintu/03-quinto-flip.mp3",
                   name: "Congas",
                   customClass: "quinto",
                 },
