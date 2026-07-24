@@ -37,7 +37,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/00-claves-5/03-clave_quintu_3_4.mp3",
-                  name: "Clave quintú",
+                  name: "Clave 3:4 (Quintú)",
                   customClass: "clave",
                   muted: true,
                 },
@@ -425,7 +425,7 @@ const kalote = [
                   customClass: "quinto-tumba",
                 },
                 {
-                  src: "../assets/audio/kalote-5/05-quinto_5-4/05-tumba_variacion.mp3",
+                  src: "../assets/audio/kalote-5/07-quinto_4_5/05-tumba_variacion.mp3",
                   name: "Tumbadora variación",
                   muted: true,
                   customClass: "variacion-quinto-tumba",
@@ -440,7 +440,7 @@ const kalote = [
         },
         {
           type: "text",
-          content: "Variación con 118 bpm.",
+          content: "Variación con 118 bpm. El click se encuentra en compás partido, con un solo compás de 5/2.",
         },
         {
           type: "audio",
@@ -549,7 +549,7 @@ const kalote = [
         },
         {
           type: "text",
-          content: "Variante con 118 bpm. Pista de audio de tumbadora (piano) tomada del ejemplo 5 de 4 rápido.",
+          content: "Variante con 118 bpm. El click se encuentra en compás partido, con un solo compás de 5/2.",
         },
         {
           type: "audio",

@@ -239,12 +239,12 @@ const diria = [
                   customClass: "setima-abierta-conga",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/05-tumba.mp3",
+                  src: "../assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.mp3",
                   name: "Tumbadora",
                   customClass: "setima-abierta-tumbadora",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/06-tumba_variacion.mp3",
+                  src: "../assets/audio/convite-7/03-clave-abierta/05-tumba.mp3",
                   name: "Tumbadora variación",
                   muted: true,
                   customClass: "variacion-setima-abierta-tumbadora",
