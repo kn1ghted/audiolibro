@@ -29,8 +29,19 @@ const diria = [
                   customClass: "setima-clave",
                 },
                 {
+                  src: "../assets/audio/convite-7/00-claves-7/01-clave-completa-son-edit.mp3",
+                  name: "Clave completa en 7/8 edit",
+                  customClass: "setima-clave",
+                },
+                {
                   src: "../assets/audio/convite-7/00-claves-7/02-clave-abierta-son.mp3",
                   name: "Clave abierta en 7/8",
+                  muted: true,
+                  customClass: "setima-cata",
+                },
+                {
+                  src: "../assets/audio/convite-7/00-claves-7/02-clave-abierta-son-edit.mp3",
+                  name: "Clave abierta en 7/8 edit",
                   muted: true,
                   customClass: "setima-cata",
                 },
@@ -81,6 +92,11 @@ const diria = [
                 {
                   src: "../assets/audio/convite-7/01-clave-completa/01-clave.mp3",
                   name: "Claves",
+                  customClass: "setima-clave",
+                },
+                {
+                  src: "../assets/audio/convite-7/01-clave-completa/01-clave-edit.mp3",
+                  name: "Claves edit",
                   customClass: "setima-clave",
                 },
                 {
@@ -154,8 +170,18 @@ const diria = [
                   customClass: "setima-clave",
                 },
                 {
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/01-clave-edit.mp3",
+                  name: "Clave edit",
+                  customClass: "setima-clave",
+                },
+                {
                   src: "../assets/audio/convite-7/02-clave-completa_rapida/02-cata.mp3",
                   name: "Catá",
+                  customClass: "setima-cata",
+                },
+                {
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/02-cata-edit.mp3",
+                  name: "Catá edit",
                   customClass: "setima-cata",
                 },
                 {
@@ -220,6 +246,11 @@ const diria = [
                 {
                   src: "../assets/audio/convite-7/03-clave-abierta/01-clave.mp3",
                   name: "Clave",
+                  customClass: "setima-abierta-clave",
+                },
+                {
+                  src: "../assets/audio/convite-7/03-clave-abierta/01-clave-edit.mp3",
+                  name: "Clave edit",
                   customClass: "setima-abierta-clave",
                 },
                 {
@@ -372,6 +403,10 @@ const diria = [
                   name: "Clave completa en 7",
                 },
                 {
+                  src: "../assets/audio/convite-7/04-septima/03-clave-completa-son-edit.mp3",
+                  name: "Clave completa en 7 edit",
+                },
+                {
                   src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
                   name: "Conga",
                   customClass: "setima-conga",
@@ -407,6 +442,10 @@ const diria = [
                 {
                   src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son.mp3",
                   name: "Clave abierta en 7",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son-edit.mp3",
+                  name: "Clave abierta en 7 edit",
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
@@ -529,6 +568,11 @@ const diria = [
                   customClass: "setima-clave-3-4",
                 },
                 {
+                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa-edit.mp3",
+                  name: "Clave completa en 7 edit",
+                  customClass: "setima-clave-3-4",
+                },
+                {
                   src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
                   name: "Conga cariación",
                   customClass: "setima-conga",
@@ -559,6 +603,11 @@ const diria = [
                 {
                   src: "../assets/audio/convite-7/05-septimo/03-clave_abierta.mp3",
                   name: "Clave abierta en 7",
+                  customClass: "setima-clave-3-4",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/03-clave_abierta-edit.mp3",
+                  name: "Clave abierta en 7 edit",
                   customClass: "setima-clave-3-4",
                 },
                 {

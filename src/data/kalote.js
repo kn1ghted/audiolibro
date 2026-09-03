@@ -70,6 +70,12 @@ const kalote = [
                   name: "Cáscara de timbal (montuno)",
                   customClass: "quinti-timbal",
                   muted: true,
+                },
+                {
+                  src: "../assets/audio/kalote-5/00-claves-5/08-cascara_timbal-edit.mp3",
+                  name: "Cáscara de timbal (montuno) edit",
+                  customClass: "quinti-timbal",
+                  muted: true,
                 }
               ],
             },
@@ -133,6 +139,11 @@ const kalote = [
                   customClass: "conga",
                 },
                 {
+                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/05-conga-edit.mp3",
+                  name: "Conga edit",
+                  customClass: "conga",
+                },
+                {
                   src: "../assets/audio/kalote-5/01-quinta_clave_completa/06-conga-variacion.mp3",
                   name: "Conga variación",
                   muted: true,
@@ -181,6 +192,11 @@ const kalote = [
                   customClass: "cata",
                 },
                 {
+                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/02-cata-edit.mp3",
+                  name: "Catá edit",
+                  customClass: "cata",
+                },
+                {
                   src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/03-chequere.mp3",
                   name: "Chequeré",
                   customClass: "chequere",
@@ -204,6 +220,11 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-tumbadora.mp3",
                   name: "Tumba",
+                  customClass: "tumbadora",
+                },
+                {
+                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/07-tumbadora-edit.mp3",
+                  name: "Tumba edit",
                   customClass: "tumbadora",
                 },
               ],
@@ -330,6 +351,11 @@ const kalote = [
                   customClass: "chequere",
                 },
                 {
+                  src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/03-chequere-edit.mp3",
+                  name: "Chequeré edit",
+                  customClass: "chequere",
+                },
+                {
                   src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/04-quinto.mp3",
                   name: "Quinto",
                   customClass: "quinto",
@@ -340,8 +366,19 @@ const kalote = [
                   customClass: "conga",
                 },
                 {
+                  src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/05-conga-edit.mp3",
+                  name: "Conga edit",
+                  customClass: "conga",
+                },
+                {
                   src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/06-conga_variacion.mp3",
                   name: "Conga variación",
+                  muted: true,
+                  customClass: "variacion-conga",
+                },
+                {
+                  src: "../assets/audio/kalote-5/04-quinta_clave_abierta-rapida/06-conga_variacion-edit.mp3",
+                  name: "Conga variación edit",
                   muted: true,
                   customClass: "variacion-conga",
                 },
@@ -469,6 +506,11 @@ const kalote = [
                   customClass: "chico",
                 },
                 {
+                  src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/02-chico-edit.mp3",
+                  name: "Requinto (chico) edit",
+                  customClass: "chico",
+                },
+                {
                   src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/03-quinto.mp3",
                   name: "Quinto (repique)",
                   customClass: "quinto-repique",
@@ -575,6 +617,11 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/02-chico.mp3",
                   name: "Requinto (chico)",
+                  customClass: "chico",
+                },
+                {
+                  src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/02-chico-edit.mp3",
+                  name: "Requinto (chico) edit",
                   customClass: "chico",
                 },
                 {
@@ -837,6 +884,11 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/09-quinti/05-timbal.mp3",
                   name: "Timbales (clave cáscara de timbal)",
+                  customClass: "quinti-timbal",
+                },
+                {
+                  src: "../assets/audio/kalote-5/09-quinti/05-timbal-edit.mp3",
+                  name: "Timbales (clave cáscara de timbal) edit",
                   customClass: "quinti-timbal",
                 },
                 {
