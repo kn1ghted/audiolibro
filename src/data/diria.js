@@ -29,8 +29,8 @@ const diria = [
                   customClass: "setima-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/00-claves-7/01-clave-completa-son-edit.mp3",
-                  name: "Clave completa en 7/8 edit",
+                  src: "../assets/audio/convite-7/00-claves-7/01-clave-completa-son-edit-01.mp3",
+                  name: "Clave completa en 7/8 fix",
                   customClass: "setima-clave",
                 },
                 {
@@ -40,8 +40,8 @@ const diria = [
                   customClass: "setima-cata",
                 },
                 {
-                  src: "../assets/audio/convite-7/00-claves-7/02-clave-abierta-son-edit.mp3",
-                  name: "Clave abierta en 7/8 edit",
+                  src: "../assets/audio/convite-7/00-claves-7/02-clave-abierta-son-edit-01.mp3",
+                  name: "Clave abierta en 7/8 fix",
                   muted: true,
                   customClass: "setima-cata",
                 },
@@ -95,8 +95,8 @@ const diria = [
                   customClass: "setima-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/01-clave-completa/01-clave-edit.mp3",
-                  name: "Claves edit",
+                  src: "../assets/audio/convite-7/01-clave-completa/01-clave-edit-01.mp3",
+                  name: "Claves fix",
                   customClass: "setima-clave",
                 },
                 {
@@ -170,8 +170,8 @@ const diria = [
                   customClass: "setima-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/01-clave-edit.mp3",
-                  name: "Clave edit",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/01-clave-edit-01.mp3",
+                  name: "Clave fix",
                   customClass: "setima-clave",
                 },
                 {
@@ -180,8 +180,8 @@ const diria = [
                   customClass: "setima-cata",
                 },
                 {
-                  src: "../assets/audio/convite-7/02-clave-completa_rapida/02-cata-edit.mp3",
-                  name: "Catá edit",
+                  src: "../assets/audio/convite-7/02-clave-completa_rapida/02-cata-edit-01.mp3",
+                  name: "Catá fix",
                   customClass: "setima-cata",
                 },
                 {
@@ -249,8 +249,8 @@ const diria = [
                   customClass: "setima-abierta-clave",
                 },
                 {
-                  src: "../assets/audio/convite-7/03-clave-abierta/01-clave-edit.mp3",
-                  name: "Clave edit",
+                  src: "../assets/audio/convite-7/03-clave-abierta/01-clave-edit-01.mp3",
+                  name: "Clave fix",
                   customClass: "setima-abierta-clave",
                 },
                 {
@@ -403,8 +403,8 @@ const diria = [
                   name: "Clave completa en 7",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/03-clave-completa-son-edit.mp3",
-                  name: "Clave completa en 7 edit",
+                  src: "../assets/audio/convite-7/04-septima/03-clave-completa-son-edit-01.mp3",
+                  name: "Clave completa en 7 fix",
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
@@ -444,8 +444,8 @@ const diria = [
                   name: "Clave abierta en 7",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son-edit.mp3",
-                  name: "Clave abierta en 7 edit",
+                  src: "../assets/audio/convite-7/04-septima/04-clave-abierta-son-edit-01.mp3",
+                  name: "Clave abierta en 7 fix",
                 },
                 {
                   src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
@@ -568,8 +568,8 @@ const diria = [
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa-edit.mp3",
-                  name: "Clave completa en 7 edit",
+                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa-edit-01.mp3",
+                  name: "Clave completa en 7 fix",
                   customClass: "setima-clave-3-4",
                 },
                 {
@@ -606,8 +606,8 @@ const diria = [
                   customClass: "setima-clave-3-4",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/03-clave_abierta-edit.mp3",
-                  name: "Clave abierta en 7 edit",
+                  src: "../assets/audio/convite-7/05-septimo/03-clave_abierta-edit-01.mp3",
+                  name: "Clave abierta en 7 fix",
                   customClass: "setima-clave-3-4",
                 },
                 {
