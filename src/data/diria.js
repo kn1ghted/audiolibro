@@ -574,7 +574,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
-                  name: "Conga cariación",
+                  name: "Conga variación",
                   customClass: "setima-conga",
                 },
               ],
