@@ -154,6 +154,11 @@ const kalote = [
                   name: "Tumba",
                   customClass: "tumbadora",
                 },
+                {
+                  src: "../assets/audio/kalote-5/01-quinta_clave_completa/07-tumbadora-fix.mp3",
+                  name: "Tumba fix",
+                  customClass: "tumbadora",
+                },
               ],
             },
           ],
@@ -209,6 +214,11 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-conga.mp3",
                   name: "Conga",
+                  customClass: "conga",
+                },
+                {
+                  src: "../assets/audio/kalote-5/02-quinta_clave_completa-rapida/05-conga-fix.mp3",
+                  name: "Conga fix",
                   customClass: "conga",
                 },
                 {
@@ -521,6 +531,11 @@ const kalote = [
                   customClass: "quinto-tumba",
                 },
                 {
+                  src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/04-tumba-fix.mp3",
+                  name: "Tumbadora (piano) fix",
+                  customClass: "quinto-tumba",
+                },
+                {
                   src: "../assets/audio/kalote-5/06-quinto_5-4-rapido/05-tumba_variacion.mp3",
                   name: "Tumbadora variación",
                   muted: true,
@@ -632,6 +647,11 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/04-tumba.mp3",
                   name: "Tumbadora (piano)",
+                  customClass: "quinto-tumba",
+                },
+                {
+                  src: "../assets/audio/kalote-5/08-quinto_4-5-rapido/04-tumba-fix.mp3",
+                  name: "Tumbadora (piano) fix",
                   customClass: "quinto-tumba",
                 },
                 {
