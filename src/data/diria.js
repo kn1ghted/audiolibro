@@ -524,8 +524,13 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/04-clave-abierta-son.mp3",
-                  name: "Clave abierta en 7",
+                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa.mp3",
+                  name: "Clave completa en 7",
+                  customClass: "setima-clave-3-4",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/04-clave-completa-son.mp3",
+                  name: "Clave completa en 7 son",
                   customClass: "setima-clave-3-4",
                 },
                 {
