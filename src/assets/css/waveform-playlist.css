@@ -66,7 +66,7 @@
   justify-content: center;
   margin-bottom: 5px;
   margin-top: 5px;
-  padding: 5px 30px;
+  padding: 5px 5px 5px 60px;
 }
 .playlist-tracks .controls .volume::before {
   content: "Volume";
@@ -278,9 +278,15 @@
 }
 .playlist .controls .track-header {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   height: 50px;
   overflow: auto;
+}
+.playlist .controls .btn-group {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  z-index: 1;
 }
 .playlist .channel-wrapper .controls {
   align-content: center;

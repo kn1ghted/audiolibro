@@ -835,7 +835,7 @@ const kalote = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/kalote-5/09-quinti/05-timbal.mp3",
+                  src: "../assets/audio/kalote-5/09-quinti/05-timbal-cascara.mp3",
                   name: "Timbales (clave cáscara de timbal)",
                   customClass: "quinti-timbal",
                 },
