@@ -16,7 +16,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
       if (!playlistRefs.current[index]) {
         playlistRefs.current[index] = WaveformPlaylist({
           samplesPerPixel: 1000,
-          waveHeight: 60,
+          waveHeight: 80,
           container: document.getElementById(playlist.id),
           timescale: true,
           isScrolling: true,
@@ -32,7 +32,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
             widgets: {
               remove: false,
               stereoPan: false,
-              volume: false,
+              volume: true,
               collapse: false,
             },
           },

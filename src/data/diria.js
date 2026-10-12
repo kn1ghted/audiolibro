@@ -24,7 +24,7 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/00-claves-7/01-clave-completa-son.mp3",
+                  src: "../assets/audio/convite-7/00-claves-7/01-clave-completa.mp3",
                   name: "Clave completa en 7/8",
                   customClass: "setima-clave",
                 },
@@ -80,7 +80,7 @@ const diria = [
                 },
                 {
                   src: "../assets/audio/convite-7/01-clave-completa/01-clave.mp3",
-                  name: "Claves",
+                  name: "Clave",
                   customClass: "setima-clave",
                 },
                 {
@@ -524,13 +524,8 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/04-clave_completa.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/03-clave-completa-son.mp3",
                   name: "Clave completa en 7",
-                  customClass: "setima-clave-3-4",
-                },
-                {
-                  src: "../assets/audio/convite-7/05-septimo/04-clave-completa-son.mp3",
-                  name: "Clave completa en 7 son",
                   customClass: "setima-clave-3-4",
                 },
                 {

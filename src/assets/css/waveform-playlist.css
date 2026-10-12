@@ -60,6 +60,67 @@
   border-left: 1px solid #dee2e6;
   border-radius: 0;
 }
+.playlist-tracks .controls .volume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 30px;
+}
+.playlist-tracks .controls .volume::before {
+  content: "Volume";
+  font-size: 12px;
+  color: #6c757d;
+  margin-right: 5px;
+}
+.playlist-tracks .controls .volume::after {
+  content: "Volume";
+  font-size: 12px;
+  color: #6c757d;
+  margin-right: 5px;
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-webkit-slider-runnable-track {
+  height: 2px;
+  background: #e2e8f0;
+  border-radius: 0px;
+  border: 0px solid #cbd5e1;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  background: #000000;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+  margin-top: -3px;
+}
+/* --- Firefox --- */
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-moz-range-track {
+  height: 2px;
+  background: #e2e8f0;
+  border-radius: 0px;
+  border: 0px solid #cbd5e1;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-moz-range-thumb {
+  height: 10px;
+  width: 10px;
+  background: #000000;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
 .playlist-tracks .channel-wrapper .waveform{
   background-color: #000 !important;
 }
