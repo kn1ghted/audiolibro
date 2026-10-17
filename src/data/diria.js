@@ -35,14 +35,14 @@ const diria = [
                   customClass: "setima-cata",
                 },
                 {
-                  src: "../assets/audio/convite-7/00-claves-7/03-clave-son_3-4.mp3",
-                  name: "Clave 3 - 4 en 7/8",
+                  src: "../assets/audio/convite-7/00-claves-7/03-clave-son_4-3.mp3",
+                  name: "Clave 4 - 3 en 7/8",
                   muted: true,
                   customClass: "setima-chequere",
                 },
                 {
-                  src: "../assets/audio/convite-7/00-claves-7/04-clave-son_4-3.mp3",
-                  name: "Clave 4 - 3 en 7/8",
+                  src: "../assets/audio/convite-7/00-claves-7/04-clave-son_3-4.mp3",
+                  name: "Clave 3 - 4 en 7/8",
                   muted: true,
                   customClass: "variacion-setima-chequere",
                 },
@@ -274,44 +274,6 @@ const diria = [
         },
         {
           type: "header",
-          content: "Séptima 4 - 3 en 7",
-        },
-        {
-          type: "audio",
-          content: "audio",
-          idPlayer: "septima-4-3",
-          slides: [],
-          playlists: [
-            {
-              id: "septima-4-3",
-              data: [
-                {
-                  src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
-                  name: "Click 120bpm",
-                  muted: true,
-                  customClass: "click",
-                },
-                {
-                  src: "../assets/audio/convite-7/04-septima/01-clave-son_4-3.mp3",
-                  name: "Clave 4 - 3",
-                  customClass: "setima-clave-4-3",
-                },
-                {
-                  src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
-                  name: "Conga",
-                  customClass: "setima-conga",
-                },
-                {
-                  src: "../assets/audio/convite-7/04-septima/07-timbales_4-3.mp3",
-                  name: "Timbales",
-                  customClass: "setima-timbal",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          type: "header",
           content: "Séptima 3 - 4 en 7",
         },
         {
@@ -330,8 +292,46 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/04-septima/02-clave-son_3-4.mp3",
+                  src: "../assets/audio/convite-7/04-septima/01-clave-son_3-4.mp3",
                   name: "Clave 3 - 4",
+                  customClass: "setima-clave-4-3",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/05-conga-son.mp3",
+                  name: "Conga",
+                  customClass: "setima-conga",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/07-timbales_4-3.mp3",
+                  name: "Timbales",
+                  customClass: "setima-timbal",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Séptima 4 - 3 en 7",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septima-4-3",
+          slides: [],
+          playlists: [
+            {
+              id: "septima-4-3",
+              data: [
+                {
+                  src: "../assets/audio/convite-7/04-septima/00-click-120bpm.mp3",
+                  name: "Click 120bpm",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/04-septima/02-clave-son_4-3.mp3",
+                  name: "Clave 4 - 3",
                   customClass: "setima-clave-3-4",
                 },
                 {
@@ -434,42 +434,9 @@ const diria = [
           type: "div",
           content:
             `<p>Este ritmo se creó tomando como base el patrón del tambor conga del son cubano, el cual también se utiliza en una de las variantes del calypso limonense (Costa Rica) (Saavedra Reyes, C. 1999).</p>
-            <p>En la versión 4 - 3, se elimina el segundo golpe del tambor conga (segunda corchea de cada compás) y el primer golpe abierto del patrón se adelanta una corchea, quedando en el quinto tiempo del compás. En esta versión se puede utilizar tanto la clave compuesta de la forma 4 - 3 en 7, como la “clave completa en 7".</p>
-            <p>En la versión 3 - 4, se elimina el segundo golpe del tambor conga (segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “clave abierta en 7" (aunque la “clave abierta en 7” está en un compás de amalgama de 2 - 3 - 2).</p>
+            <p>En la versión 3 - 4, se elimina el segundo golpe del tambor conga (segunda corchea de cada compás) y el primer golpe abierto del patrón se adelanta una corchea, quedando en el quinto tiempo del compás. En esta versión se puede utilizar tanto la clave compuesta de la forma 3 - 4 en 7, como la “clave completa en 7".</p>
+            <p>En la versión 4 - 3, se elimina el segundo golpe del tambor conga (segunda corchea de cada compás), el resto del patrón se mantiene igual, quedando así la figura completa dentro de un compás de 7/8 . Para este patrón es conveniente utilizar un manoteo alternado (izquierda - derecha - izquierda), parecido al que se utiliza en una de las variantes del Calypso de Limón que tiene sus raíces en el calypso trinitario (Saavedra Reyes, C. 1999). En esta versión se puede utilizar tanto la clave compuesta de la forma 4 - 3 en 7, como la “clave abierta en 7" (aunque la “clave abierta en 7” está en un compás de amalgama de 2 - 3 - 2).</p>
             `,
-        },
-        {
-          type: "header",
-          content: "Séptimo 4 - 3",
-        },
-        {
-          type: "audio",
-          content: "audio",
-          idPlayer: "septimo-4-3",
-          slides: [],
-          playlists: [
-            {
-              id: "septimo-4-3",
-              data: [
-                {
-                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
-                  name: "Click 120bpm",
-                  muted: true,
-                  customClass: "click",
-                },
-                {
-                  src: "../assets/audio/convite-7/05-septimo/02-clave_4-3.mp3",
-                  name: "Clave 4 - 3",
-                  customClass: "setima-clave-4-3",
-                },
-                {
-                  src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
-                  name: "Conga variación",
-                  customClass: "setima-conga",
-                },
-              ],
-            },
-          ],
         },
         {
           type: "header",
@@ -491,8 +458,41 @@ const diria = [
                   customClass: "click",
                 },
                 {
-                  src: "../assets/audio/convite-7/05-septimo/01-clave_3-4.mp3",
+                  src: "../assets/audio/convite-7/05-septimo/02-clave_3-4.mp3",
                   name: "Clave 3 - 4",
+                  customClass: "setima-clave-4-3",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/06-conga_pandeiro-2.mp3",
+                  name: "Conga variación",
+                  customClass: "setima-conga",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: "header",
+          content: "Séptimo 4 - 3",
+        },
+        {
+          type: "audio",
+          content: "audio",
+          idPlayer: "septimo-4-3",
+          slides: [],
+          playlists: [
+            {
+              id: "septimo-4-3",
+              data: [
+                {
+                  src: "../assets/audio/convite-7/05-septimo/00-click-120bpm.mp3",
+                  name: "Click 120bpm",
+                  muted: true,
+                  customClass: "click",
+                },
+                {
+                  src: "../assets/audio/convite-7/05-septimo/01-clave_4-3.mp3",
+                  name: "Clave 4 - 3",
                   customClass: "setima-clave-3-4",
                 },
                 {
