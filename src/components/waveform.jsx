@@ -30,10 +30,11 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
             show: true,
             width: 200,
             widgets: {
+              collapse: false,
+              muteorsolo: true,
               remove: false,
               stereoPan: false,
               volume: true,
-              collapse: false,
             },
           },
           zoomLevels: [500, 1000, 1500],
@@ -95,6 +96,17 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
                 ee.emit("play");
               }, 50);
             }
+          });
+
+          // Update MUTE and SOLO button texts to M and S
+          const muteButtons = document.querySelectorAll(".btn-mute");
+          const soloButtons = document.querySelectorAll(".btn-solo");
+
+          muteButtons.forEach((btn) => {
+            btn.innerHTML = "M";
+          });
+          soloButtons.forEach((btn) => {
+            btn.innerHTML = "S";
           });
         });
 

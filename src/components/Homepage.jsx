@@ -1,5 +1,5 @@
 import slide01 from '../assets/img/lectura-circular.png'
-import waveform_player from '../assets/img/waveform-player-v2.png'
+import waveform_player from '../assets/img/waveform-player-v3.png'
 import Carousel from './Carousel'
 
 const Homepage = () => {
@@ -45,11 +45,23 @@ const Homepage = () => {
               <h2>Kalö̀te de monte</h2>
               <h3>Ritmos compuestos en métricas de 5</h3>
               <p>Se crearon seis tipos distintos de Kalö̀te de monte, “Quinta de clave completa” , “Quinta de clave abierta” (ambos inspirados en la rumba cubana, principalmente en el guaguancó), dos variaciones de “Quinto” (inspirado en el candombe uruguayo), “Quintí” (inspirado en el son cubano y el calypso, este ritmo puede utilizarse con cualquiera de las claves en cinco y funciona como patrón base), “Quinté” (una mezcla entre la cumbia y ritmos guanacastecos) y “Quintú” (proveniente del patrón del bolero).</p>
+              <button
+              className="btn btn-primary d-lg-none position-relative"
+              type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"
+              >
+                <i className="bi bi-list"></i> Menú
+              </button>
             </div>
             <div className="col bg-black text-light p-5 ms-1">
               <h2>Convite de Diriá</h2>
               <h3>Ritmos compuestos en métricas de 7</h3>
               <p>Se crearon cuatro tipos de Convites de diriá, “Clave completa en 7” , “ Clave abierta en 7” (para la creación de ambos se tomó como punto de partida los ritmos que pertenecen a la familia de la rumba cubana y se utilizaron las claves compuestas pertenecientes a las quintas), “Séptima” y “Séptimo” (ambos se originan del patrón del tambor conga que se utiliza en el son cubano y en las variaciones del calypso limonense).</p>
+              <button
+              className="btn btn-primary d-lg-none position-relative"
+              type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"
+              >
+                <i className="bi bi-list"></i> Menú
+              </button>
             </div>
           </div>
       </div>

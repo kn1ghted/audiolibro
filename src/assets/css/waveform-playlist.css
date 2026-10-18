@@ -41,7 +41,8 @@
 .playlist {
   margin: 5px 0px;
   background-color: #f8f9fa;
-  border: 1px solid #dee2e6;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
 }
 .playlist .controls {
   display: flex;
@@ -66,7 +67,7 @@
   justify-content: center;
   margin-bottom: 5px;
   margin-top: 5px;
-  padding: 5px 5px 5px 60px;
+  padding: 5px 5px 5px 70px;
 }
 .playlist-tracks .controls .volume::before {
   content: "Volume";
@@ -258,9 +259,6 @@
 .btn-group > .btn-solo.active {
   background-color: #198754;
   color: white;
-}
-.btn-group > .btn-solo {
-  display: none;
 }
 .btn-group > .btn-solo.active:hover,
 .btn-group > .btn-mute.active:hover {
