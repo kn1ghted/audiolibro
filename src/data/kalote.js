@@ -68,7 +68,7 @@ const kalote = [
                 {
                   src: "../assets/audio/kalote-5/00-claves-5/08-cascara_timbal.mp3",
                   name: "Cáscara de timbal (montuno)",
-                  customClass: "quinti-timbal",
+                  customClass: "clave",
                   muted: true,
                 }
               ],
@@ -635,7 +635,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/02-clave_4_2.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -684,7 +684,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/01-clave_2_4.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/06-timbal_variacion.mp3",
@@ -738,7 +738,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/03-clave_montuno.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -787,7 +787,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/04-clave_montuno_variacion.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -886,7 +886,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/12-clave_completa.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -935,7 +935,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/13-clave_abierta.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -984,7 +984,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/14-clave_quintu_3_4.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/07-bongo.mp3",
@@ -1033,7 +1033,7 @@ const kalote = [
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/01-clave_2_4.mp3",
-                  name: "Claves",
+                  name: "Clave",
                 },
                 {
                   src: "../assets/audio/kalote-5/09-quinti/06-timbal_variacion.mp3",
