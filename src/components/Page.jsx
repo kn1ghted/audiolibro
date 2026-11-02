@@ -1,23 +1,55 @@
-import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import { Section } from "./Section";
 
 export const Page = ({ pages }) => {
-  const { pageId } = useParams();
 
-  const page = pages.find((p) => p.slug === pageId);
+  const { slug } = useParams();
+  const location = useLocation();
+  const path = location.pathname.split('/').filter(Boolean);
 
-  if (!page) {
-    return <div className="p-4">Page not found</div>;
+  const parentSlug = path[0];
+  const childSlug = path[1];
+
+  const parentPage = pages.find((page) => page.slug === parentSlug);
+
+
+  const childPage = parentPage.children.find((page) => page.slug === childSlug);
+
+  // If parent not has children, show parent content
+  if (!parentPage.children || parentPage.children.length === 0) {
+
+    // Extract content from parent page
+    const parentContent = parentPage.content[0];
+
+   return (
+    <div className="main container align-self-center my-5">
+      <div>
+        <h1 className="text-3xl font-bold mb-6">
+          {parentContent.title}
+        </h1>
+        <div className="space-y-4">
+          {parentContent.content.sections.map((section, index) => (
+            <Section key={`${parentPage.slug}-section-${index}`} section={section} />
+          ))}
+        </div>
+      </div>
+    </div>
+   )
   }
+
+  // Error 404
+  if (!childPage) {
+    return <div className="p-4">Pagina no encontrada.</div>;
+  }
+  
 
   return (
     <div className="main container align-self-center my-5">
-      <div className="p-4">
-        <h1 className="text-3xl font-bold mb-6">{page.title}</h1>
+      <div>
+        <h1 className="text-3xl font-bold mb-6">{childPage.title}</h1>
         <div className="space-y-4">
-          {page.content.sections.map((section, index) => (
-            <Section key={index} section={section} />
+          {childPage.content.sections.map((section, index) => (
+            <Section key={`${childPage.slug}-section-${index}`} section={section} />
           ))}
         </div>
       </div>

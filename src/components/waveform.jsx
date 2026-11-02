@@ -1,45 +1,43 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import WaveformPlaylist from "waveform-playlist";
 import "../assets/css/waveform-playlist.css";
+import Carousel from "./carousel";
 
-const AudioPlayer = ({ playlists }) => {
+const AudioPlayer = ({ playlists = [], slides = [] }) => {
   const playlistRefs = useRef([]);
   const eeRefs = useRef([]); // Store event emitters
-
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-
-    // if playlists are playing, stop them and mount new ones
-    playlistRefs.current.forEach((playlist) => {
-      console.log("test", playlist);
-    });
+    setLoading(true);
 
     playlists.forEach((playlist, index) => {
       if (!playlistRefs.current[index]) {
         playlistRefs.current[index] = WaveformPlaylist({
           samplesPerPixel: 1000,
-          waveHeight: 60,
+          waveHeight: 80,
           container: document.getElementById(playlist.id),
           timescale: true,
           isScrolling: true,
           isAutomaticScroll: true,
           colors: {
-            waveOutlineColor: "#f8f9fa",
-            timeColor: "#fbfa81",
-            fadeColor: "#040415",
+            waveOutlineColor: "#000", // waveforms
+            timeColor: "grey",
+            fadeColor: "white",
           },
           controls: {
             show: true,
-            width: 150,
+            width: 200,
             widgets: {
+              collapse: false,
+              muteorsolo: true,
               remove: false,
               stereoPan: false,
-              volume: false,
-              collapse: false,
+              volume: true,
             },
           },
-          zoomLevels: [500, 1000, 3000, 5000],
+          zoomLevels: [500, 1000, 1500],
         });
 
         playlistRefs.current[index].load(playlist.data).then(function () {
@@ -51,26 +49,43 @@ const AudioPlayer = ({ playlists }) => {
           const stopBtn = document.getElementById(`btn-stop-${playlist.id}`);
           const loopBtn = document.getElementById(`btn-loop-${playlist.id}`);
 
+          const zoomInBtn = document.getElementById(
+            `btn-zoomIn-${playlist.id}`
+          );
+          const zoomOutBtn = document.getElementById(
+            `btn-zoomOut-${playlist.id}`
+          );
+
           let isLooping = true;
 
           playBtn?.addEventListener("click", function () {
             ee.emit("play");
-            playBtn.classList.add('active');
+            playBtn.classList.add("active");
           });
 
           pauseBtn?.addEventListener("click", function () {
             ee.emit("pause");
-            playBtn.classList.remove('active');
+            playBtn.classList.remove("active");
           });
 
           stopBtn?.addEventListener("click", function () {
             ee.emit("stop");
-            playBtn.classList.remove('active');
+            playBtn.classList.remove("active");
           });
 
           loopBtn?.addEventListener("click", function () {
             isLooping = !isLooping;
-            loopBtn.classList.toggle('active');
+            loopBtn.classList.toggle("active");
+          });
+
+          zoomInBtn?.addEventListener("click", function () {
+            ee.emit("zoomin");
+            console.log("zoom in");
+          });
+
+          zoomOutBtn?.addEventListener("click", function () {
+            ee.emit("zoomout");
+            console.log("zoom out");
           });
 
           ee.on("finished", function () {
@@ -83,9 +98,35 @@ const AudioPlayer = ({ playlists }) => {
             }
           });
 
+          // Update MUTE and SOLO button texts to M and S
+          const muteButtons = document.querySelectorAll(".btn-mute");
+          const soloButtons = document.querySelectorAll(".btn-solo");
+
+          muteButtons.forEach((btn) => {
+            btn.innerHTML = "M";
+          });
+          soloButtons.forEach((btn) => {
+            btn.innerHTML = "S";
+          });
         });
+
       }
     });
+
+   // Transtiion fade out
+    // Add fade out transition
+    setTimeout(() => {
+      const loadingElements = document.querySelectorAll('.loading-container');
+      loadingElements.forEach(element => {
+      element.style.transition = 'opacity 0.5s ease-out';
+      element.style.opacity = '0';
+      });
+      
+      // Remove loading state after transition completes
+      setTimeout(() => {
+      setLoading(false);
+      }, 600);
+    }, 1500);
 
     // Cleanup function
     return () => {
@@ -97,48 +138,86 @@ const AudioPlayer = ({ playlists }) => {
   }, [playlists]);
 
   return (
-    <div>
-      {playlists.map((playlist) => (
-        <div key={playlist.id}>
-          <div className="playlist-top-bar mb-4">
-          <div className="playlist-toolbar">
-              <button
-                type="button"
-                id={`btn-pause-${playlist.id}`}
-                className="btn-pause btn btn-outline-warning"
-                title="Pause"
-              >
-                <i className="fas fa-circle-pause" aria-hidden="true"></i>
-              </button>
-              <button
-                type="button"
-                id={`btn-play-${playlist.id}`}
-                className="btn-play btn btn-outline-success"
-                title="Play"
-              >
-                <i className="fas fa-circle-play" aria-hidden="true"></i>
-              </button>
-              <button
-                type="button"
-                id={`btn-stop-${playlist.id}`}
-                className="btn-stop btn btn-outline-danger"
-                title="Stop"
-              >
-                <i className="fa-regular fa-circle-stop" aria-hidden="true"></i>
-              </button>
-              <button
-                type="button"
-                id={`btn-loop-${playlist.id}`}
-                className="btn-loop btn-stop btn btn btn-outline-secondary active"
-                title="Toggle Loop"
-              >
-                <i className="fa-solid fa-repeat" aria-hidden="true"></i>
-              </button>
-            </div>
+    <div className="container">
+     <div className="row">
+          <div className="col-sm">
+            {playlists.map((playlist) => (
+              <div key={playlist.id} className="playlist-container position-relative">
+                {loading && (
+                  <div className="loading-container d-flex justify-content-center align-items-center py-4">
+                    <div className="spinner-border text-primary" role="status">
+                      <span className="visually-hidden">Cargando...</span>
+                    </div>
+                    <span className="ms-2">Cargando...</span>
+                  </div>
+                )}
+                <div className="playlist-top-bar">
+                  <div className="playlist-toolbar btn-group">
+                    <button
+                      type="button"
+                      id={`btn-pause-${playlist.id}`}
+                      className="btn-pause btn btn-outline-warning"
+                      title="Pause"
+                    >
+                      <i className="fas fa-circle-pause" aria-hidden="true"></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-play-${playlist.id}`}
+                      className="btn-play btn btn-outline-success"
+                      title="Play"
+                    >
+                      <i className="fas fa-circle-play" aria-hidden="true"></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-stop-${playlist.id}`}
+                      className="btn-stop btn btn-outline-danger"
+                      title="Stop"
+                    >
+                      <i
+                        className="fa-regular fa-circle-stop"
+                        aria-hidden="true"
+                      ></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-loop-${playlist.id}`}
+                      className="btn-loop btn-stop btn btn btn-outline-secondary active"
+                      title="Toggle Loop"
+                    >
+                      <i className="fa-solid fa-repeat" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div className="btn-group mx-4">
+                    <button
+                      type="button"
+                      id={`btn-zoomIn-${playlist.id}`}
+                      title="Zoom in"
+                      className="btn-zoom-in btn btn-outline-dark"
+                    >
+                      <i className="fas fa-search-plus" aria-hidden="true"></i>
+                    </button>
+                    <button
+                      type="button"
+                      id={`btn-zoomOut-${playlist.id}`}
+                      title="Zoom out"
+                      className="btn-zoom-out btn btn-outline-dark"
+                    >
+                      <i className="fas fa-search-minus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+                <div id={playlist.id} className="rounded h-[60px]" />
+              </div>
+            ))}
           </div>
-          <div id={playlist.id} className="rounded h-[60px]" />
+          {slides.length > 0 && (
+            <div className="col-sm">
+              <Carousel slides={slides} />
+            </div>
+          )}
         </div>
-      ))}
     </div>
   );
 };
@@ -148,6 +227,18 @@ AudioPlayer.propTypes = {
     PropTypes.shape({
       data: PropTypes.array.isRequired,
       id: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  slides: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      images: PropTypes.arrayOf(
+        PropTypes.shape({
+          image: PropTypes.string.isRequired,
+          title: PropTypes.string.isRequired,
+          description: PropTypes.string.isRequired,
+        })
+      ).isRequired,
     })
   ).isRequired,
 };

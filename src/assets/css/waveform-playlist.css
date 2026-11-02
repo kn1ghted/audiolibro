@@ -1,5 +1,8 @@
 :root {
-    /* --wp-controls-border-color: #000;
+  --wp-cursor-color: black;
+  --wp-channel-color: #ff0000;
+  /*--wp-channel-progress-color: #f50;
+   --wp-controls-border-color: #000;
     --wp-controls-background-color: #fff;
     --wp-mute-solo-color: #343a40;
     --wp-mute-solo-hover-color: #fff;
@@ -31,70 +34,283 @@
     --wp-annotation-box-border-color: grey;
     --wp-annotation-current-background-color: #ebf4f6;
     --wp-annotation-icon-hover-color: orange; */
-    }
+}
+.playlist .selection.point {
+  display: none;
+}
+.playlist {
+  margin: 5px 0px;
+  background-color: #f8f9fa;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+}
+.playlist .controls {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.playlist-time-scale {
+  background-color: #f8f9fa;
+  border-left: 1px solid #dee2e6;
+  border-radius: 0;
+}
+.playlist-tracks {
+  background-color: #f8f9fa !important;
+  border-left: 1px solid #dee2e6;
+  border-radius: 0;
+}
+.playlist-tracks .controls .volume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 5px 5px 70px;
+}
+.playlist-tracks .controls .volume::before {
+  content: "Volume";
+  font-size: 12px;
+  color: #6c757d;
+  margin-right: 5px;
+}
+.playlist-tracks .controls .volume::after {
+  content: "Volume";
+  font-size: 12px;
+  color: #6c757d;
+  margin-right: 5px;
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-webkit-slider-runnable-track {
+  height: 2px;
+  background: #e2e8f0;
+  border-radius: 0px;
+  border: 0px solid #cbd5e1;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 10px;
+  width: 10px;
+  background: #000000;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+  margin-top: -3px;
+}
+/* --- Firefox --- */
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-moz-range-track {
+  height: 2px;
+  background: #e2e8f0;
+  border-radius: 0px;
+  border: 0px solid #cbd5e1;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.playlist-tracks .controls .volume input[type="range"].volume-slider::-moz-range-thumb {
+  height: 10px;
+  width: 10px;
+  background: #000000;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
+}
 
-.playlist{
-    margin: 5px 0px;
-    background-color: #f8f9fa;
-    border:1px solid #dee2e6;
+.playlist-tracks .channel-wrapper .waveform{
+  background-color: #000 !important;
 }
-.playlist .controls{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-}
-.playlist-time-scale{
-    background-color: #f8f9fa;
-    border-left: 1px solid #dee2e6;
-    border-radius: 0;
-}
-.playlist-tracks{
-    background-color: #f8f9fa;
-    border-left: 1px solid #dee2e6;
-    border-radius: 0;
-}
-.playlist-tracks .channel-wrapper {
-    border-bottom: 1px solid #dee2e6;
+/* .playlist-tracks .channel-wrapper {
+  border-bottom: 1px solid #dee2e6;
+} */
+/* .playlist-tracks .channel-wrapper.cata .waveform{ 
+  background-color: #000 !important;
+} */
+.playlist-tracks .channel-wrapper.clave .waveform .channel, .playlist-tracks .channel-wrapper.click .waveform .channel{
+  background-color: #ffffff;
 }
 
-.btn-group>.btn-solo.active {
-    background-color: #198754;
-    color: white;
+.playlist-tracks .channel-wrapper.cata .waveform .channel{
+  background-color: #009b41;
 }
-.btn-group>.btn-solo {
-    display: none;
+
+.playlist-tracks .channel-wrapper.chequere .waveform .channel{
+  background-color: #f18d51;
 }
-.btn-group>.btn-solo.active:hover, .btn-group>.btn-mute.active:hover {
-    background-color: #dc3545;
+
+.playlist-tracks .channel-wrapper.quinto .waveform .channel{
+  background-color: #0aa9e3;
 }
-.btn-group>.btn-mute.active, .btn-group>.btn-mute:hover {
-    color: white;
-    background-color: #dc3545;
-    border-color: #dc3545;
+
+.playlist-tracks .channel-wrapper.conga .waveform .channel{
+  background-color: #d14189;
 }
-.playlist .controls{
-    border:0px;
-    border-radius: 0;
+
+.playlist-tracks .channel-wrapper.variacion-conga .waveform .channel{
+  background-color: #ffed00;
 }
-.playlist .controls .track-header{
-    font-weight: bold;
-    font-size: 16px;
+
+.playlist-tracks .channel-wrapper.tumbadora .waveform .channel{
+  background-color: #7fc386;
 }
-.playlist .channel-wrapper .controls{
-    background-color: #E0E0E0;
-    border-bottom: 1px solid #444;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
+
+.playlist-tracks .channel-wrapper.campana .waveform .channel{
+  background-color: #a03916;
 }
-.playlist .channel-wrapper:nth-child(2n) .controls{
-    background-color: #f1ecec;
+
+.playlist-tracks .channel-wrapper.campana-variacion .waveform .channel{
+  background-color: #977abc;
 }
-.playlist .channel-wrapper:nth-child(2n) .controls .btn-group>.btn-solo.active {
-    background-color: #198754;
-    color: white;
+
+.playlist-tracks .channel-wrapper.chico .waveform .channel{
+  background-color: #009640;
+}
+
+.playlist-tracks .channel-wrapper.quinto-repique .waveform .channel{
+  background-color: #f18a5d;
+}
+
+.playlist-tracks .channel-wrapper.quinto-tumba .waveform .channel{
+  background-color: #00b8f7;
+}
+
+.playlist-tracks .channel-wrapper.variacion-quinto-tumba .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.quinti-timbal .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.quinti-bongo .waveform .channel{
+  background-color: #009640;
+}
+.playlist-tracks .channel-wrapper.quinti-conga .waveform .channel{
+  background-color: #f18a5d;
+}
+.playlist-tracks .channel-wrapper.quinti-campana .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.variacion-quinti-campana .waveform .channel{
+  background-color: #00aeea;
+}
+
+.playlist-tracks .channel-wrapper.setima-clave .waveform .channel{
+  background-color: #fff;
+}
+.playlist-tracks .channel-wrapper.setima-cata .waveform .channel{
+  background-color: #009640;
+}
+.playlist-tracks .channel-wrapper.setima-chequere .waveform .channel{
+  background-color: #f18d51;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-chequere .waveform .channel{
+  background-color: #00aeea;
+}
+.playlist-tracks .channel-wrapper.setima-completa-conga .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.setima-tumbadora .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.setima-campana .waveform .channel{
+  background-color: #7fc386;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-campana .waveform .channel{
+  background-color: #a03916;
+}
+.playlist-tracks .channel-wrapper.setima-timbal .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-tumbadora .waveform .channel{
+  background-color: #d83f8f;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-abierta-tumbadora .waveform .channel{
+  background-color: #ffed00;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-campana-mano .waveform .channel{
+  background-color: #7fc386;
+}
+.playlist-tracks .channel-wrapper.setima-clave-4-3 .waveform .channel{
+  background-color: #00aeea;
+}
+.playlist-tracks .channel-wrapper.setima-clave-3-4 .waveform .channel{
+  background-color: #f18d51;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-clave .waveform .channel{
+  background-color: #fff;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-chequere .waveform .channel{
+  background-color: #009640;
+}
+.playlist-tracks .channel-wrapper.variacion-setima-abierta-chequere .waveform .channel{
+  background-color: #f18d51;
+}
+.playlist-tracks .channel-wrapper.setima-abierta-conga .waveform .channel{
+  background-color: #00aeea;
+}
+.playlist-tracks .channel-wrapper.setima-conga .waveform .channel{
+  background-color: #009640;
+}
+
+.btn-group > .btn-solo.active {
+  background-color: #198754;
+  color: white;
+}
+.btn-group > .btn-solo.active:hover,
+.btn-group > .btn-mute.active:hover {
+  background-color: #dc3545;
+}
+.btn-group > .btn-mute.active,
+.btn-group > .btn-mute:hover {
+  color: white;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.playlist .controls {
+  border: 0px;
+  border-radius: 0;
+}
+.playlist .controls .track-header {
+  font-weight: bold;
+  font-size: 14px;
+  height: 50px;
+  overflow: auto;
+}
+.playlist .controls .btn-group {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  z-index: 1;
+}
+.playlist .channel-wrapper .controls {
+  align-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid #444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.playlist .channel-wrapper:nth-child(2n) .controls {
+  background-color: #f1ecec;
+}
+.playlist
+  .channel-wrapper:nth-child(2n)
+  .controls
+  .btn-group
+  > .btn-solo.active {
+  background-color: #198754;
+  color: white;
+}
+.loading-container{
+  position: absolute;
+    z-index: 99;
+    background: #d9d9d9;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }

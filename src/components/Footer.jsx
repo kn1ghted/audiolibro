@@ -1,33 +1,39 @@
 // Assets
 import logo from '../assets/img/audiolibro_logo-500.png'
-import navigation from '../data/navigation';
-
-// Vertical NAvigation
-import { VerticalNav } from './VerticalNav';
+import FooterMenu from './FooterMenu'
+import pdfLibro from '../assets/docs/kalote-convite.pdf'
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary p-4">
-      <div className="container">
-        <div className="row justify-content-center align-items-center g-2">
-          <div className="col">
-            <img src={logo} className="img-fluid rounded-top footer-logo" alt="footer-logo"/>
+    <footer className="bg-black">
+      <div className="container px-4 py-5">
+        <div className="row justify-content-center align-items-top g-3">
+          <div className="col-12 col-md-9">
+            <h3 className="mb-4">Reproductores de audio</h3>
+            <FooterMenu />
           </div>
-          <div className="col">
-            <VerticalNav footerNavigation={navigation}/>
-          </div>
-          <div className="col">
-            <h3 className="text-center mb-4">Contacto: </h3>
-            <div class="row justify-content-center align-items-center g-2">
-              <div class="col" align="center">
-                <a className="link-light me-2" type="button" href="#" target='_blank'><i class="bi bi-whatsapp h2"></i></a>
-              </div>
-              <div class="col" align="center">
-                <a className="link-light me-2" type="button" href="#" target='_blank'><i className="bi bi-envelope-at h2"></i></a>
-              </div>
-            </div>
-            <div className="row justify-content-center p-4">
-              <p className='text-center'>Copyright <i class="bi bi-c-circle"></i> {new Date().getFullYear()}</p>
+          <div className="col-12 col-md-3 small text-light">
+            <div className="mb-4">
+              <h3 className="mb-4">Descargas</h3>
+              <a
+                className="btn btn-outline-light me-2 mt-2"
+                type="button"
+                href={pdfLibro}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i>
+              </a>
+
+              {/* ZIP de audios — ubicado en /public/assets/audio/ */}
+              <a
+                className="btn btn-outline-light mt-2"
+                href={`${import.meta.env.BASE_URL}assets/audio/5-7-audios.zip`}
+                download
+                rel="noopener noreferrer"
+              >
+                Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
+              </a>
             </div>
           </div>
         </div>

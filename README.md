@@ -1,14 +1,22 @@
 # audiolibro
-Repository for digital book audio players for instruments examples. Using trackswitch.js
+<p>Repository for multi-tracks audio players. Application intended for digital versions on music books, providing musicians with audio players with separate tracks allowing track muting and playback looping. Using waveform js library for audio player functionalities and custom styling for the player ui.</p>
 
-Please run following commands:
+<p>Please run following commands:</p>
+<ol>
+<li>npm install</li>
+<li>npm run build</li>
+<li>npm npm install --save-dev style-loader css-loader</li>
+</ol>
 
-npm install
-npm run build
-npm npm install --save-dev style-loader css-loader
-
-Webpack project is not fully setup, but build should already generate an index file
-using separate folder for assets: css, images, js and html (pending)
+<p>Tech stack:</p>
+<ul>
+<li>HTML</li>
+<li>CSS3</li>
+<li>JS</li>
+<li>Vite.js</li>
+<li>npm</li>
+<li>Bootstrap5</li>
+</ul>
 
 
 <h1 align="center">Hi 👋, I'm Edwin Calderón</h1>

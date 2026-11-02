@@ -1,0 +1,32 @@
+Audiolibro
+Revisión de contenido
+24 enero 2026 
+
+Global
+- opción para descarga de archivos de audio - botón en navegación y pié de página
+- orden y nombre de archivos para crear el zip para descarga
+- integración créditos nueva página
+- bug reproductores safari / ecosia
+
+Frontpage
++ quitar logo audiolibro en el pie de página
+
+KALOTE
+- cambiar archivo de audio campana enviado whatsapp
+
+CONVITE
++ no hay tareas pendientes
+
+Tareas de integración:
++ crear una rama nueva en repo
++ subir versiones mp3
++ revisar integridad de aplicación (contenido y funcionalidad)
++ revisar consistencia de loops
+
+Tareas post integración:
+- generar versiones wav/mp3 finales (para versión descargable)
+- aclarar hospedaje de archivos wav (solo en caso de que sea demasiado pesado)
+- testing global (contenido y funcionalidad)
+- creación de cuenta github final
+- mover repositorio a cuenta github final
+- publicación de repositorio en github pages con enlace público final

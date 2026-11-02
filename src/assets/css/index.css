@@ -13,6 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-nav {
+  .dropdown {
+    .show {
+      font-weight: bold;
+    }
+    .dropdown-menu {
+      .dropdown-item {
+        &:hover {
+          color: #646cff;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -52,6 +68,51 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.btn-group > .btn-mute:hover {
+  color: var(--wp-mute-solo-color) !important;
+  background-color: transparent !important;
+}
+
+.btn-group > .btn-mute.active:hover {
+  color: white !important;
+  background-color: #dc3545 !important;
+}
+
+#sections h2 {
+  color: #ffed00;
+  font-weight: bold;
+}
+
+#sections h3 {
+  color: #00aeea;
+}
+
+footer h3 {
+  color: #ffed00;
+}
+
+footer h4 {
+  color: #00aeea;
+}
+
+.footer-menu li > a{
+  color:#fff;
+}
+.footer-menu-columns{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.footer-menu-column .header-menu {
+  color:#ffed00;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.submenu li > a:hover{
+  color:#646cff;
 }
 
 .footer-logo {

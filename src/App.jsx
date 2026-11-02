@@ -2,20 +2,21 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Components
 import { Navbar } from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
-import pages from "./data/pages.js";
+//import pages from "./data/pages.js";
 import navigation from "./data/navigation.js";
 import { Page } from "./components/Page.jsx";
 import Homepage from './components/Homepage.jsx';
 
 const App = () => {
   return (
-    <Router basename="/audiolibro">
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="flex min-h-screen">
         <Navbar navigation={navigation} />
         <main className="flex-grow bg-white">
           <Routes>
             <Route path="/" element={<Homepage />} />
-            <Route path="/:pageId" element={<Page pages={pages} />} />
+            <Route path="/:slug" element={<Page pages={navigation} />} />
+            <Route path="/:slug/:slug" element={<Page pages={navigation} />} />
           </Routes>
         </main>
         <Footer />
