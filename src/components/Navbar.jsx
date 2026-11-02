@@ -77,7 +77,7 @@ export const Navbar = ({ navigation }) => {
           {/* ZIP de audios — ubicado en /public/assets/audio/ */}
           <a
             className="btn btn-outline-success"
-            href="/audiolibro/assets/audio/5-7-audios.zip"
+            href={`${import.meta.env.BASE_URL}assets/audio/5-7-audios.zip`}
             download
             rel="noopener noreferrer"
           >
@@ -154,7 +154,7 @@ export const Navbar = ({ navigation }) => {
                 {/* ZIP de audios — ubicado en /public/assets/audio/ */}
                 <a
                   className="btn btn-outline-success"
-                  href="/audiolibro/assets/audio/5-7-audios.zip"
+                  href={`${import.meta.env.BASE_URL}assets/audio/5-7-audios.zip`}
                   download
                   rel="noopener noreferrer"
                 >
