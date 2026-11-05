@@ -12,6 +12,20 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
   useEffect(() => {
     setLoading(true);
 
+    // scroll to player if the URL hash matches a playlist ID
+    const scrollToHash = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }
+
+    // execute scroll to the player after a delay to ensure the DOM is fully rendered
+    setTimeout(scrollToHash, 1000);
+
     playlists.forEach((playlist, index) => {
       if (!playlistRefs.current[index]) {
         playlistRefs.current[index] = WaveformPlaylist({
