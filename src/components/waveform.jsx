@@ -18,10 +18,16 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
       if (hash) {
         const element = document.querySelector(hash);
         if (element) {
-          element.scrollIntoView({ behavior: "smooth" });
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+          // Adjust this value as needed
+          const offset = 100; 
+          window.scrollTo({
+            top: elementPosition - offset,
+            behavior: "smooth",
+          });
         }
       }
-    }
+    };
 
     // execute scroll to the player after a delay to ensure the DOM is fully rendered
     setTimeout(scrollToHash, 1000);
