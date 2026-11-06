@@ -30,7 +30,7 @@ const AudioPlayer = ({ playlists = [], slides = [] }) => {
     };
 
     // execute scroll to the player after a delay to ensure the DOM is fully rendered
-    setTimeout(scrollToHash, 1000);
+    setTimeout(scrollToHash, 2000);
 
     playlists.forEach((playlist, index) => {
       if (!playlistRefs.current[index]) {
