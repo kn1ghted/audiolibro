@@ -34,6 +34,15 @@ const Footer = () => {
               >
                 Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
               </a>
+              {/* Link sitio Manual 5y7 */}
+              <a
+                className="btn btn-outline-light mt-2"
+                href="https://divende.com/manual-5y7/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Manual en 5y7 <i className="bi bi-box-arrow-up-right"></i>
+              </a>
             </div>
           </div>
         </div>

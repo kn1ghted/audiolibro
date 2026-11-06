@@ -83,6 +83,15 @@ export const Navbar = ({ navigation }) => {
           >
             Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
           </a>
+          {/* Link sitio Manual 5y7 */}
+          <a
+            className="btn btn-outline-success ms-2"
+            href="https://divende.com/manual-5y7/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Manual en 5y7 <i className="bi bi-box-arrow-up-right"></i>
+          </a>
         </form>
         <div className="d-lg-none text-center">
           <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu">
@@ -141,9 +150,9 @@ export const Navbar = ({ navigation }) => {
                 ))}
               </ul>
               <h3 class="offcanvas-title mb-3 mt-4">Descargas</h3>
-              <form className="justify-content-start">
+              <form className="d-flex flex-column">
                 <a
-                  className="btn btn-outline-success me-2"
+                  className="btn btn-outline-success"
                   type="button"
                   href={pdf}
                   target="_blank"
@@ -153,12 +162,21 @@ export const Navbar = ({ navigation }) => {
                 </a>
                 {/* ZIP de audios — ubicado en /public/assets/audio/ */}
                 <a
-                  className="btn btn-outline-success"
+                  className="btn btn-outline-success mt-2"
                   href={`${import.meta.env.BASE_URL}assets/audio/5-7-audios.zip`}
                   download
                   rel="noopener noreferrer"
                 >
                   Descargar ZIP <i className="bi bi-file-earmark-zip"></i>
+                </a>
+                {/* Link sitio Manual 5y7 */}
+                <a
+                  className="btn btn-outline-success mt-2"
+                  href="https://divende.com/manual-5y7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Manual en 5y7 <i className="bi bi-box-arrow-up-right"></i>
                 </a>
               </form>
             </div>
