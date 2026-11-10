@@ -5,14 +5,14 @@ import creditos from "./creditos";
 const navigation = [
   {
     id: "2",
-    label: " Kalö̀te de monte",
+    label: " Kalö̀te de Monte",
     path: "#",
     slug: "kalote",
     children: kalote,
   },
   {
     id: "3",
-    label: "Convite de diriá",
+    label: "Convite de Diriá",
     // se usa para crear dropdowns
     path: "#", 
     slug: "diria",

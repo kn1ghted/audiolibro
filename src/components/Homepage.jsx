@@ -42,9 +42,9 @@ const Homepage = () => {
       <div id="sections" className="container">
           <div className="row align-items-stretch gx-5">
             <div className="col bg-black text-light p-5 me-1">
-              <h2>Kalö̀te de monte</h2>
+              <h2>Kalö̀te de Monte</h2>
               <h3>Ritmos compuestos en métricas de 5</h3>
-              <p>Se crearon seis tipos distintos de Kalö̀te de monte, “Quinta de clave completa” , “Quinta de clave abierta” (ambos inspirados en la rumba cubana, principalmente en el guaguancó), dos variaciones de “Quinto” (inspirado en el candombe uruguayo), “Quintí” (inspirado en el son cubano y el calypso, este ritmo puede utilizarse con cualquiera de las claves en cinco y funciona como patrón base), “Quinté” (una mezcla entre la cumbia y ritmos guanacastecos) y “Quintú” (proveniente del patrón del bolero).</p>
+              <p>Se crearon seis tipos distintos de Kalö̀te de Monte, “Quinta de clave completa” , “Quinta de clave abierta” (ambos inspirados en la rumba cubana, principalmente en el guaguancó), dos variaciones de “Quinto” (inspirado en el candombe uruguayo), “Quintí” (inspirado en el son cubano y el calypso, este ritmo puede utilizarse con cualquiera de las claves en cinco y funciona como patrón base), “Quinté” (una mezcla entre la cumbia y ritmos guanacastecos) y “Quintú” (proveniente del patrón del bolero).</p>
               <button
               className="btn btn-primary d-lg-none position-relative"
               type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"
@@ -55,7 +55,7 @@ const Homepage = () => {
             <div className="col bg-black text-light p-5 ms-1">
               <h2>Convite de Diriá</h2>
               <h3>Ritmos compuestos en métricas de 7</h3>
-              <p>Se crearon cuatro tipos de Convites de diriá, “Clave completa en 7” , “ Clave abierta en 7” (para la creación de ambos se tomó como punto de partida los ritmos que pertenecen a la familia de la rumba cubana y se utilizaron las claves compuestas pertenecientes a las quintas), “Séptima” y “Séptimo” (ambos se originan del patrón del tambor conga que se utiliza en el son cubano y en las variaciones del calypso limonense).</p>
+              <p>Se crearon cuatro tipos de Convites de Diriá, “Clave completa en 7” , “ Clave abierta en 7” (para la creación de ambos se tomó como punto de partida los ritmos que pertenecen a la familia de la rumba cubana y se utilizaron las claves compuestas pertenecientes a las quintas), “Séptima” y “Séptimo” (ambos se originan del patrón del tambor conga que se utiliza en el son cubano y en las variaciones del calypso limonense).</p>
               <button
               className="btn btn-primary d-lg-none position-relative"
               type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu" aria-controls="offcanvas-menu"
