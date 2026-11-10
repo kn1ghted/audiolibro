@@ -83,10 +83,7 @@ const kalote = [
     title: "Quinta de clave completa",
     content: {
       sections: [
-        {
-          type: "header",
-          content: "Clave completa",
-        },
+        
         {
           type: "text",
           content:
@@ -149,7 +146,7 @@ const kalote = [
         },
         {
           type: "header",
-          content: "Clave completa - rápida",
+          content: "Quinta de clave completa - rápida",
         },
         {
           type: "text",
@@ -218,10 +215,6 @@ const kalote = [
     title: "Quinta de clave abierta",
     content: {
       sections: [
-        {
-          type: "header",
-          content: "Clave abierta",
-        },
         {
           type: "text",
           content:
@@ -295,7 +288,7 @@ const kalote = [
         },
         {
           type: "header",
-          content: "Clave abierta - rápida",
+          content: "Quinta de clave abierta - rápida",
         },
         {
           type: "text",
@@ -381,7 +374,7 @@ const kalote = [
         },
         {
           type: "header",
-          content: "Variación 5 de 4",
+          content: "Quinto variación 5 de 4",
         },
         {
           type: "text",
@@ -436,7 +429,7 @@ const kalote = [
         },
         {
           type: "header",
-          content: "Variación 5 de 4 - rápida",
+          content: "Quinto variación 5 de 4 - rápida",
         },
         {
           type: "text",
@@ -490,7 +483,7 @@ const kalote = [
         },
         {
           type: "header",
-          content: "Variación 4 de 5",
+          content: "Quinto variación 4 de 5",
         },
         {
           type: "text",
@@ -545,7 +538,7 @@ const kalote = [
         },
         {
           type: "header",
-          content: "Variación 4 de 5 - rápida",
+          content: "Quinto variación 4 de 5 - rápida",
         },
         {
           type: "text",
@@ -605,10 +598,6 @@ const kalote = [
     title: "Quintí",
     content: {
       sections: [
-        {
-          type: "header",
-          content: "Quintí",
-        },
         {
           type: "text",
           content:
@@ -1075,10 +1064,6 @@ const kalote = [
     content: {
       sections: [
         {
-          type: "header",
-          content: "Quinté en 5",
-        },
-        {
           type: "text",
           content:
             "La estructura principal que se utilizó para la creación de este ritmo proviene de la cumbia colombiana. La tumbadora y la percusión menor mantienen el patrón original de la cumbia, es el tambor conga el que lleva el ritmo a una métrica en 5.",
@@ -1127,10 +1112,6 @@ const kalote = [
     title: "Quintú",
     content: {
       sections: [
-        {
-          type: "header",
-          content: "Quintú en 5",
-        },
         {
           type: "div",
           content:

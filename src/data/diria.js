@@ -126,7 +126,7 @@ const diria = [
         },
         {
           type: "header",
-          content: "Clave completa en 7 - variante rápida",
+          content: "Clave completa en 7 - rápida",
         },
         {
           type: "text",
@@ -274,7 +274,7 @@ const diria = [
         },
         {
           type: "header",
-          content: "Séptima 3 - 4 en 7",
+          content: "Séptima 3 - 4",
         },
         {
           type: "audio",
@@ -312,7 +312,7 @@ const diria = [
         },
         {
           type: "header",
-          content: "Séptima 4 - 3 en 7",
+          content: "Séptima 4 - 3",
         },
         {
           type: "audio",

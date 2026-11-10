@@ -37,7 +37,7 @@ const Footer = () => {
               {/* Link sitio Manual 5y7 */}
               <a
                 className="btn btn-outline-light mt-2"
-                href="https://divende.com/manual-5y7/"
+                href="https://proyecto5y7.github.io/libro/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
