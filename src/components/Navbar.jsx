@@ -69,7 +69,7 @@ export const Navbar = ({ navigation }) => {
           <a
             className="btn btn-outline-success me-2"
             type="button"
-            href={pdf}
+            href="https://proyecto5y7.github.io/libro/#donar"
             target="_blank"
           >
             Descargar PDF <i className="bi bi-file-earmark-arrow-down"></i>
@@ -154,7 +154,7 @@ export const Navbar = ({ navigation }) => {
                 <a
                   className="btn btn-outline-success"
                   type="button"
-                  href={pdf}
+                  href="https://proyecto5y7.github.io/libro/#donar"
                   target="_blank"
                 >
                   Descargar PDF{" "}

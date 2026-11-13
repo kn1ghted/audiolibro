@@ -18,7 +18,7 @@ const Footer = () => {
               <a
                 className="btn btn-outline-light me-2 mt-2"
                 type="button"
-                href={pdfLibro}
+                href="https://proyecto5y7.github.io/libro/#donar"
                 target="_blank"
                 rel="noopener noreferrer"
               >
